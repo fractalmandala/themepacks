@@ -3,6 +3,9 @@
 Simply a collection of themes and color palettes from all over, standardized into a singular typed interface system.
 
 pnpm is the package manager.
+[NPM Registry](https://www.npmjs.com/package/@fractaldesign/themepacks)
+
+v0.1.0
 
 ```
 src/lib/
