@@ -1,0 +1,74 @@
+[
+  {
+    "id": "themesBase16",
+    "name": "Base16 Color Themes",
+    "system": "base16",
+    "description": "Canonical Base16 styling architecture mapping 16 indexed functional color registers.",
+    "count": 338,
+    "totalColors": 5408
+  },
+  {
+    "id": "themesTailwind",
+    "name": "Tailwind & WebAwesome Palettes",
+    "system": "tailwind",
+    "description": "Complete multi-hue lightness scale color systems (bright, default, and shoelace palettes).",
+    "count": 3,
+    "totalColors": 330
+  },
+  {
+    "id": "themesUno",
+    "name": "UnoCSS Open Color Palettes",
+    "system": "uno",
+    "description": "Calibrated color ramps spanning 13 chromatic hues with 10 lightness steps each.",
+    "count": 1,
+    "totalColors": 130
+  },
+  {
+    "id": "themesFracta",
+    "name": "Fracta Editor Themes",
+    "system": "fracta",
+    "description": "Paired light and dark syntax and UI chrome palettes calibrated for focused editing.",
+    "count": 38,
+    "totalColors": 570
+  },
+  {
+    "id": "themesVecta",
+    "name": "Vecta Full UI Themes",
+    "system": "vecta",
+    "description": "Complete UI component design tokens comprising backgrounds, text tiers, borders, and accents.",
+    "count": 76,
+    "totalColors": 2432
+  },
+  {
+    "id": "themesArtista",
+    "name": "Artisan Pigment Swatches",
+    "system": "artisan",
+    "description": "Artisan color swatch library spanning 7 material categories with certified WCAG contrast ratios.",
+    "count": 1,
+    "totalColors": 61
+  },
+  {
+    "id": "themesColourways",
+    "name": "Colourways Vibrant Presets",
+    "system": "colourways",
+    "description": "Vibrant 4-6 stop spectrum swatches curated across the entire chromatic wheel for theme generation and gradient canvases.",
+    "count": 16,
+    "totalColors": 66
+  },
+  {
+    "id": "themesIndes",
+    "name": "Indes UI Themes",
+    "system": "indes",
+    "description": "Indic regional and architectural UI design token themes calibrated across paired light and dark modes.",
+    "count": 14,
+    "totalColors": 126
+  },
+  {
+    "id": "themePlates",
+    "name": "Themeplates Foundation Palettes",
+    "system": "themeplates",
+    "description": "Systemic 9-step calibrated light and dark surface and chrome plates spanning 8 chromatic and neutral undertones.",
+    "count": 16,
+    "totalColors": 144
+  }
+]

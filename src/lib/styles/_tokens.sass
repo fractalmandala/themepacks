@@ -1,0 +1,65 @@
+=light-theme-tokens
+	color-scheme: light
+	--bg: #fbfbf9
+	--bg-surface: #FFFFFF
+	--bg-panel: #f7f6f0
+	--bg-sunken: #f2efe9
+	--bg-raised: #fbfbf9
+	--bg-extra: #ece7df
+	--bg-input: #f7f6f0
+	--bg-button: #f2efe9
+	--text-primary: #191512
+	--text-secondary: #656361
+	--text-muted: #ada9a7
+	--text-inverse: #ffffff
+	--state-surface: #ece7df
+	--state-hover: #d4cec1
+	--state-selected: #c7c0b3
+	--border: #cccbca
+	--border-subtle: #f4efea
+	--border-strong: #bdb7b7
+	--theme-color: #9c6644
+	--theme-color-alt: #895737
+	--theme-color-sub: #dab49d
+	--ring: rgba(156, 102, 68, 0.35)
+
+=dark-theme-tokens
+	color-scheme: dark
+	--bg: #332a24
+	--bg-surface: #191512
+	--bg-panel: #241e1a
+	--bg-sunken: #443830
+	--bg-raised: #3a3a3a
+	--bg-extra: #38220f
+	--bg-input: #332a24
+	--bg-button: #302c26
+	--text-primary: #f4efea
+	--text-secondary: #f3e9d2
+	--text-muted: #574f45
+	--text-inverse: #332a24
+	--state-surface: #634832
+	--state-hover: #38220f
+	--state-selected: #443830
+	--border: #634832
+	--border-subtle: #453323
+	--border-strong: #796759
+	--theme-color: #9c6644
+	--theme-color-alt: #895737
+	--theme-color-sub: #dab49d
+	--ring: rgba(156, 102, 68, 0.4)
+
+	--header-height: 64px
+	--footer-height: 32px
+	--fit-height: calc(var(--header-height) + var(--footer-height))
+
+	--sidebar-width: 280px
+	--sidebar-width-left: 280px
+	--sidebar-width-right: 280px
+	--font-sans: 'Google Sans', sans-serif
+	--font-mono: 'Google Sans Code', monospace
+
+[data-mode='dark']
+	+dark-theme-tokens
+
+[data-mode='light']
+	+light-theme-tokens

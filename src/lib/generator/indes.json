@@ -1,0 +1,646 @@
+{
+   "gangotri": [
+      {
+         "token": "fg-10",
+         "hexcode": "#F8FAFC",
+         "mode": "dark"
+      },
+      {
+         "token": "fg-20",
+         "hexcode": "#F1F5F9",
+         "mode": "dark"
+      },
+      {
+         "token": "fg-30",
+         "hexcode": "#E2E8F0",
+         "mode": "dark"
+      },
+      {
+         "token": "fg-40",
+         "hexcode": "#CBD5E1",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-50",
+         "hexcode": "#94A3B8",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-40",
+         "hexcode": "#64748B",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-30",
+         "hexcode": "#475569",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-20",
+         "hexcode": "#334155",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-10",
+         "hexcode": "#1E293B",
+         "mode": "dark"
+      },
+      {
+         "token": "fg-10",
+         "hexcode": "#121216",
+         "mode": "light"
+      },
+      {
+         "token": "fg-10",
+         "hexcode": "#18181B",
+         "mode": "light"
+      },
+      {
+         "token": "fg-30",
+         "hexcode": "#27272A",
+         "mode": "light"
+      },
+      {
+         "token": "fg-40",
+         "hexcode": "#3F3F46",
+         "mode": "light"
+      },
+      {
+         "token": "fg-50",
+         "hexcode": "#52525B",
+         "mode": "light"
+      },
+      {
+         "token": "bg-40",
+         "hexcode": "#71717A",
+         "mode": "light"
+      },
+      {
+         "token": "bg-30",
+         "hexcode": "#A1A1AA",
+         "mode": "light"
+      },
+      {
+         "token": "bg-20",
+         "hexcode": "#D4D4D8",
+         "mode": "light"
+      },
+      {
+         "token": "bg-10",
+         "hexcode": "#FAFAFA",
+         "mode": "light"
+      }
+   ],
+   "bhirrana": [
+      {
+         "token": "fg-10",
+         "hexcode": "#FAFAFA",
+         "mode": "dark"
+      },
+      {
+         "token": "fg-20",
+         "hexcode": "#F4F4F5",
+         "mode": "dark"
+      },
+      {
+         "token": "fg-30",
+         "hexcode": "#E4E4E7",
+         "mode": "dark"
+      },
+      {
+         "token": "fg-40",
+         "hexcode": "#D4D4D8",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-50",
+         "hexcode": "#A1A1AA",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-40",
+         "hexcode": "#71717A",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-30",
+         "hexcode": "#52525B",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-20",
+         "hexcode": "#3F3F46",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-10",
+         "hexcode": "#27272A",
+         "mode": "dark"
+      },
+      {
+         "token": "fg-10",
+         "hexcode": "#14161A",
+         "mode": "light"
+      },
+      {
+         "token": "fg-10",
+         "hexcode": "#1C1F26",
+         "mode": "light"
+      },
+      {
+         "token": "fg-30",
+         "hexcode": "#262A34",
+         "mode": "light"
+      },
+      {
+         "token": "fg-40",
+         "hexcode": "#333845",
+         "mode": "light"
+      },
+      {
+         "token": "fg-50",
+         "hexcode": "#424858",
+         "mode": "light"
+      },
+      {
+         "token": "bg-40",
+         "hexcode": "#555D6F",
+         "mode": "light"
+      },
+      {
+         "token": "bg-30",
+         "hexcode": "#707A8F",
+         "mode": "light"
+      },
+      {
+         "token": "bg-20",
+         "hexcode": "#949FB5",
+         "mode": "light"
+      },
+      {
+         "token": "bg-10",
+         "hexcode": "#EDF1F7",
+         "mode": "light"
+      }
+   ],
+   "thar": [
+      {
+         "token": "fg-10",
+         "hexcode": "#FBFBF9",
+         "mode": "dark"
+      },
+      {
+         "token": "fg-20",
+         "hexcode": "#F7F6F0",
+         "mode": "dark"
+      },
+      {
+         "token": "fg-30",
+         "hexcode": "#F2EFE9",
+         "mode": "dark"
+      },
+      {
+         "token": "fg-40",
+         "hexcode": "#ECE7DF",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-50",
+         "hexcode": "#E4DFD5",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-40",
+         "hexcode": "#DDD7CB",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-30",
+         "hexcode": "#D4CEC1",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-20",
+         "hexcode": "#C7C0B3",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-10",
+         "hexcode": "#B8B0A2",
+         "mode": "dark"
+      },
+      {
+         "token": "fg-10",
+         "hexcode": "#191512",
+         "mode": "light"
+      },
+      {
+         "token": "fg-10",
+         "hexcode": "#241E1A",
+         "mode": "light"
+      },
+      {
+         "token": "fg-30",
+         "hexcode": "#332A24",
+         "mode": "light"
+      },
+      {
+         "token": "fg-40",
+         "hexcode": "#443830",
+         "mode": "light"
+      },
+      {
+         "token": "fg-50",
+         "hexcode": "#59493E",
+         "mode": "light"
+      },
+      {
+         "token": "bg-40",
+         "hexcode": "#735F50",
+         "mode": "light"
+      },
+      {
+         "token": "bg-30",
+         "hexcode": "#947B68",
+         "mode": "light"
+      },
+      {
+         "token": "bg-20",
+         "hexcode": "#BA9C85",
+         "mode": "light"
+      },
+      {
+         "token": "bg-10",
+         "hexcode": "#F4EFEA",
+         "mode": "light"
+      }
+   ],
+   "shivalik": [
+      {
+         "token": "fg-10",
+         "hexcode": "#F7F9F8",
+         "mode": "dark"
+      },
+      {
+         "token": "fg-20",
+         "hexcode": "#F0F4F2",
+         "mode": "dark"
+      },
+      {
+         "token": "fg-30",
+         "hexcode": "#E7ECE9",
+         "mode": "dark"
+      },
+      {
+         "token": "fg-40",
+         "hexcode": "#DCE4E0",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-50",
+         "hexcode": "#CED8D3",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-40",
+         "hexcode": "#BECBC4",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-30",
+         "hexcode": "#AABBB3",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-20",
+         "hexcode": "#94A89E",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-10",
+         "hexcode": "#7C9387",
+         "mode": "dark"
+      },
+      {
+         "token": "fg-10",
+         "hexcode": "#101814",
+         "mode": "light"
+      },
+      {
+         "token": "fg-10",
+         "hexcode": "#18231E",
+         "mode": "light"
+      },
+      {
+         "token": "fg-30",
+         "hexcode": "#22322B",
+         "mode": "light"
+      },
+      {
+         "token": "fg-40",
+         "hexcode": "#2F453B",
+         "mode": "light"
+      },
+      {
+         "token": "fg-50",
+         "hexcode": "#3E5C4E",
+         "mode": "light"
+      },
+      {
+         "token": "bg-40",
+         "hexcode": "#527867",
+         "mode": "light"
+      },
+      {
+         "token": "bg-30",
+         "hexcode": "#729E88",
+         "mode": "light"
+      },
+      {
+         "token": "bg-20",
+         "hexcode": "#9EC7B2",
+         "mode": "light"
+      },
+      {
+         "token": "bg-10",
+         "hexcode": "#ECF4F0",
+         "mode": "light"
+      }
+   ],
+   "rajpath": [
+      {
+         "token": "fg-10",
+         "hexcode": "#F7F8F9",
+         "mode": "dark"
+      },
+      {
+         "token": "fg-20",
+         "hexcode": "#EFEFF2",
+         "mode": "dark"
+      },
+      {
+         "token": "fg-30",
+         "hexcode": "#E5E6EB",
+         "mode": "dark"
+      },
+      {
+         "token": "fg-40",
+         "hexcode": "#D9DAE2",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-50",
+         "hexcode": "#CBCDD7",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-40",
+         "hexcode": "#B9BBC8",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-30",
+         "hexcode": "#A4A6B5",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-20",
+         "hexcode": "#8C8E9F",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-10",
+         "hexcode": "#737585",
+         "mode": "dark"
+      },
+      {
+         "token": "fg-10",
+         "hexcode": "#111827",
+         "mode": "light"
+      },
+      {
+         "token": "fg-10",
+         "hexcode": "#1F2937",
+         "mode": "light"
+      },
+      {
+         "token": "fg-30",
+         "hexcode": "#374151",
+         "mode": "light"
+      },
+      {
+         "token": "fg-40",
+         "hexcode": "#4B5563",
+         "mode": "light"
+      },
+      {
+         "token": "fg-50",
+         "hexcode": "#6B7280",
+         "mode": "light"
+      },
+      {
+         "token": "bg-40",
+         "hexcode": "#9CA3AF",
+         "mode": "light"
+      },
+      {
+         "token": "bg-30",
+         "hexcode": "#D1D5DB",
+         "mode": "light"
+      },
+      {
+         "token": "bg-20",
+         "hexcode": "#E5E7EB",
+         "mode": "light"
+      },
+      {
+         "token": "bg-10",
+         "hexcode": "#F9FAFB",
+         "mode": "light"
+      }
+   ],
+   "hampi": [
+      {
+         "token": "fg-10",
+         "hexcode": "#FAF9F6",
+         "mode": "dark"
+      },
+      {
+         "token": "fg-20",
+         "hexcode": "#F4F2EC",
+         "mode": "dark"
+      },
+      {
+         "token": "fg-30",
+         "hexcode": "#EDE9E1",
+         "mode": "dark"
+      },
+      {
+         "token": "fg-40",
+         "hexcode": "#E3DDD3",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-50",
+         "hexcode": "#D7CEC2",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-40",
+         "hexcode": "#C8BFAF",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-30",
+         "hexcode": "#B5A999",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-20",
+         "hexcode": "#9E9283",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-10",
+         "hexcode": "#857A6C",
+         "mode": "dark"
+      },
+      {
+         "token": "fg-10",
+         "hexcode": "#171513",
+         "mode": "light"
+      },
+      {
+         "token": "fg-10",
+         "hexcode": "#221F1B",
+         "mode": "light"
+      },
+      {
+         "token": "fg-30",
+         "hexcode": "#302C26",
+         "mode": "light"
+      },
+      {
+         "token": "fg-40",
+         "hexcode": "#423B33",
+         "mode": "light"
+      },
+      {
+         "token": "fg-50",
+         "hexcode": "#574F45",
+         "mode": "light"
+      },
+      {
+         "token": "bg-40",
+         "hexcode": "#73685C",
+         "mode": "light"
+      },
+      {
+         "token": "bg-30",
+         "hexcode": "#998C7E",
+         "mode": "light"
+      },
+      {
+         "token": "bg-20",
+         "hexcode": "#C4B9AA",
+         "mode": "light"
+      },
+      {
+         "token": "bg-10",
+         "hexcode": "#F7F4EE",
+         "mode": "light"
+      }
+   ],
+   "mizo": [
+      {
+         "token": "fg-10",
+         "hexcode": "#FAFAFC",
+         "mode": "dark"
+      },
+      {
+         "token": "fg-20",
+         "hexcode": "#F4F4F9",
+         "mode": "dark"
+      },
+      {
+         "token": "fg-30",
+         "hexcode": "#ECECF5",
+         "mode": "dark"
+      },
+      {
+         "token": "fg-40",
+         "hexcode": "#E2E2F0",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-50",
+         "hexcode": "#D5D5E8",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-40",
+         "hexcode": "#C4C4DE",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-30",
+         "hexcode": "#AFAFD2",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-20",
+         "hexcode": "#9797C2",
+         "mode": "dark"
+      },
+      {
+         "token": "bg-10",
+         "hexcode": "#7D7DAE",
+         "mode": "dark"
+      },
+      {
+         "token": "fg-10",
+         "hexcode": "#14101F",
+         "mode": "light"
+      },
+      {
+         "token": "fg-10",
+         "hexcode": "#1D172B",
+         "mode": "light"
+      },
+      {
+         "token": "fg-30",
+         "hexcode": "#2A223D",
+         "mode": "light"
+      },
+      {
+         "token": "fg-40",
+         "hexcode": "#3A2F54",
+         "mode": "light"
+      },
+      {
+         "token": "fg-50",
+         "hexcode": "#4C3E70",
+         "mode": "light"
+      },
+      {
+         "token": "bg-40",
+         "hexcode": "#645391",
+         "mode": "light"
+      },
+      {
+         "token": "bg-30",
+         "hexcode": "#8672BC",
+         "mode": "light"
+      },
+      {
+         "token": "bg-20",
+         "hexcode": "#B19FE3",
+         "mode": "light"
+      },
+      {
+         "token": "bg-10",
+         "hexcode": "#F2EFFF",
+         "mode": "light"
+      }
+   ]
+}

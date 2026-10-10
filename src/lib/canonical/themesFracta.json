@@ -1,0 +1,6926 @@
+{
+  "id": "themesFracta",
+  "name": "Fracta Editor Themes",
+  "system": "fracta",
+  "group": "swatch",
+  "description": "Paired light and dark syntax and UI chrome palettes calibrated for focused editing.",
+  "count": 38,
+  "themes": [
+    {
+      "id": "fracta-bone-light",
+      "name": "Bone Light",
+      "system": "fracta",
+      "mode": "light",
+      "family": "bone",
+      "description": "The baseline. Chrome barely separates from the page, and the full Ayu hue set runs at its original strength.",
+      "bgColor": "#FCFCFC",
+      "textColor": "#5C6166",
+      "accentColor": "#FF9940",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#ff9940",
+          "oklch": "oklch(77.46% 0.1577 57.87)",
+          "rgb": "rgb(255, 153, 64)",
+          "contrast": {
+            "white": 2.12,
+            "black": 9.88
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#f3f4f5",
+          "oklch": "oklch(96.67% 0.0017 247.84)",
+          "rgb": "rgb(243, 244, 245)",
+          "contrast": {
+            "white": 1.1,
+            "black": 19.07
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#fcfcfc",
+          "oklch": "oklch(99.11% 0 0)",
+          "rgb": "rgb(252, 252, 252)",
+          "contrast": {
+            "white": 1.03,
+            "black": 20.47
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#e7e8ea",
+          "oklch": "oklch(93.08% 0.0029 264.54)",
+          "rgb": "rgb(231, 232, 234)",
+          "contrast": {
+            "white": 1.23,
+            "black": 17.13
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#adb2b8",
+          "oklch": "oklch(76.14% 0.0102 252.83)",
+          "rgb": "rgb(173, 178, 184)",
+          "contrast": {
+            "white": 2.13,
+            "black": 9.84
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#5c6166",
+          "oklch": "oklch(48.99% 0.0102 248.04)",
+          "rgb": "rgb(92, 97, 102)",
+          "contrast": {
+            "white": 6.26,
+            "black": 3.36
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#f2ae49",
+          "oklch": "oklch(79.75% 0.1394 73.81)",
+          "rgb": "rgb(242, 174, 73)",
+          "contrast": {
+            "white": 1.92,
+            "black": 10.93
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#fa8d3e",
+          "oklch": "oklch(74.83% 0.1599 53.04)",
+          "rgb": "rgb(250, 141, 62)",
+          "contrast": {
+            "white": 2.35,
+            "black": 8.94
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#a37acc",
+          "oklch": "oklch(65.16% 0.1259 306.22)",
+          "rgb": "rgb(163, 122, 204)",
+          "contrast": {
+            "white": 3.38,
+            "black": 6.21
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#ed9366",
+          "oklch": "oklch(74.69% 0.1245 46.8)",
+          "rgb": "rgb(237, 147, 102)",
+          "contrast": {
+            "white": 2.34,
+            "black": 8.97
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#5c6166",
+          "oklch": "oklch(48.99% 0.0102 248.04)",
+          "rgb": "rgb(92, 97, 102)",
+          "contrast": {
+            "white": 6.26,
+            "black": 3.36
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#a0a6ac",
+          "oklch": "oklch(72.22% 0.0111 247.98)",
+          "rgb": "rgb(160, 166, 172)",
+          "contrast": {
+            "white": 2.46,
+            "black": 8.54
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#e7e8e9",
+          "oklch": "oklch(93.05% 0.0017 247.84)",
+          "rgb": "rgb(231, 232, 233)",
+          "contrast": {
+            "white": 1.23,
+            "black": 17.12
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#86b300",
+          "oklch": "oklch(70.79% 0.1793 125.62)",
+          "rgb": "rgb(134, 179, 0)",
+          "contrast": {
+            "white": 2.48,
+            "black": 8.46
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#399ee6",
+          "oklch": "oklch(67.39% 0.1406 244.03)",
+          "rgb": "rgb(57, 158, 230)",
+          "contrast": {
+            "white": 2.91,
+            "black": 7.21
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "reference",
+        "thesis": "The baseline. Chrome barely separates from the page, and the full Ayu hue set runs at its original strength."
+      }
+    },
+    {
+      "id": "fracta-bone-dark",
+      "name": "Bone Dark",
+      "system": "fracta",
+      "mode": "dark",
+      "family": "bone",
+      "description": "The baseline. Chrome barely separates from the page, and the full Ayu hue set runs at its original strength.",
+      "bgColor": "#16181A",
+      "textColor": "#C2C6C9",
+      "accentColor": "#FFA657",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#ffa657",
+          "oklch": "oklch(79.91% 0.1412 60.1)",
+          "rgb": "rgb(255, 166, 87)",
+          "contrast": {
+            "white": 1.94,
+            "black": 10.84
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#131517",
+          "oklch": "oklch(19.44% 0.0051 248.09)",
+          "rgb": "rgb(19, 21, 23)",
+          "contrast": {
+            "white": 18.3,
+            "black": 1.15
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#16181a",
+          "oklch": "oklch(20.77% 0.005 248.07)",
+          "rgb": "rgb(22, 24, 26)",
+          "contrast": {
+            "white": 17.8,
+            "black": 1.18
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#24272a",
+          "oklch": "oklch(27.09% 0.0071 248.09)",
+          "rgb": "rgb(36, 39, 42)",
+          "contrast": {
+            "white": 15.01,
+            "black": 1.4
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#6c7276",
+          "oklch": "oklch(54.83% 0.0096 236.69)",
+          "rgb": "rgb(108, 114, 118)",
+          "contrast": {
+            "white": 4.88,
+            "black": 4.31
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#c2c6c9",
+          "oklch": "oklch(82.43% 0.0061 239.84)",
+          "rgb": "rgb(194, 198, 201)",
+          "contrast": {
+            "white": 1.72,
+            "black": 12.21
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#ffd173",
+          "oklch": "oklch(88.18% 0.1238 83.7)",
+          "rgb": "rgb(255, 209, 115)",
+          "contrast": {
+            "white": 1.44,
+            "black": 14.62
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#ffa657",
+          "oklch": "oklch(79.91% 0.1412 60.1)",
+          "rgb": "rgb(255, 166, 87)",
+          "contrast": {
+            "white": 1.94,
+            "black": 10.84
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#d2a6ff",
+          "oklch": "oklch(79.7% 0.1307 306.33)",
+          "rgb": "rgb(210, 166, 255)",
+          "contrast": {
+            "white": 1.97,
+            "black": 10.64
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#f29668",
+          "oklch": "oklch(75.83% 0.1268 46.79)",
+          "rgb": "rgb(242, 150, 104)",
+          "contrast": {
+            "white": 2.25,
+            "black": 9.34
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#c2c6c9",
+          "oklch": "oklch(82.43% 0.0061 239.84)",
+          "rgb": "rgb(194, 198, 201)",
+          "contrast": {
+            "white": 1.72,
+            "black": 12.21
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#6e747a",
+          "oklch": "oklch(55.59% 0.0118 248.04)",
+          "rgb": "rgb(110, 116, 122)",
+          "contrast": {
+            "white": 4.73,
+            "black": 4.44
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#2a2f34",
+          "oklch": "oklch(30.23% 0.0114 248.21)",
+          "rgb": "rgb(42, 47, 52)",
+          "contrast": {
+            "white": 13.51,
+            "black": 1.55
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#aad94c",
+          "oklch": "oklch(82.51% 0.1745 125.84)",
+          "rgb": "rgb(170, 217, 76)",
+          "contrast": {
+            "white": 1.65,
+            "black": 12.74
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#59c2ff",
+          "oklch": "oklch(77.71% 0.1301 237.29)",
+          "rgb": "rgb(89, 194, 255)",
+          "contrast": {
+            "white": 1.98,
+            "black": 10.59
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "reference",
+        "thesis": "The baseline. Chrome barely separates from the page, and the full Ayu hue set runs at its original strength."
+      }
+    },
+    {
+      "id": "fracta-augur-light",
+      "name": "Augur Light",
+      "system": "fracta",
+      "mode": "light",
+      "family": "bone",
+      "description": "nicely",
+      "bgColor": "#FFFFFF",
+      "textColor": "#555555",
+      "accentColor": "#0B9808",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#0b9808",
+          "oklch": "oklch(59% 0.1974 142.46)",
+          "rgb": "rgb(11, 152, 8)",
+          "contrast": {
+            "white": 3.81,
+            "black": 5.51
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#f3f2f0",
+          "oklch": "oklch(96.14% 0.0029 84.56)",
+          "rgb": "rgb(243, 242, 240)",
+          "contrast": {
+            "white": 1.12,
+            "black": 18.77
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#ffffff",
+          "oklch": "oklch(100% 0 0)",
+          "rgb": "rgb(255, 255, 255)",
+          "contrast": {
+            "white": 1,
+            "black": 21
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#edebe9",
+          "oklch": "oklch(94.11% 0.0035 67.78)",
+          "rgb": "rgb(237, 235, 233)",
+          "contrast": {
+            "white": 1.19,
+            "black": 17.66
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#9fa59d",
+          "oklch": "oklch(71.47% 0.0133 137.79)",
+          "rgb": "rgb(159, 165, 157)",
+          "contrast": {
+            "white": 2.52,
+            "black": 8.34
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#555555",
+          "oklch": "oklch(44.95% 0 0)",
+          "rgb": "rgb(85, 85, 85)",
+          "contrast": {
+            "white": 7.46,
+            "black": 2.82
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#676767",
+          "oklch": "oklch(51.38% 0 0)",
+          "rgb": "rgb(103, 103, 103)",
+          "contrast": {
+            "white": 5.66,
+            "black": 3.71
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#0b9808",
+          "oklch": "oklch(59% 0.1974 142.46)",
+          "rgb": "rgb(11, 152, 8)",
+          "contrast": {
+            "white": 3.81,
+            "black": 5.51
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#0b9808",
+          "oklch": "oklch(59% 0.1974 142.46)",
+          "rgb": "rgb(11, 152, 8)",
+          "contrast": {
+            "white": 3.81,
+            "black": 5.51
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#0b9808",
+          "oklch": "oklch(59% 0.1974 142.46)",
+          "rgb": "rgb(11, 152, 8)",
+          "contrast": {
+            "white": 3.81,
+            "black": 5.51
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#676767",
+          "oklch": "oklch(51.38% 0 0)",
+          "rgb": "rgb(103, 103, 103)",
+          "contrast": {
+            "white": 5.66,
+            "black": 3.71
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#9fa59d",
+          "oklch": "oklch(71.47% 0.0133 137.79)",
+          "rgb": "rgb(159, 165, 157)",
+          "contrast": {
+            "white": 2.52,
+            "black": 8.34
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#dfdfdd",
+          "oklch": "oklch(90.31% 0.0027 106.45)",
+          "rgb": "rgb(223, 223, 221)",
+          "contrast": {
+            "white": 1.33,
+            "black": 15.74
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#1882b0",
+          "oklch": "oklch(57.24% 0.1129 233.78)",
+          "rgb": "rgb(24, 130, 176)",
+          "contrast": {
+            "white": 4.32,
+            "black": 4.86
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#1882b0",
+          "oklch": "oklch(57.24% 0.1129 233.78)",
+          "rgb": "rgb(24, 130, 176)",
+          "contrast": {
+            "white": 4.32,
+            "black": 4.86
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "draft",
+        "thesis": "nicely"
+      }
+    },
+    {
+      "id": "fracta-augur-dark",
+      "name": "Augur Dark",
+      "system": "fracta",
+      "mode": "dark",
+      "family": "bone",
+      "description": "nicely",
+      "bgColor": "#202020",
+      "textColor": "#DADADA",
+      "accentColor": "#2A9B52",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#2a9b52",
+          "oklch": "oklch(61% 0.1473 150.72)",
+          "rgb": "rgb(42, 155, 82)",
+          "contrast": {
+            "white": 3.55,
+            "black": 5.91
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#181816",
+          "oklch": "oklch(20.82% 0.0039 106.73)",
+          "rgb": "rgb(24, 24, 22)",
+          "contrast": {
+            "white": 17.78,
+            "black": 1.18
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#202020",
+          "oklch": "oklch(24.35% 0 0)",
+          "rgb": "rgb(32, 32, 32)",
+          "contrast": {
+            "white": 16.29,
+            "black": 1.29
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#1b1b1b",
+          "oklch": "oklch(22.21% 0 0)",
+          "rgb": "rgb(27, 27, 27)",
+          "contrast": {
+            "white": 17.22,
+            "black": 1.22
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#5b5c5c",
+          "oklch": "oklch(47.39% 0.0013 197.11)",
+          "rgb": "rgb(91, 92, 92)",
+          "contrast": {
+            "white": 6.71,
+            "black": 3.13
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#dadada",
+          "oklch": "oklch(88.84% 0 0)",
+          "rgb": "rgb(218, 218, 218)",
+          "contrast": {
+            "white": 1.4,
+            "black": 15.02
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#909090",
+          "oklch": "oklch(65.34% 0 0)",
+          "rgb": "rgb(144, 144, 144)",
+          "contrast": {
+            "white": 3.19,
+            "black": 6.58
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#2a9b52",
+          "oklch": "oklch(61% 0.1473 150.72)",
+          "rgb": "rgb(42, 155, 82)",
+          "contrast": {
+            "white": 3.55,
+            "black": 5.91
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#2a9b52",
+          "oklch": "oklch(61% 0.1473 150.72)",
+          "rgb": "rgb(42, 155, 82)",
+          "contrast": {
+            "white": 3.55,
+            "black": 5.91
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#2a9b52",
+          "oklch": "oklch(61% 0.1473 150.72)",
+          "rgb": "rgb(42, 155, 82)",
+          "contrast": {
+            "white": 3.55,
+            "black": 5.91
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#909090",
+          "oklch": "oklch(65.34% 0 0)",
+          "rgb": "rgb(144, 144, 144)",
+          "contrast": {
+            "white": 3.19,
+            "black": 6.58
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#5b5c5c",
+          "oklch": "oklch(47.39% 0.0013 197.11)",
+          "rgb": "rgb(91, 92, 92)",
+          "contrast": {
+            "white": 6.71,
+            "black": 3.13
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#052912",
+          "oklch": "oklch(24.86% 0.0592 151.51)",
+          "rgb": "rgb(5, 41, 18)",
+          "contrast": {
+            "white": 15.76,
+            "black": 1.33
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#1882b0",
+          "oklch": "oklch(57.24% 0.1129 233.78)",
+          "rgb": "rgb(24, 130, 176)",
+          "contrast": {
+            "white": 4.32,
+            "black": 4.86
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#1882b0",
+          "oklch": "oklch(57.24% 0.1129 233.78)",
+          "rgb": "rgb(24, 130, 176)",
+          "contrast": {
+            "white": 4.32,
+            "black": 4.86
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "draft",
+        "thesis": "nicely"
+      }
+    },
+    {
+      "id": "fracta-bone-contour-light",
+      "name": "Bone Contour Light",
+      "system": "fracta",
+      "mode": "light",
+      "family": "bone",
+      "description": "Sidebar and tabs painted the same white as the editor; a single hairline is the only separation. Strings and numbers cool off to teal and periwinkle.",
+      "bgColor": "#FCFCFC",
+      "textColor": "#5C6166",
+      "accentColor": "#F08A3C",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#f08a3c",
+          "oklch": "oklch(73.04% 0.1531 54.46)",
+          "rgb": "rgb(240, 138, 60)",
+          "contrast": {
+            "white": 2.5,
+            "black": 8.41
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#fcfcfc",
+          "oklch": "oklch(99.11% 0 0)",
+          "rgb": "rgb(252, 252, 252)",
+          "contrast": {
+            "white": 1.03,
+            "black": 20.47
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#fcfcfc",
+          "oklch": "oklch(99.11% 0 0)",
+          "rgb": "rgb(252, 252, 252)",
+          "contrast": {
+            "white": 1.03,
+            "black": 20.47
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#e6e7e9",
+          "oklch": "oklch(92.78% 0.0029 264.54)",
+          "rgb": "rgb(230, 231, 233)",
+          "contrast": {
+            "white": 1.24,
+            "black": 16.97
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#afb4ba",
+          "oklch": "oklch(76.78% 0.0102 252.83)",
+          "rgb": "rgb(175, 180, 186)",
+          "contrast": {
+            "white": 2.09,
+            "black": 10.06
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#5c6166",
+          "oklch": "oklch(48.99% 0.0102 248.04)",
+          "rgb": "rgb(92, 97, 102)",
+          "contrast": {
+            "white": 6.26,
+            "black": 3.36
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#c7912f",
+          "oklch": "oklch(69.25% 0.1274 78.04)",
+          "rgb": "rgb(199, 145, 47)",
+          "contrast": {
+            "white": 2.79,
+            "black": 7.52
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#e88338",
+          "oklch": "oklch(70.81% 0.1512 53.56)",
+          "rgb": "rgb(232, 131, 56)",
+          "contrast": {
+            "white": 2.72,
+            "black": 7.73
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#6b6bc9",
+          "oklch": "oklch(57.28% 0.1419 280.95)",
+          "rgb": "rgb(107, 107, 201)",
+          "contrast": {
+            "white": 4.59,
+            "black": 4.57
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#de8a5e",
+          "oklch": "oklch(71.19% 0.1187 47.8)",
+          "rgb": "rgb(222, 138, 94)",
+          "contrast": {
+            "white": 2.66,
+            "black": 7.9
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#5c6166",
+          "oklch": "oklch(48.99% 0.0102 248.04)",
+          "rgb": "rgb(92, 97, 102)",
+          "contrast": {
+            "white": 6.26,
+            "black": 3.36
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#a6acb2",
+          "oklch": "oklch(74.15% 0.011 247.98)",
+          "rgb": "rgb(166, 172, 178)",
+          "contrast": {
+            "white": 2.29,
+            "black": 9.17
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#e9eaeb",
+          "oklch": "oklch(93.66% 0.0017 247.84)",
+          "rgb": "rgb(233, 234, 235)",
+          "contrast": {
+            "white": 1.2,
+            "black": 17.43
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#2f8c7a",
+          "oklch": "oklch(58.07% 0.0909 177.55)",
+          "rgb": "rgb(47, 140, 122)",
+          "contrast": {
+            "white": 4.08,
+            "black": 5.15
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#3d82c4",
+          "oklch": "oklch(59.28% 0.123 249.79)",
+          "rgb": "rgb(61, 130, 196)",
+          "contrast": {
+            "white": 4.05,
+            "black": 5.19
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "chrome removed",
+        "thesis": "Sidebar and tabs painted the same white as the editor; a single hairline is the only separation. Strings and numbers cool off to teal and periwinkle."
+      }
+    },
+    {
+      "id": "fracta-bone-contour-dark",
+      "name": "Bone Contour Dark",
+      "system": "fracta",
+      "mode": "dark",
+      "family": "bone",
+      "description": "Sidebar and tabs painted the same white as the editor; a single hairline is the only separation. Strings and numbers cool off to teal and periwinkle.",
+      "bgColor": "#16181A",
+      "textColor": "#C2C6C9",
+      "accentColor": "#FF9E4D",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#ff9e4d",
+          "oklch": "oklch(78.43% 0.1494 57.75)",
+          "rgb": "rgb(255, 158, 77)",
+          "contrast": {
+            "white": 2.05,
+            "black": 10.25
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#16181a",
+          "oklch": "oklch(20.77% 0.005 248.07)",
+          "rgb": "rgb(22, 24, 26)",
+          "contrast": {
+            "white": 17.8,
+            "black": 1.18
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#16181a",
+          "oklch": "oklch(20.77% 0.005 248.07)",
+          "rgb": "rgb(22, 24, 26)",
+          "contrast": {
+            "white": 17.8,
+            "black": 1.18
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#232629",
+          "oklch": "oklch(26.68% 0.0071 248.09)",
+          "rgb": "rgb(35, 38, 41)",
+          "contrast": {
+            "white": 15.21,
+            "black": 1.38
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#6e7478",
+          "oklch": "oklch(55.52% 0.0096 236.69)",
+          "rgb": "rgb(110, 116, 120)",
+          "contrast": {
+            "white": 4.74,
+            "black": 4.43
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#c2c6c9",
+          "oklch": "oklch(82.43% 0.0061 239.84)",
+          "rgb": "rgb(194, 198, 201)",
+          "contrast": {
+            "white": 1.72,
+            "black": 12.21
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#e8c06a",
+          "oklch": "oklch(82.53% 0.1145 84.89)",
+          "rgb": "rgb(232, 192, 106)",
+          "contrast": {
+            "white": 1.72,
+            "black": 12.18
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#ff9e4d",
+          "oklch": "oklch(78.43% 0.1494 57.75)",
+          "rgb": "rgb(255, 158, 77)",
+          "contrast": {
+            "white": 2.05,
+            "black": 10.25
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#a9a6f0",
+          "oklch": "oklch(75.55% 0.1055 285.43)",
+          "rgb": "rgb(169, 166, 240)",
+          "contrast": {
+            "white": 2.23,
+            "black": 9.4
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#e8926a",
+          "oklch": "oklch(73.98% 0.1178 45.4)",
+          "rgb": "rgb(232, 146, 106)",
+          "contrast": {
+            "white": 2.4,
+            "black": 8.75
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#c2c6c9",
+          "oklch": "oklch(82.43% 0.0061 239.84)",
+          "rgb": "rgb(194, 198, 201)",
+          "contrast": {
+            "white": 1.72,
+            "black": 12.21
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#70767a",
+          "oklch": "oklch(56.2% 0.0095 236.68)",
+          "rgb": "rgb(112, 118, 122)",
+          "contrast": {
+            "white": 4.6,
+            "black": 4.56
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#2b3035",
+          "oklch": "oklch(30.63% 0.0114 248.2)",
+          "rgb": "rgb(43, 48, 53)",
+          "contrast": {
+            "white": 13.32,
+            "black": 1.58
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#57c7a8",
+          "oklch": "oklch(75.61% 0.1126 172.27)",
+          "rgb": "rgb(87, 199, 168)",
+          "contrast": {
+            "white": 2.07,
+            "black": 10.14
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#6fbbee",
+          "oklch": "oklch(76.26% 0.1055 239.54)",
+          "rgb": "rgb(111, 187, 238)",
+          "contrast": {
+            "white": 2.1,
+            "black": 10.02
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "chrome removed",
+        "thesis": "Sidebar and tabs painted the same white as the editor; a single hairline is the only separation. Strings and numbers cool off to teal and periwinkle."
+      }
+    },
+    {
+      "id": "fracta-green-lantern-light",
+      "name": "Green Lantern Light",
+      "system": "fracta",
+      "mode": "light",
+      "family": "news",
+      "description": "",
+      "bgColor": "#FFFFFF",
+      "textColor": "#5C6166",
+      "accentColor": "#66A80F",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#66a80f",
+          "oklch": "oklch(66.16% 0.1803 132.25)",
+          "rgb": "rgb(102, 168, 15)",
+          "contrast": {
+            "white": 2.93,
+            "black": 7.17
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#232323",
+          "oklch": "oklch(25.62% 0 0)",
+          "rgb": "rgb(35, 35, 35)",
+          "contrast": {
+            "white": 15.72,
+            "black": 1.34
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#ffffff",
+          "oklch": "oklch(100% 0 0)",
+          "rgb": "rgb(255, 255, 255)",
+          "contrast": {
+            "white": 1,
+            "black": 21
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#444444",
+          "oklch": "oklch(38.67% 0 0)",
+          "rgb": "rgb(68, 68, 68)",
+          "contrast": {
+            "white": 9.74,
+            "black": 2.16
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#afb4ba",
+          "oklch": "oklch(76.78% 0.0102 252.83)",
+          "rgb": "rgb(175, 180, 186)",
+          "contrast": {
+            "white": 2.09,
+            "black": 10.06
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#5c6166",
+          "oklch": "oklch(48.99% 0.0102 248.04)",
+          "rgb": "rgb(92, 97, 102)",
+          "contrast": {
+            "white": 6.26,
+            "black": 3.36
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#109c0d",
+          "oklch": "oklch(60.18% 0.1997 142.47)",
+          "rgb": "rgb(16, 156, 13)",
+          "contrast": {
+            "white": 3.63,
+            "black": 5.78
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#ffffff",
+          "oklch": "oklch(100% 0 0)",
+          "rgb": "rgb(255, 255, 255)",
+          "contrast": {
+            "white": 1,
+            "black": 21
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#109c0d",
+          "oklch": "oklch(60.18% 0.1997 142.47)",
+          "rgb": "rgb(16, 156, 13)",
+          "contrast": {
+            "white": 3.63,
+            "black": 5.78
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#66a80f",
+          "oklch": "oklch(66.16% 0.1803 132.25)",
+          "rgb": "rgb(102, 168, 15)",
+          "contrast": {
+            "white": 2.93,
+            "black": 7.17
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#5c6166",
+          "oklch": "oklch(48.99% 0.0102 248.04)",
+          "rgb": "rgb(92, 97, 102)",
+          "contrast": {
+            "white": 6.26,
+            "black": 3.36
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#a6acb2",
+          "oklch": "oklch(74.15% 0.011 247.98)",
+          "rgb": "rgb(166, 172, 178)",
+          "contrast": {
+            "white": 2.29,
+            "black": 9.17
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#e9eaeb",
+          "oklch": "oklch(93.66% 0.0017 247.84)",
+          "rgb": "rgb(233, 234, 235)",
+          "contrast": {
+            "white": 1.2,
+            "black": 17.43
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#2b8a3e",
+          "oklch": "oklch(56.04% 0.1427 146.89)",
+          "rgb": "rgb(43, 138, 62)",
+          "contrast": {
+            "white": 4.37,
+            "black": 4.81
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#37b24d",
+          "oklch": "oklch(67.41% 0.1775 146.24)",
+          "rgb": "rgb(55, 178, 77)",
+          "contrast": {
+            "white": 2.75,
+            "black": 7.64
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "draft",
+        "thesis": ""
+      }
+    },
+    {
+      "id": "fracta-green-lantern-dark",
+      "name": "Green Lantern Dark",
+      "system": "fracta",
+      "mode": "dark",
+      "family": "news",
+      "description": "",
+      "bgColor": "#090909",
+      "textColor": "#444444",
+      "accentColor": "#66A80F",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#66a80f",
+          "oklch": "oklch(66.16% 0.1803 132.25)",
+          "rgb": "rgb(102, 168, 15)",
+          "contrast": {
+            "white": 2.93,
+            "black": 7.17
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#ebebeb",
+          "oklch": "oklch(94.01% 0 0)",
+          "rgb": "rgb(235, 235, 235)",
+          "contrast": {
+            "white": 1.19,
+            "black": 17.62
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#090909",
+          "oklch": "oklch(13.98% 0 0)",
+          "rgb": "rgb(9, 9, 9)",
+          "contrast": {
+            "white": 19.91,
+            "black": 1.05
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#d6d6d6",
+          "oklch": "oklch(87.61% 0 0)",
+          "rgb": "rgb(214, 214, 214)",
+          "contrast": {
+            "white": 1.45,
+            "black": 14.45
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#6e7478",
+          "oklch": "oklch(55.52% 0.0096 236.69)",
+          "rgb": "rgb(110, 116, 120)",
+          "contrast": {
+            "white": 4.74,
+            "black": 4.43
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#444444",
+          "oklch": "oklch(38.67% 0 0)",
+          "rgb": "rgb(68, 68, 68)",
+          "contrast": {
+            "white": 9.74,
+            "black": 2.16
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#ebebeb",
+          "oklch": "oklch(94.01% 0 0)",
+          "rgb": "rgb(235, 235, 235)",
+          "contrast": {
+            "white": 1.19,
+            "black": 17.62
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#ebebeb",
+          "oklch": "oklch(94.01% 0 0)",
+          "rgb": "rgb(235, 235, 235)",
+          "contrast": {
+            "white": 1.19,
+            "black": 17.62
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#109c0d",
+          "oklch": "oklch(60.18% 0.1997 142.47)",
+          "rgb": "rgb(16, 156, 13)",
+          "contrast": {
+            "white": 3.63,
+            "black": 5.78
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#ffffff",
+          "oklch": "oklch(100% 0 0)",
+          "rgb": "rgb(255, 255, 255)",
+          "contrast": {
+            "white": 1,
+            "black": 21
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#c2c6c9",
+          "oklch": "oklch(82.43% 0.0061 239.84)",
+          "rgb": "rgb(194, 198, 201)",
+          "contrast": {
+            "white": 1.72,
+            "black": 12.21
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#70767a",
+          "oklch": "oklch(56.2% 0.0095 236.68)",
+          "rgb": "rgb(112, 118, 122)",
+          "contrast": {
+            "white": 4.6,
+            "black": 4.56
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#2b3035",
+          "oklch": "oklch(30.63% 0.0114 248.2)",
+          "rgb": "rgb(43, 48, 53)",
+          "contrast": {
+            "white": 13.32,
+            "black": 1.58
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#2b8a3e",
+          "oklch": "oklch(56.04% 0.1427 146.89)",
+          "rgb": "rgb(43, 138, 62)",
+          "contrast": {
+            "white": 4.37,
+            "black": 4.81
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#37b24d",
+          "oklch": "oklch(67.41% 0.1775 146.24)",
+          "rgb": "rgb(55, 178, 77)",
+          "contrast": {
+            "white": 2.75,
+            "black": 7.64
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "draft",
+        "thesis": ""
+      }
+    },
+    {
+      "id": "fracta-bone-recessed-light",
+      "name": "Bone Recessed Light",
+      "system": "fracta",
+      "mode": "light",
+      "family": "bone",
+      "description": "A stone sidebar drops the chrome below the page so the editor reads as a sheet laid on a desk. Hues deepen a step to hold against it.",
+      "bgColor": "#FCFCFC",
+      "textColor": "#565B60",
+      "accentColor": "#E8792B",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#e8792b",
+          "oklch": "oklch(69.1% 0.1618 50.91)",
+          "rgb": "rgb(232, 121, 43)",
+          "contrast": {
+            "white": 2.92,
+            "black": 7.2
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#eaebec",
+          "oklch": "oklch(93.96% 0.0017 247.84)",
+          "rgb": "rgb(234, 235, 236)",
+          "contrast": {
+            "white": 1.19,
+            "black": 17.59
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#fcfcfc",
+          "oklch": "oklch(99.11% 0 0)",
+          "rgb": "rgb(252, 252, 252)",
+          "contrast": {
+            "white": 1.03,
+            "black": 20.47
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#dddee0",
+          "oklch": "oklch(90.04% 0.0029 264.54)",
+          "rgb": "rgb(221, 222, 224)",
+          "contrast": {
+            "white": 1.35,
+            "black": 15.6
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#a5aab0",
+          "oklch": "oklch(73.58% 0.0103 252.84)",
+          "rgb": "rgb(165, 170, 176)",
+          "contrast": {
+            "white": 2.34,
+            "black": 8.98
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#565b60",
+          "oklch": "oklch(46.85% 0.0103 248.05)",
+          "rgb": "rgb(86, 91, 96)",
+          "contrast": {
+            "white": 6.86,
+            "black": 3.06
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#d98b27",
+          "oklch": "oklch(70.18% 0.1424 66.93)",
+          "rgb": "rgb(217, 139, 39)",
+          "contrast": {
+            "white": 2.74,
+            "black": 7.67
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#e57a2e",
+          "oklch": "oklch(68.87% 0.1574 51.57)",
+          "rgb": "rgb(229, 122, 46)",
+          "contrast": {
+            "white": 2.94,
+            "black": 7.15
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#8f63be",
+          "oklch": "oklch(58.44% 0.1409 304.74)",
+          "rgb": "rgb(143, 99, 190)",
+          "contrast": {
+            "white": 4.47,
+            "black": 4.7
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#de7f4c",
+          "oklch": "oklch(69.06% 0.1349 47.63)",
+          "rgb": "rgb(222, 127, 76)",
+          "contrast": {
+            "white": 2.9,
+            "black": 7.25
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#565b60",
+          "oklch": "oklch(46.85% 0.0103 248.05)",
+          "rgb": "rgb(86, 91, 96)",
+          "contrast": {
+            "white": 6.86,
+            "black": 3.06
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#989ea4",
+          "oklch": "oklch(69.63% 0.0112 247.99)",
+          "rgb": "rgb(152, 158, 164)",
+          "contrast": {
+            "white": 2.71,
+            "black": 7.76
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#e3e5e6",
+          "oklch": "oklch(92.07% 0.0026 228.79)",
+          "rgb": "rgb(227, 229, 230)",
+          "contrast": {
+            "white": 1.26,
+            "black": 16.62
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#6f9200",
+          "oklch": "oklch(61.09% 0.1532 124.81)",
+          "rgb": "rgb(111, 146, 0)",
+          "contrast": {
+            "white": 3.63,
+            "black": 5.79
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#2c88c9",
+          "oklch": "oklch(60.42% 0.1298 244.24)",
+          "rgb": "rgb(44, 136, 201)",
+          "contrast": {
+            "white": 3.84,
+            "black": 5.47
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "chrome one step down",
+        "thesis": "A stone sidebar drops the chrome below the page so the editor reads as a sheet laid on a desk. Hues deepen a step to hold against it."
+      }
+    },
+    {
+      "id": "fracta-bone-recessed-dark",
+      "name": "Bone Recessed Dark",
+      "system": "fracta",
+      "mode": "dark",
+      "family": "bone",
+      "description": "A stone sidebar drops the chrome below the page so the editor reads as a sheet laid on a desk. Hues deepen a step to hold against it.",
+      "bgColor": "#1A1D20",
+      "textColor": "#C6CACD",
+      "accentColor": "#FFA657",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#ffa657",
+          "oklch": "oklch(79.91% 0.1412 60.1)",
+          "rgb": "rgb(255, 166, 87)",
+          "contrast": {
+            "white": 1.94,
+            "black": 10.84
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#121416",
+          "oklch": "oklch(18.99% 0.0051 248.1)",
+          "rgb": "rgb(18, 20, 22)",
+          "contrast": {
+            "white": 18.46,
+            "black": 1.14
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#1a1d20",
+          "oklch": "oklch(22.89% 0.0074 248.15)",
+          "rgb": "rgb(26, 29, 32)",
+          "contrast": {
+            "white": 16.93,
+            "black": 1.24
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#282c30",
+          "oklch": "oklch(29.08% 0.0093 248.15)",
+          "rgb": "rgb(40, 44, 48)",
+          "contrast": {
+            "white": 14.06,
+            "black": 1.49
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#737980",
+          "oklch": "oklch(57.33% 0.013 252.16)",
+          "rgb": "rgb(115, 121, 128)",
+          "contrast": {
+            "white": 4.4,
+            "black": 4.78
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#c6cacd",
+          "oklch": "oklch(83.68% 0.0061 239.84)",
+          "rgb": "rgb(198, 202, 205)",
+          "contrast": {
+            "white": 1.65,
+            "black": 12.73
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#f5c96b",
+          "oklch": "oklch(85.57% 0.123 84.58)",
+          "rgb": "rgb(245, 201, 107)",
+          "contrast": {
+            "white": 1.56,
+            "black": 13.45
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#ffa657",
+          "oklch": "oklch(79.91% 0.1412 60.1)",
+          "rgb": "rgb(255, 166, 87)",
+          "contrast": {
+            "white": 1.94,
+            "black": 10.84
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#c79efa",
+          "oklch": "oklch(77.07% 0.1345 303.91)",
+          "rgb": "rgb(199, 158, 250)",
+          "contrast": {
+            "white": 2.17,
+            "black": 9.7
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#ee9268",
+          "oklch": "oklch(74.67% 0.1252 44.9)",
+          "rgb": "rgb(238, 146, 104)",
+          "contrast": {
+            "white": 2.35,
+            "black": 8.95
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#c6cacd",
+          "oklch": "oklch(83.68% 0.0061 239.84)",
+          "rgb": "rgb(198, 202, 205)",
+          "contrast": {
+            "white": 1.65,
+            "black": 12.73
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#767c82",
+          "oklch": "oklch(58.32% 0.0117 248.03)",
+          "rgb": "rgb(118, 124, 130)",
+          "contrast": {
+            "white": 4.22,
+            "black": 4.98
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#2e343a",
+          "oklch": "oklch(32.17% 0.0135 248.25)",
+          "rgb": "rgb(46, 52, 58)",
+          "contrast": {
+            "white": 12.59,
+            "black": 1.67
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#a5d147",
+          "oklch": "oklch(80.29% 0.1704 125.31)",
+          "rgb": "rgb(165, 209, 71)",
+          "contrast": {
+            "white": 1.78,
+            "black": 11.81
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#55b8f0",
+          "oklch": "oklch(74.64% 0.1226 236.5)",
+          "rgb": "rgb(85, 184, 240)",
+          "contrast": {
+            "white": 2.21,
+            "black": 9.5
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "chrome one step down",
+        "thesis": "A stone sidebar drops the chrome below the page so the editor reads as a sheet laid on a desk. Hues deepen a step to hold against it."
+      }
+    },
+    {
+      "id": "fracta-bone-graphite-light",
+      "name": "Bone Graphite Light",
+      "system": "fracta",
+      "mode": "light",
+      "family": "bone",
+      "description": "For a bright room. Same white ground, but chrome, foreground and every hue are darkened until body text clears 7:1 — no warmth added anywhere.",
+      "bgColor": "#FCFCFC",
+      "textColor": "#43474B",
+      "accentColor": "#C2601F",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#c2601f",
+          "oklch": "oklch(59.73% 0.1453 49.18)",
+          "rgb": "rgb(194, 96, 31)",
+          "contrast": {
+            "white": 4.21,
+            "black": 4.99
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#e4e6e8",
+          "oklch": "oklch(92.4% 0.0035 247.86)",
+          "rgb": "rgb(228, 230, 232)",
+          "contrast": {
+            "white": 1.25,
+            "black": 16.78
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#fcfcfc",
+          "oklch": "oklch(99.11% 0 0)",
+          "rgb": "rgb(252, 252, 252)",
+          "contrast": {
+            "white": 1.03,
+            "black": 20.47
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#d4d7da",
+          "oklch": "oklch(87.77% 0.0053 247.88)",
+          "rgb": "rgb(212, 215, 218)",
+          "contrast": {
+            "white": 1.45,
+            "black": 14.53
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#8e949a",
+          "oklch": "oklch(66.35% 0.0113 248)",
+          "rgb": "rgb(142, 148, 154)",
+          "contrast": {
+            "white": 3.06,
+            "black": 6.85
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#43474b",
+          "oklch": "oklch(39.57% 0.0086 248.04)",
+          "rgb": "rgb(67, 71, 75)",
+          "contrast": {
+            "white": 9.37,
+            "black": 2.24
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#a9761a",
+          "oklch": "oklch(60.33% 0.1183 76.2)",
+          "rgb": "rgb(169, 118, 26)",
+          "contrast": {
+            "white": 3.97,
+            "black": 5.29
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#c2601f",
+          "oklch": "oklch(59.73% 0.1453 49.18)",
+          "rgb": "rgb(194, 96, 31)",
+          "contrast": {
+            "white": 4.21,
+            "black": 4.99
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#6c4fb0",
+          "oklch": "oklch(50.65% 0.1485 294.26)",
+          "rgb": "rgb(108, 79, 176)",
+          "contrast": {
+            "white": 6.21,
+            "black": 3.38
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#bc6835",
+          "oklch": "oklch(60.4% 0.1256 49.68)",
+          "rgb": "rgb(188, 104, 53)",
+          "contrast": {
+            "white": 4.06,
+            "black": 5.17
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#43474b",
+          "oklch": "oklch(39.57% 0.0086 248.04)",
+          "rgb": "rgb(67, 71, 75)",
+          "contrast": {
+            "white": 9.37,
+            "black": 2.24
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#8a9096",
+          "oklch": "oklch(65.03% 0.0114 248)",
+          "rgb": "rgb(138, 144, 150)",
+          "contrast": {
+            "white": 3.23,
+            "black": 6.51
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#dcdfe2",
+          "oklch": "oklch(90.22% 0.0052 247.88)",
+          "rgb": "rgb(220, 223, 226)",
+          "contrast": {
+            "white": 1.34,
+            "black": 15.7
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#5a7a0f",
+          "oklch": "oklch(53.53% 0.1309 126.21)",
+          "rgb": "rgb(90, 122, 15)",
+          "contrast": {
+            "white": 4.97,
+            "black": 4.23
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#1b72af",
+          "oklch": "oklch(53.35% 0.1234 245.22)",
+          "rgb": "rgb(27, 114, 175)",
+          "contrast": {
+            "white": 5.16,
+            "black": 4.07
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "daylight, neutral",
+        "thesis": "For a bright room. Same white ground, but chrome, foreground and every hue are darkened until body text clears 7:1 — no warmth added anywhere."
+      }
+    },
+    {
+      "id": "fracta-bone-graphite-dark",
+      "name": "Bone Graphite Dark",
+      "system": "fracta",
+      "mode": "dark",
+      "family": "bone",
+      "description": "For a bright room. Same white ground, but chrome, foreground and every hue are darkened until body text clears 7:1 — no warmth added anywhere.",
+      "bgColor": "#0E0F11",
+      "textColor": "#DDE0E3",
+      "accentColor": "#FFB067",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#ffb067",
+          "oklch": "oklch(81.88% 0.1287 62.15)",
+          "rgb": "rgb(255, 176, 103)",
+          "contrast": {
+            "white": 1.8,
+            "black": 11.66
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#0a0b0c",
+          "oklch": "oklch(14.89% 0.0027 248.08)",
+          "rgb": "rgb(10, 11, 12)",
+          "contrast": {
+            "white": 19.7,
+            "black": 1.07
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#0e0f11",
+          "oklch": "oklch(16.82% 0.0045 264.45)",
+          "rgb": "rgb(14, 15, 17)",
+          "contrast": {
+            "white": 19.18,
+            "black": 1.1
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#1e2124",
+          "oklch": "oklch(24.59% 0.0072 248.12)",
+          "rgb": "rgb(30, 33, 36)",
+          "contrast": {
+            "white": 16.18,
+            "black": 1.3
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#7a8085",
+          "oklch": "oklch(59.65% 0.0105 242.94)",
+          "rgb": "rgb(122, 128, 133)",
+          "contrast": {
+            "white": 4,
+            "black": 5.25
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#dde0e3",
+          "oklch": "oklch(90.53% 0.0052 247.88)",
+          "rgb": "rgb(221, 224, 227)",
+          "contrast": {
+            "white": 1.33,
+            "black": 15.85
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#ffd98a",
+          "oklch": "oklch(90.06% 0.1064 84.68)",
+          "rgb": "rgb(255, 217, 138)",
+          "contrast": {
+            "white": 1.35,
+            "black": 15.54
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#ffb067",
+          "oklch": "oklch(81.88% 0.1287 62.15)",
+          "rgb": "rgb(255, 176, 103)",
+          "contrast": {
+            "white": 1.8,
+            "black": 11.66
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#dcb4ff",
+          "oklch": "oklch(83.07% 0.1108 308.45)",
+          "rgb": "rgb(220, 180, 255)",
+          "contrast": {
+            "white": 1.75,
+            "black": 12.02
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#ffa47a",
+          "oklch": "oklch(80.06% 0.1221 45.32)",
+          "rgb": "rgb(255, 164, 122)",
+          "contrast": {
+            "white": 1.94,
+            "black": 10.84
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#dde0e3",
+          "oklch": "oklch(90.53% 0.0052 247.88)",
+          "rgb": "rgb(221, 224, 227)",
+          "contrast": {
+            "white": 1.33,
+            "black": 15.85
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#7e848a",
+          "oklch": "oklch(61.03% 0.0115 248.02)",
+          "rgb": "rgb(126, 132, 138)",
+          "contrast": {
+            "white": 3.78,
+            "black": 5.55
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#23282d",
+          "oklch": "oklch(27.4% 0.0117 248.26)",
+          "rgb": "rgb(35, 40, 45)",
+          "contrast": {
+            "white": 14.86,
+            "black": 1.41
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#b6e052",
+          "oklch": "oklch(84.96% 0.1735 124.11)",
+          "rgb": "rgb(182, 224, 82)",
+          "contrast": {
+            "white": 1.52,
+            "black": 13.77
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#6fcbff",
+          "oklch": "oklch(80.52% 0.1147 235.41)",
+          "rgb": "rgb(111, 203, 255)",
+          "contrast": {
+            "white": 1.8,
+            "black": 11.66
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "daylight, neutral",
+        "thesis": "For a bright room. Same white ground, but chrome, foreground and every hue are darkened until body text clears 7:1 — no warmth added anywhere."
+      }
+    },
+    {
+      "id": "fracta-bone-signal-light",
+      "name": "Bone Signal Light",
+      "system": "fracta",
+      "mode": "light",
+      "family": "bone",
+      "description": "Bone taken toward Newsprint: keywords keep the orange, every literal collapses to one blue, and structure returns to ink. Bridges the two families.",
+      "bgColor": "#FCFCFC",
+      "textColor": "#54595E",
+      "accentColor": "#F0873A",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#f0873a",
+          "oklch": "oklch(72.53% 0.1556 53.23)",
+          "rgb": "rgb(240, 135, 58)",
+          "contrast": {
+            "white": 2.55,
+            "black": 8.23
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#f0f1f2",
+          "oklch": "oklch(95.77% 0.0017 247.84)",
+          "rgb": "rgb(240, 241, 242)",
+          "contrast": {
+            "white": 1.13,
+            "black": 18.57
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#fcfcfc",
+          "oklch": "oklch(99.11% 0 0)",
+          "rgb": "rgb(252, 252, 252)",
+          "contrast": {
+            "white": 1.03,
+            "black": 20.47
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#e2e4e6",
+          "oklch": "oklch(91.79% 0.0035 247.86)",
+          "rgb": "rgb(226, 228, 230)",
+          "contrast": {
+            "white": 1.27,
+            "black": 16.47
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#abb0b6",
+          "oklch": "oklch(75.5% 0.0103 252.84)",
+          "rgb": "rgb(171, 176, 182)",
+          "contrast": {
+            "white": 2.18,
+            "black": 9.62
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#54595e",
+          "oklch": "oklch(46.13% 0.0103 248.05)",
+          "rgb": "rgb(84, 89, 94)",
+          "contrast": {
+            "white": 7.08,
+            "black": 2.97
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#54595e",
+          "oklch": "oklch(46.13% 0.0103 248.05)",
+          "rgb": "rgb(84, 89, 94)",
+          "contrast": {
+            "white": 7.08,
+            "black": 2.97
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#f0873a",
+          "oklch": "oklch(72.53% 0.1556 53.23)",
+          "rgb": "rgb(240, 135, 58)",
+          "contrast": {
+            "white": 2.55,
+            "black": 8.23
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#3a7ca5",
+          "oklch": "oklch(56.13% 0.0924 238.72)",
+          "rgb": "rgb(58, 124, 165)",
+          "contrast": {
+            "white": 4.56,
+            "black": 4.61
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#8b9198",
+          "oklch": "oklch(65.4% 0.0125 252.14)",
+          "rgb": "rgb(139, 145, 152)",
+          "contrast": {
+            "white": 3.18,
+            "black": 6.6
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#54595e",
+          "oklch": "oklch(46.13% 0.0103 248.05)",
+          "rgb": "rgb(84, 89, 94)",
+          "contrast": {
+            "white": 7.08,
+            "black": 2.97
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#a5aab0",
+          "oklch": "oklch(73.58% 0.0103 252.84)",
+          "rgb": "rgb(165, 170, 176)",
+          "contrast": {
+            "white": 2.34,
+            "black": 8.98
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#e6e7e9",
+          "oklch": "oklch(92.78% 0.0029 264.54)",
+          "rgb": "rgb(230, 231, 233)",
+          "contrast": {
+            "white": 1.24,
+            "black": 16.97
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#3a7ca5",
+          "oklch": "oklch(56.13% 0.0924 238.72)",
+          "rgb": "rgb(58, 124, 165)",
+          "contrast": {
+            "white": 4.56,
+            "black": 4.61
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#6e747a",
+          "oklch": "oklch(55.59% 0.0118 248.04)",
+          "rgb": "rgb(110, 116, 122)",
+          "contrast": {
+            "white": 4.73,
+            "black": 4.44
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "two hues only",
+        "thesis": "Bone taken toward Newsprint: keywords keep the orange, every literal collapses to one blue, and structure returns to ink. Bridges the two families."
+      }
+    },
+    {
+      "id": "fracta-bone-signal-dark",
+      "name": "Bone Signal Dark",
+      "system": "fracta",
+      "mode": "dark",
+      "family": "bone",
+      "description": "Bone taken toward Newsprint: keywords keep the orange, every literal collapses to one blue, and structure returns to ink. Bridges the two families.",
+      "bgColor": "#16181A",
+      "textColor": "#BFC3C6",
+      "accentColor": "#FFA657",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#ffa657",
+          "oklch": "oklch(79.91% 0.1412 60.1)",
+          "rgb": "rgb(255, 166, 87)",
+          "contrast": {
+            "white": 1.94,
+            "black": 10.84
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#131517",
+          "oklch": "oklch(19.44% 0.0051 248.09)",
+          "rgb": "rgb(19, 21, 23)",
+          "contrast": {
+            "white": 18.3,
+            "black": 1.15
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#16181a",
+          "oklch": "oklch(20.77% 0.005 248.07)",
+          "rgb": "rgb(22, 24, 26)",
+          "contrast": {
+            "white": 17.8,
+            "black": 1.18
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#24272a",
+          "oklch": "oklch(27.09% 0.0071 248.09)",
+          "rgb": "rgb(36, 39, 42)",
+          "contrast": {
+            "white": 15.01,
+            "black": 1.4
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#6c7276",
+          "oklch": "oklch(54.83% 0.0096 236.69)",
+          "rgb": "rgb(108, 114, 118)",
+          "contrast": {
+            "white": 4.88,
+            "black": 4.31
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#bfc3c6",
+          "oklch": "oklch(81.49% 0.0061 239.84)",
+          "rgb": "rgb(191, 195, 198)",
+          "contrast": {
+            "white": 1.77,
+            "black": 11.84
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#bfc3c6",
+          "oklch": "oklch(81.49% 0.0061 239.84)",
+          "rgb": "rgb(191, 195, 198)",
+          "contrast": {
+            "white": 1.77,
+            "black": 11.84
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#ffa657",
+          "oklch": "oklch(79.91% 0.1412 60.1)",
+          "rgb": "rgb(255, 166, 87)",
+          "contrast": {
+            "white": 1.94,
+            "black": 10.84
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#6bb6e8",
+          "oklch": "oklch(74.71% 0.1041 239.41)",
+          "rgb": "rgb(107, 182, 232)",
+          "contrast": {
+            "white": 2.21,
+            "black": 9.48
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#7c8288",
+          "oklch": "oklch(60.35% 0.0116 248.02)",
+          "rgb": "rgb(124, 130, 136)",
+          "contrast": {
+            "white": 3.88,
+            "black": 5.41
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#bfc3c6",
+          "oklch": "oklch(81.49% 0.0061 239.84)",
+          "rgb": "rgb(191, 195, 198)",
+          "contrast": {
+            "white": 1.77,
+            "black": 11.84
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#6e747a",
+          "oklch": "oklch(55.59% 0.0118 248.04)",
+          "rgb": "rgb(110, 116, 122)",
+          "contrast": {
+            "white": 4.73,
+            "black": 4.44
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#2a2f34",
+          "oklch": "oklch(30.23% 0.0114 248.21)",
+          "rgb": "rgb(42, 47, 52)",
+          "contrast": {
+            "white": 13.51,
+            "black": 1.55
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#6bb6e8",
+          "oklch": "oklch(74.71% 0.1041 239.41)",
+          "rgb": "rgb(107, 182, 232)",
+          "contrast": {
+            "white": 2.21,
+            "black": 9.48
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#8c9296",
+          "oklch": "oklch(65.63% 0.0092 236.64)",
+          "rgb": "rgb(140, 146, 150)",
+          "contrast": {
+            "white": 3.15,
+            "black": 6.67
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "two hues only",
+        "thesis": "Bone taken toward Newsprint: keywords keep the orange, every literal collapses to one blue, and structure returns to ink. Bridges the two families."
+      }
+    },
+    {
+      "id": "fracta-newsprint-light",
+      "name": "Newsprint Light",
+      "system": "fracta",
+      "mode": "light",
+      "family": "news",
+      "description": "The reference: ink at four strengths, and one red reserved for keywords and literals. Built for eight-hour reading.",
+      "bgColor": "#FBFBFB",
+      "textColor": "#1F1F1F",
+      "accentColor": "#8C1A2B",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#8c1a2b",
+          "oklch": "oklch(42.03% 0.1479 19)",
+          "rgb": "rgb(140, 26, 43)",
+          "contrast": {
+            "white": 9.14,
+            "black": 2.3
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#f1f1f1",
+          "oklch": "oklch(95.81% 0 0)",
+          "rgb": "rgb(241, 241, 241)",
+          "contrast": {
+            "white": 1.13,
+            "black": 18.59
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#fbfbfb",
+          "oklch": "oklch(98.81% 0 0)",
+          "rgb": "rgb(251, 251, 251)",
+          "contrast": {
+            "white": 1.03,
+            "black": 20.29
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#e3e3e3",
+          "oklch": "oklch(91.58% 0 0)",
+          "rgb": "rgb(227, 227, 227)",
+          "contrast": {
+            "white": 1.28,
+            "black": 16.36
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#9b9b9b",
+          "oklch": "oklch(68.95% 0 0)",
+          "rgb": "rgb(155, 155, 155)",
+          "contrast": {
+            "white": 2.78,
+            "black": 7.56
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#1f1f1f",
+          "oklch": "oklch(23.93% 0 0)",
+          "rgb": "rgb(31, 31, 31)",
+          "contrast": {
+            "white": 16.48,
+            "black": 1.27
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#1f1f1f",
+          "oklch": "oklch(23.93% 0 0)",
+          "rgb": "rgb(31, 31, 31)",
+          "contrast": {
+            "white": 16.48,
+            "black": 1.27
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#8c1a2b",
+          "oklch": "oklch(42.03% 0.1479 19)",
+          "rgb": "rgb(140, 26, 43)",
+          "contrast": {
+            "white": 9.14,
+            "black": 2.3
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#8c1a2b",
+          "oklch": "oklch(42.03% 0.1479 19)",
+          "rgb": "rgb(140, 26, 43)",
+          "contrast": {
+            "white": 9.14,
+            "black": 2.3
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#6e6e6e",
+          "oklch": "oklch(53.82% 0 0)",
+          "rgb": "rgb(110, 110, 110)",
+          "contrast": {
+            "white": 5.1,
+            "black": 4.12
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#1f1f1f",
+          "oklch": "oklch(23.93% 0 0)",
+          "rgb": "rgb(31, 31, 31)",
+          "contrast": {
+            "white": 16.48,
+            "black": 1.27
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#a4a4a4",
+          "oklch": "oklch(71.87% 0 0)",
+          "rgb": "rgb(164, 164, 164)",
+          "contrast": {
+            "white": 2.49,
+            "black": 8.42
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#e7e7e7",
+          "oklch": "oklch(92.8% 0 0)",
+          "rgb": "rgb(231, 231, 231)",
+          "contrast": {
+            "white": 1.24,
+            "black": 16.98
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#4a4a4a",
+          "oklch": "oklch(40.91% 0 0)",
+          "rgb": "rgb(74, 74, 74)",
+          "contrast": {
+            "white": 8.86,
+            "black": 2.37
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#565656",
+          "oklch": "oklch(45.32% 0 0)",
+          "rgb": "rgb(86, 86, 86)",
+          "contrast": {
+            "white": 7.34,
+            "black": 2.86
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "ink red",
+        "thesis": "The reference: ink at four strengths, and one red reserved for keywords and literals. Built for eight-hour reading."
+      }
+    },
+    {
+      "id": "fracta-newsprint-dark",
+      "name": "Newsprint Dark",
+      "system": "fracta",
+      "mode": "dark",
+      "family": "news",
+      "description": "The reference: ink at four strengths, and one red reserved for keywords and literals. Built for eight-hour reading.",
+      "bgColor": "#121314",
+      "textColor": "#E2E3E4",
+      "accentColor": "#D9556A",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#d9556a",
+          "oklch": "oklch(62.71% 0.1658 13.66)",
+          "rgb": "rgb(217, 85, 106)",
+          "contrast": {
+            "white": 3.85,
+            "black": 5.46
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#0e0f10",
+          "oklch": "oklch(16.77% 0.0027 247.99)",
+          "rgb": "rgb(14, 15, 16)",
+          "contrast": {
+            "white": 19.19,
+            "black": 1.09
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#121314",
+          "oklch": "oklch(18.6% 0.0026 247.97)",
+          "rgb": "rgb(18, 19, 20)",
+          "contrast": {
+            "white": 18.6,
+            "black": 1.13
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#212223",
+          "oklch": "oklch(25.13% 0.0024 247.92)",
+          "rgb": "rgb(33, 34, 35)",
+          "contrast": {
+            "white": 15.94,
+            "black": 1.32
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#6e6f70",
+          "oklch": "oklch(54.12% 0.002 247.86)",
+          "rgb": "rgb(110, 111, 112)",
+          "contrast": {
+            "white": 5.04,
+            "black": 4.17
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#e2e3e4",
+          "oklch": "oklch(91.53% 0.0017 247.84)",
+          "rgb": "rgb(226, 227, 228)",
+          "contrast": {
+            "white": 1.29,
+            "black": 16.34
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#e2e3e4",
+          "oklch": "oklch(91.53% 0.0017 247.84)",
+          "rgb": "rgb(226, 227, 228)",
+          "contrast": {
+            "white": 1.29,
+            "black": 16.34
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#d9556a",
+          "oklch": "oklch(62.71% 0.1658 13.66)",
+          "rgb": "rgb(217, 85, 106)",
+          "contrast": {
+            "white": 3.85,
+            "black": 5.46
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#d9556a",
+          "oklch": "oklch(62.71% 0.1658 13.66)",
+          "rgb": "rgb(217, 85, 106)",
+          "contrast": {
+            "white": 3.85,
+            "black": 5.46
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#8a8b8c",
+          "oklch": "oklch(63.62% 0.0019 247.85)",
+          "rgb": "rgb(138, 139, 140)",
+          "contrast": {
+            "white": 3.41,
+            "black": 6.15
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#e2e3e4",
+          "oklch": "oklch(91.53% 0.0017 247.84)",
+          "rgb": "rgb(226, 227, 228)",
+          "contrast": {
+            "white": 1.29,
+            "black": 16.34
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#5a5b5c",
+          "oklch": "oklch(47.06% 0.0021 247.87)",
+          "rgb": "rgb(90, 91, 92)",
+          "contrast": {
+            "white": 6.81,
+            "black": 3.09
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#2a2b2c",
+          "oklch": "oklch(28.84% 0.0023 247.91)",
+          "rgb": "rgb(42, 43, 44)",
+          "contrast": {
+            "white": 14.19,
+            "black": 1.48
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#a9aaab",
+          "oklch": "oklch(73.75% 0.0018 247.85)",
+          "rgb": "rgb(169, 170, 171)",
+          "contrast": {
+            "white": 2.33,
+            "black": 9.02
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#bebfc0",
+          "oklch": "oklch(80.42% 0.0018 247.84)",
+          "rgb": "rgb(190, 191, 192)",
+          "contrast": {
+            "white": 1.84,
+            "black": 11.4
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "ink red",
+        "thesis": "The reference: ink at four strengths, and one red reserved for keywords and literals. Built for eight-hour reading."
+      }
+    },
+    {
+      "id": "fracta-newsprint-indigo-light",
+      "name": "Newsprint Indigo Light",
+      "system": "fracta",
+      "mode": "light",
+      "family": "news",
+      "description": "The same ink structure with the accent moved to a deep indigo — reads more technical, less editorial.",
+      "bgColor": "#FBFBFC",
+      "textColor": "#1E1F22",
+      "accentColor": "#2F4B99",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#2f4b99",
+          "oklch": "oklch(43.57% 0.1319 266.18)",
+          "rgb": "rgb(47, 75, 153)",
+          "contrast": {
+            "white": 8.12,
+            "black": 2.59
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#edeef0",
+          "oklch": "oklch(94.89% 0.0029 264.54)",
+          "rgb": "rgb(237, 238, 240)",
+          "contrast": {
+            "white": 1.16,
+            "black": 18.09
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#fbfbfc",
+          "oklch": "oklch(98.84% 0.0013 286.38)",
+          "rgb": "rgb(251, 251, 252)",
+          "contrast": {
+            "white": 1.03,
+            "black": 20.31
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#e0e1e4",
+          "oklch": "oklch(90.98% 0.0042 271.37)",
+          "rgb": "rgb(224, 225, 228)",
+          "contrast": {
+            "white": 1.31,
+            "black": 16.06
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#98999e",
+          "oklch": "oklch(68.37% 0.0074 277.11)",
+          "rgb": "rgb(152, 153, 158)",
+          "contrast": {
+            "white": 2.84,
+            "black": 7.39
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#1e1f22",
+          "oklch": "oklch(23.95% 0.0059 271.17)",
+          "rgb": "rgb(30, 31, 34)",
+          "contrast": {
+            "white": 16.48,
+            "black": 1.27
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#1e1f22",
+          "oklch": "oklch(23.95% 0.0059 271.17)",
+          "rgb": "rgb(30, 31, 34)",
+          "contrast": {
+            "white": 16.48,
+            "black": 1.27
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#2f4b99",
+          "oklch": "oklch(43.57% 0.1319 266.18)",
+          "rgb": "rgb(47, 75, 153)",
+          "contrast": {
+            "white": 8.12,
+            "black": 2.59
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#2f4b99",
+          "oklch": "oklch(43.57% 0.1319 266.18)",
+          "rgb": "rgb(47, 75, 153)",
+          "contrast": {
+            "white": 8.12,
+            "black": 2.59
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#6c6e74",
+          "oklch": "oklch(53.85% 0.0096 271.24)",
+          "rgb": "rgb(108, 110, 116)",
+          "contrast": {
+            "white": 5.1,
+            "black": 4.12
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#1e1f22",
+          "oklch": "oklch(23.95% 0.0059 271.17)",
+          "rgb": "rgb(30, 31, 34)",
+          "contrast": {
+            "white": 16.48,
+            "black": 1.27
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#a1a2a8",
+          "oklch": "oklch(71.33% 0.0087 278.58)",
+          "rgb": "rgb(161, 162, 168)",
+          "contrast": {
+            "white": 2.55,
+            "black": 8.25
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#e4e6ea",
+          "oklch": "oklch(92.46% 0.0058 264.53)",
+          "rgb": "rgb(228, 230, 234)",
+          "contrast": {
+            "white": 1.25,
+            "black": 16.81
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#4a4c52",
+          "oklch": "oklch(41.69% 0.0103 271.17)",
+          "rgb": "rgb(74, 76, 82)",
+          "contrast": {
+            "white": 8.58,
+            "black": 2.45
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#54565c",
+          "oklch": "oklch(45.35% 0.0101 271.19)",
+          "rgb": "rgb(84, 86, 92)",
+          "contrast": {
+            "white": 7.34,
+            "black": 2.86
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "indigo",
+        "thesis": "The same ink structure with the accent moved to a deep indigo — reads more technical, less editorial."
+      }
+    },
+    {
+      "id": "fracta-newsprint-indigo-dark",
+      "name": "Newsprint Indigo Dark",
+      "system": "fracta",
+      "mode": "dark",
+      "family": "news",
+      "description": "The same ink structure with the accent moved to a deep indigo — reads more technical, less editorial.",
+      "bgColor": "#121316",
+      "textColor": "#E1E2E5",
+      "accentColor": "#8AA4E8",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#8aa4e8",
+          "oklch": "oklch(72.56% 0.1036 267.76)",
+          "rgb": "rgb(138, 164, 232)",
+          "contrast": {
+            "white": 2.45,
+            "black": 8.56
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#0e0f11",
+          "oklch": "oklch(16.82% 0.0045 264.45)",
+          "rgb": "rgb(14, 15, 17)",
+          "contrast": {
+            "white": 19.18,
+            "black": 1.1
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#121316",
+          "oklch": "oklch(18.7% 0.0063 271.07)",
+          "rgb": "rgb(18, 19, 22)",
+          "contrast": {
+            "white": 18.58,
+            "black": 1.13
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#212225",
+          "oklch": "oklch(25.21% 0.0058 271.18)",
+          "rgb": "rgb(33, 34, 37)",
+          "contrast": {
+            "white": 15.91,
+            "black": 1.32
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#6d6e72",
+          "oklch": "oklch(53.87% 0.0063 274.89)",
+          "rgb": "rgb(109, 110, 114)",
+          "contrast": {
+            "white": 5.09,
+            "black": 4.12
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#e1e2e5",
+          "oklch": "oklch(91.29% 0.0042 271.37)",
+          "rgb": "rgb(225, 226, 229)",
+          "contrast": {
+            "white": 1.3,
+            "black": 16.21
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#e1e2e5",
+          "oklch": "oklch(91.29% 0.0042 271.37)",
+          "rgb": "rgb(225, 226, 229)",
+          "contrast": {
+            "white": 1.3,
+            "black": 16.21
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#8aa4e8",
+          "oklch": "oklch(72.56% 0.1036 267.76)",
+          "rgb": "rgb(138, 164, 232)",
+          "contrast": {
+            "white": 2.45,
+            "black": 8.56
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#8aa4e8",
+          "oklch": "oklch(72.56% 0.1036 267.76)",
+          "rgb": "rgb(138, 164, 232)",
+          "contrast": {
+            "white": 2.45,
+            "black": 8.56
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#898a8e",
+          "oklch": "oklch(63.39% 0.006 274.92)",
+          "rgb": "rgb(137, 138, 142)",
+          "contrast": {
+            "white": 3.45,
+            "black": 6.09
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#e1e2e5",
+          "oklch": "oklch(91.29% 0.0042 271.37)",
+          "rgb": "rgb(225, 226, 229)",
+          "contrast": {
+            "white": 1.3,
+            "black": 16.21
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#595a5e",
+          "oklch": "oklch(46.81% 0.0065 274.86)",
+          "rgb": "rgb(89, 90, 94)",
+          "contrast": {
+            "white": 6.89,
+            "black": 3.05
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#292a2e",
+          "oklch": "oklch(28.56% 0.0074 274.7)",
+          "rgb": "rgb(41, 42, 46)",
+          "contrast": {
+            "white": 14.34,
+            "black": 1.46
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#a8a9ad",
+          "oklch": "oklch(73.52% 0.0058 274.94)",
+          "rgb": "rgb(168, 169, 173)",
+          "contrast": {
+            "white": 2.35,
+            "black": 8.94
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#bdbec2",
+          "oklch": "oklch(80.19% 0.0057 274.95)",
+          "rgb": "rgb(189, 190, 194)",
+          "contrast": {
+            "white": 1.86,
+            "black": 11.31
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "indigo",
+        "thesis": "The same ink structure with the accent moved to a deep indigo — reads more technical, less editorial."
+      }
+    },
+    {
+      "id": "fracta-newsprint-verdigris-light",
+      "name": "Newsprint Verdigris Light",
+      "system": "fracta",
+      "mode": "light",
+      "family": "news",
+      "description": "Teal accent on the coolest ground of the family. The quietest of the five — nothing in it raises its voice.",
+      "bgColor": "#FBFCFC",
+      "textColor": "#1E2122",
+      "accentColor": "#0F6E75",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#0f6e75",
+          "oklch": "oklch(49.19% 0.0802 202.92)",
+          "rgb": "rgb(15, 110, 117)",
+          "contrast": {
+            "white": 5.99,
+            "black": 3.51
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#eff1f1",
+          "oklch": "oklch(95.66% 0.0021 197.12)",
+          "rgb": "rgb(239, 241, 241)",
+          "contrast": {
+            "white": 1.13,
+            "black": 18.52
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#fbfcfc",
+          "oklch": "oklch(99.03% 0.0011 197.14)",
+          "rgb": "rgb(251, 252, 252)",
+          "contrast": {
+            "white": 1.03,
+            "black": 20.43
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#e1e4e4",
+          "oklch": "oklch(91.66% 0.0032 197.1)",
+          "rgb": "rgb(225, 228, 228)",
+          "contrast": {
+            "white": 1.28,
+            "black": 16.42
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#96999a",
+          "oklch": "oklch(68.08% 0.0038 219.55)",
+          "rgb": "rgb(150, 153, 154)",
+          "contrast": {
+            "white": 2.87,
+            "black": 7.32
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#1e2122",
+          "oklch": "oklch(24.5% 0.0048 219.67)",
+          "rgb": "rgb(30, 33, 34)",
+          "contrast": {
+            "white": 16.21,
+            "black": 1.3
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#1e2122",
+          "oklch": "oklch(24.5% 0.0048 219.67)",
+          "rgb": "rgb(30, 33, 34)",
+          "contrast": {
+            "white": 16.21,
+            "black": 1.3
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#0f6e75",
+          "oklch": "oklch(49.19% 0.0802 202.92)",
+          "rgb": "rgb(15, 110, 117)",
+          "contrast": {
+            "white": 5.99,
+            "black": 3.51
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#0f6e75",
+          "oklch": "oklch(49.19% 0.0802 202.92)",
+          "rgb": "rgb(15, 110, 117)",
+          "contrast": {
+            "white": 5.99,
+            "black": 3.51
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#6c7071",
+          "oklch": "oklch(54.2% 0.0052 214.34)",
+          "rgb": "rgb(108, 112, 113)",
+          "contrast": {
+            "white": 5.01,
+            "black": 4.19
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#1e2122",
+          "oklch": "oklch(24.5% 0.0048 219.67)",
+          "rgb": "rgb(30, 33, 34)",
+          "contrast": {
+            "white": 16.21,
+            "black": 1.3
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#a0a3a4",
+          "oklch": "oklch(71.33% 0.0037 219.55)",
+          "rgb": "rgb(160, 163, 164)",
+          "contrast": {
+            "white": 2.54,
+            "black": 8.27
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#e5e8e8",
+          "oklch": "oklch(92.87% 0.0032 197.1)",
+          "rgb": "rgb(229, 232, 232)",
+          "contrast": {
+            "white": 1.23,
+            "black": 17.04
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#4a4d4e",
+          "oklch": "oklch(41.78% 0.0043 219.58)",
+          "rgb": "rgb(74, 77, 78)",
+          "contrast": {
+            "white": 8.53,
+            "black": 2.46
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#545859",
+          "oklch": "oklch(45.71% 0.0054 214.35)",
+          "rgb": "rgb(84, 88, 89)",
+          "contrast": {
+            "white": 7.2,
+            "black": 2.92
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "deep teal",
+        "thesis": "Teal accent on the coolest ground of the family. The quietest of the five — nothing in it raises its voice."
+      }
+    },
+    {
+      "id": "fracta-newsprint-verdigris-dark",
+      "name": "Newsprint Verdigris Dark",
+      "system": "fracta",
+      "mode": "dark",
+      "family": "news",
+      "description": "Teal accent on the coolest ground of the family. The quietest of the five — nothing in it raises its voice.",
+      "bgColor": "#111414",
+      "textColor": "#E0E3E3",
+      "accentColor": "#4FB3B8",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#4fb3b8",
+          "oklch": "oklch(70.98% 0.0928 199.77)",
+          "rgb": "rgb(79, 179, 184)",
+          "contrast": {
+            "white": 2.48,
+            "black": 8.47
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#0d1010",
+          "oklch": "oklch(16.97% 0.0048 196.71)",
+          "rgb": "rgb(13, 16, 16)",
+          "contrast": {
+            "white": 19.11,
+            "black": 1.1
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#111414",
+          "oklch": "oklch(18.8% 0.0047 196.76)",
+          "rgb": "rgb(17, 20, 20)",
+          "contrast": {
+            "white": 18.52,
+            "black": 1.13
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#202323",
+          "oklch": "oklch(25.31% 0.0044 196.88)",
+          "rgb": "rgb(32, 35, 35)",
+          "contrast": {
+            "white": 15.84,
+            "black": 1.33
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#6c7070",
+          "oklch": "oklch(54.17% 0.0049 197.01)",
+          "rgb": "rgb(108, 112, 112)",
+          "contrast": {
+            "white": 5.01,
+            "black": 4.19
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#e0e3e3",
+          "oklch": "oklch(91.35% 0.0032 197.1)",
+          "rgb": "rgb(224, 227, 227)",
+          "contrast": {
+            "white": 1.29,
+            "black": 16.27
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#e0e3e3",
+          "oklch": "oklch(91.35% 0.0032 197.1)",
+          "rgb": "rgb(224, 227, 227)",
+          "contrast": {
+            "white": 1.29,
+            "black": 16.27
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#4fb3b8",
+          "oklch": "oklch(70.98% 0.0928 199.77)",
+          "rgb": "rgb(79, 179, 184)",
+          "contrast": {
+            "white": 2.48,
+            "black": 8.47
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#4fb3b8",
+          "oklch": "oklch(70.98% 0.0928 199.77)",
+          "rgb": "rgb(79, 179, 184)",
+          "contrast": {
+            "white": 2.48,
+            "black": 8.47
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#888c8c",
+          "oklch": "oklch(63.67% 0.0047 197.04)",
+          "rgb": "rgb(136, 140, 140)",
+          "contrast": {
+            "white": 3.4,
+            "black": 6.18
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#e0e3e3",
+          "oklch": "oklch(91.35% 0.0032 197.1)",
+          "rgb": "rgb(224, 227, 227)",
+          "contrast": {
+            "white": 1.29,
+            "black": 16.27
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#585c5c",
+          "oklch": "oklch(47.12% 0.0051 196.98)",
+          "rgb": "rgb(88, 92, 92)",
+          "contrast": {
+            "white": 6.77,
+            "black": 3.1
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#282c2c",
+          "oklch": "oklch(28.92% 0.0057 196.84)",
+          "rgb": "rgb(40, 44, 44)",
+          "contrast": {
+            "white": 14.12,
+            "black": 1.49
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#a7abab",
+          "oklch": "oklch(73.8% 0.0046 197.06)",
+          "rgb": "rgb(167, 171, 171)",
+          "contrast": {
+            "white": 2.32,
+            "black": 9.06
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#bcc0c0",
+          "oklch": "oklch(80.46% 0.0045 197.07)",
+          "rgb": "rgb(188, 192, 192)",
+          "contrast": {
+            "white": 1.84,
+            "black": 11.44
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "deep teal",
+        "thesis": "Teal accent on the coolest ground of the family. The quietest of the five — nothing in it raises its voice."
+      }
+    },
+    {
+      "id": "fracta-newsprint-stone-light",
+      "name": "Newsprint Stone Light",
+      "system": "fracta",
+      "mode": "light",
+      "family": "news",
+      "description": "The page itself drops to stone and the chrome drops further, with an olive accent. The heaviest, least glaring variant.",
+      "bgColor": "#F7F7F7",
+      "textColor": "#1C1C1C",
+      "accentColor": "#4F6B1F",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#4f6b1f",
+          "oklch": "oklch(48.92% 0.1076 127.43)",
+          "rgb": "rgb(79, 107, 31)",
+          "contrast": {
+            "white": 6.08,
+            "black": 3.46
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#e9e9e9",
+          "oklch": "oklch(93.4% 0 0)",
+          "rgb": "rgb(233, 233, 233)",
+          "contrast": {
+            "white": 1.21,
+            "black": 17.3
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#f7f7f7",
+          "oklch": "oklch(97.61% 0 0)",
+          "rgb": "rgb(247, 247, 247)",
+          "contrast": {
+            "white": 1.07,
+            "black": 19.6
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#dadada",
+          "oklch": "oklch(88.84% 0 0)",
+          "rgb": "rgb(218, 218, 218)",
+          "contrast": {
+            "white": 1.4,
+            "black": 15.02
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#909090",
+          "oklch": "oklch(65.34% 0 0)",
+          "rgb": "rgb(144, 144, 144)",
+          "contrast": {
+            "white": 3.19,
+            "black": 6.58
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#1c1c1c",
+          "oklch": "oklch(22.64% 0 0)",
+          "rgb": "rgb(28, 28, 28)",
+          "contrast": {
+            "white": 17.04,
+            "black": 1.23
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#1c1c1c",
+          "oklch": "oklch(22.64% 0 0)",
+          "rgb": "rgb(28, 28, 28)",
+          "contrast": {
+            "white": 17.04,
+            "black": 1.23
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#4f6b1f",
+          "oklch": "oklch(48.92% 0.1076 127.43)",
+          "rgb": "rgb(79, 107, 31)",
+          "contrast": {
+            "white": 6.08,
+            "black": 3.46
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#4f6b1f",
+          "oklch": "oklch(48.92% 0.1076 127.43)",
+          "rgb": "rgb(79, 107, 31)",
+          "contrast": {
+            "white": 6.08,
+            "black": 3.46
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#6a6a6a",
+          "oklch": "oklch(52.43% 0 0)",
+          "rgb": "rgb(106, 106, 106)",
+          "contrast": {
+            "white": 5.41,
+            "black": 3.88
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#1c1c1c",
+          "oklch": "oklch(22.64% 0 0)",
+          "rgb": "rgb(28, 28, 28)",
+          "contrast": {
+            "white": 17.04,
+            "black": 1.23
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#9c9c9c",
+          "oklch": "oklch(69.27% 0 0)",
+          "rgb": "rgb(156, 156, 156)",
+          "contrast": {
+            "white": 2.75,
+            "black": 7.65
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#dfdfdf",
+          "oklch": "oklch(90.37% 0 0)",
+          "rgb": "rgb(223, 223, 223)",
+          "contrast": {
+            "white": 1.33,
+            "black": 15.76
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#454545",
+          "oklch": "oklch(39.04% 0 0)",
+          "rgb": "rgb(69, 69, 69)",
+          "contrast": {
+            "white": 9.59,
+            "black": 2.19
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#525252",
+          "oklch": "oklch(43.86% 0 0)",
+          "rgb": "rgb(82, 82, 82)",
+          "contrast": {
+            "white": 7.81,
+            "black": 2.69
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "stone ground, olive",
+        "thesis": "The page itself drops to stone and the chrome drops further, with an olive accent. The heaviest, least glaring variant."
+      }
+    },
+    {
+      "id": "fracta-newsprint-stone-dark",
+      "name": "Newsprint Stone Dark",
+      "system": "fracta",
+      "mode": "dark",
+      "family": "news",
+      "description": "The page itself drops to stone and the chrome drops further, with an olive accent. The heaviest, least glaring variant.",
+      "bgColor": "#1A1B1C",
+      "textColor": "#E4E5E6",
+      "accentColor": "#9DB86A",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#9db86a",
+          "oklch": "oklch(74.4% 0.108 124.57)",
+          "rgb": "rgb(157, 184, 106)",
+          "contrast": {
+            "white": 2.21,
+            "black": 9.5
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#151617",
+          "oklch": "oklch(19.95% 0.0025 247.95)",
+          "rgb": "rgb(21, 22, 23)",
+          "contrast": {
+            "white": 18.12,
+            "black": 1.16
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#1a1b1c",
+          "oklch": "oklch(22.15% 0.0025 247.94)",
+          "rgb": "rgb(26, 27, 28)",
+          "contrast": {
+            "white": 17.25,
+            "black": 1.22
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#292a2b",
+          "oklch": "oklch(28.44% 0.0023 247.91)",
+          "rgb": "rgb(41, 42, 43)",
+          "contrast": {
+            "white": 14.38,
+            "black": 1.46
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#77787a",
+          "oklch": "oklch(57.25% 0.0033 264.53)",
+          "rgb": "rgb(119, 120, 122)",
+          "contrast": {
+            "white": 4.42,
+            "black": 4.75
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#e4e5e6",
+          "oklch": "oklch(92.14% 0.0017 247.84)",
+          "rgb": "rgb(228, 229, 230)",
+          "contrast": {
+            "white": 1.26,
+            "black": 16.65
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#e4e5e6",
+          "oklch": "oklch(92.14% 0.0017 247.84)",
+          "rgb": "rgb(228, 229, 230)",
+          "contrast": {
+            "white": 1.26,
+            "black": 16.65
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#9db86a",
+          "oklch": "oklch(74.4% 0.108 124.57)",
+          "rgb": "rgb(157, 184, 106)",
+          "contrast": {
+            "white": 2.21,
+            "black": 9.5
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#9db86a",
+          "oklch": "oklch(74.4% 0.108 124.57)",
+          "rgb": "rgb(157, 184, 106)",
+          "contrast": {
+            "white": 2.21,
+            "black": 9.5
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#8e8f91",
+          "oklch": "oklch(64.98% 0.0032 264.54)",
+          "rgb": "rgb(142, 143, 145)",
+          "contrast": {
+            "white": 3.24,
+            "black": 6.49
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#e4e5e6",
+          "oklch": "oklch(92.14% 0.0017 247.84)",
+          "rgb": "rgb(228, 229, 230)",
+          "contrast": {
+            "white": 1.26,
+            "black": 16.65
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#636466",
+          "oklch": "oklch(50.3% 0.0034 264.53)",
+          "rgb": "rgb(99, 100, 102)",
+          "contrast": {
+            "white": 5.92,
+            "black": 3.55
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#313233",
+          "oklch": "oklch(31.65% 0.0023 247.9)",
+          "rgb": "rgb(49, 50, 51)",
+          "contrast": {
+            "white": 12.85,
+            "black": 1.63
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#adaeb0",
+          "oklch": "oklch(75.06% 0.0031 264.54)",
+          "rgb": "rgb(173, 174, 176)",
+          "contrast": {
+            "white": 2.22,
+            "black": 9.46
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#c1c2c4",
+          "oklch": "oklch(81.39% 0.003 264.54)",
+          "rgb": "rgb(193, 194, 196)",
+          "contrast": {
+            "white": 1.78,
+            "black": 11.78
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "stone ground, olive",
+        "thesis": "The page itself drops to stone and the chrome drops further, with an olive accent. The heaviest, least glaring variant."
+      }
+    },
+    {
+      "id": "fracta-newsprint-duotone-light",
+      "name": "Newsprint Duotone Light",
+      "system": "fracta",
+      "mode": "light",
+      "family": "news",
+      "description": "Keywords in ink red, every literal in slate blue, everything else ink. The most information the family can carry without becoming a colour theme.",
+      "bgColor": "#FCFCFC",
+      "textColor": "#1F1F1F",
+      "accentColor": "#8C1A2B",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#8c1a2b",
+          "oklch": "oklch(42.03% 0.1479 19)",
+          "rgb": "rgb(140, 26, 43)",
+          "contrast": {
+            "white": 9.14,
+            "black": 2.3
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#f2f2f2",
+          "oklch": "oklch(96.12% 0 0)",
+          "rgb": "rgb(242, 242, 242)",
+          "contrast": {
+            "white": 1.12,
+            "black": 18.76
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#fcfcfc",
+          "oklch": "oklch(99.11% 0 0)",
+          "rgb": "rgb(252, 252, 252)",
+          "contrast": {
+            "white": 1.03,
+            "black": 20.47
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#e4e4e4",
+          "oklch": "oklch(91.89% 0 0)",
+          "rgb": "rgb(228, 228, 228)",
+          "contrast": {
+            "white": 1.27,
+            "black": 16.52
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#9d9d9d",
+          "oklch": "oklch(69.6% 0 0)",
+          "rgb": "rgb(157, 157, 157)",
+          "contrast": {
+            "white": 2.71,
+            "black": 7.74
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#1f1f1f",
+          "oklch": "oklch(23.93% 0 0)",
+          "rgb": "rgb(31, 31, 31)",
+          "contrast": {
+            "white": 16.48,
+            "black": 1.27
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#1f1f1f",
+          "oklch": "oklch(23.93% 0 0)",
+          "rgb": "rgb(31, 31, 31)",
+          "contrast": {
+            "white": 16.48,
+            "black": 1.27
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#8c1a2b",
+          "oklch": "oklch(42.03% 0.1479 19)",
+          "rgb": "rgb(140, 26, 43)",
+          "contrast": {
+            "white": 9.14,
+            "black": 2.3
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#3a5a8c",
+          "oklch": "oklch(46.69% 0.0901 259.02)",
+          "rgb": "rgb(58, 90, 140)",
+          "contrast": {
+            "white": 6.95,
+            "black": 3.02
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#6f6f6f",
+          "oklch": "oklch(54.17% 0 0)",
+          "rgb": "rgb(111, 111, 111)",
+          "contrast": {
+            "white": 5.02,
+            "black": 4.18
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#1f1f1f",
+          "oklch": "oklch(23.93% 0 0)",
+          "rgb": "rgb(31, 31, 31)",
+          "contrast": {
+            "white": 16.48,
+            "black": 1.27
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#a5a5a5",
+          "oklch": "oklch(72.19% 0 0)",
+          "rgb": "rgb(165, 165, 165)",
+          "contrast": {
+            "white": 2.46,
+            "black": 8.53
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#e8e8e8",
+          "oklch": "oklch(93.1% 0 0)",
+          "rgb": "rgb(232, 232, 232)",
+          "contrast": {
+            "white": 1.23,
+            "black": 17.14
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#3a5a8c",
+          "oklch": "oklch(46.69% 0.0901 259.02)",
+          "rgb": "rgb(58, 90, 140)",
+          "contrast": {
+            "white": 6.95,
+            "black": 3.02
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#575757",
+          "oklch": "oklch(45.68% 0 0)",
+          "rgb": "rgb(87, 87, 87)",
+          "contrast": {
+            "white": 7.23,
+            "black": 2.91
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "two hues",
+        "thesis": "Keywords in ink red, every literal in slate blue, everything else ink. The most information the family can carry without becoming a colour theme."
+      }
+    },
+    {
+      "id": "fracta-newsprint-duotone-dark",
+      "name": "Newsprint Duotone Dark",
+      "system": "fracta",
+      "mode": "dark",
+      "family": "news",
+      "description": "Keywords in ink red, every literal in slate blue, everything else ink. The most information the family can carry without becoming a colour theme.",
+      "bgColor": "#121314",
+      "textColor": "#E2E3E4",
+      "accentColor": "#D9556A",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#d9556a",
+          "oklch": "oklch(62.71% 0.1658 13.66)",
+          "rgb": "rgb(217, 85, 106)",
+          "contrast": {
+            "white": 3.85,
+            "black": 5.46
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#0e0f10",
+          "oklch": "oklch(16.77% 0.0027 247.99)",
+          "rgb": "rgb(14, 15, 16)",
+          "contrast": {
+            "white": 19.19,
+            "black": 1.09
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#121314",
+          "oklch": "oklch(18.6% 0.0026 247.97)",
+          "rgb": "rgb(18, 19, 20)",
+          "contrast": {
+            "white": 18.6,
+            "black": 1.13
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#212223",
+          "oklch": "oklch(25.13% 0.0024 247.92)",
+          "rgb": "rgb(33, 34, 35)",
+          "contrast": {
+            "white": 15.94,
+            "black": 1.32
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#6e6f70",
+          "oklch": "oklch(54.12% 0.002 247.86)",
+          "rgb": "rgb(110, 111, 112)",
+          "contrast": {
+            "white": 5.04,
+            "black": 4.17
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#e2e3e4",
+          "oklch": "oklch(91.53% 0.0017 247.84)",
+          "rgb": "rgb(226, 227, 228)",
+          "contrast": {
+            "white": 1.29,
+            "black": 16.34
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#e2e3e4",
+          "oklch": "oklch(91.53% 0.0017 247.84)",
+          "rgb": "rgb(226, 227, 228)",
+          "contrast": {
+            "white": 1.29,
+            "black": 16.34
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#d9556a",
+          "oklch": "oklch(62.71% 0.1658 13.66)",
+          "rgb": "rgb(217, 85, 106)",
+          "contrast": {
+            "white": 3.85,
+            "black": 5.46
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#7fa3d9",
+          "oklch": "oklch(70.97% 0.089 258.31)",
+          "rgb": "rgb(127, 163, 217)",
+          "contrast": {
+            "white": 2.58,
+            "black": 8.14
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#8a8b8c",
+          "oklch": "oklch(63.62% 0.0019 247.85)",
+          "rgb": "rgb(138, 139, 140)",
+          "contrast": {
+            "white": 3.41,
+            "black": 6.15
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#e2e3e4",
+          "oklch": "oklch(91.53% 0.0017 247.84)",
+          "rgb": "rgb(226, 227, 228)",
+          "contrast": {
+            "white": 1.29,
+            "black": 16.34
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#5a5b5c",
+          "oklch": "oklch(47.06% 0.0021 247.87)",
+          "rgb": "rgb(90, 91, 92)",
+          "contrast": {
+            "white": 6.81,
+            "black": 3.09
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#2a2b2c",
+          "oklch": "oklch(28.84% 0.0023 247.91)",
+          "rgb": "rgb(42, 43, 44)",
+          "contrast": {
+            "white": 14.19,
+            "black": 1.48
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#7fa3d9",
+          "oklch": "oklch(70.97% 0.089 258.31)",
+          "rgb": "rgb(127, 163, 217)",
+          "contrast": {
+            "white": 2.58,
+            "black": 8.14
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#bebfc0",
+          "oklch": "oklch(80.42% 0.0018 247.84)",
+          "rgb": "rgb(190, 191, 192)",
+          "contrast": {
+            "white": 1.84,
+            "black": 11.4
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "two hues",
+        "thesis": "Keywords in ink red, every literal in slate blue, everything else ink. The most information the family can carry without becoming a colour theme."
+      }
+    },
+    {
+      "id": "fracta-monoline-vermilion-light",
+      "name": "Monoline Vermilion Light",
+      "system": "fracta",
+      "mode": "light",
+      "family": "mono",
+      "description": "The reference for the family: pure white, five strengths of ink, and a vermilion that appears on nothing but strings and numbers.",
+      "bgColor": "#FFFFFF",
+      "textColor": "#5A5F66",
+      "accentColor": "#E2512B",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#e2512b",
+          "oklch": "oklch(62.66% 0.1876 35.36)",
+          "rgb": "rgb(226, 81, 43)",
+          "contrast": {
+            "white": 3.86,
+            "black": 5.45
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#f7f7f7",
+          "oklch": "oklch(97.61% 0 0)",
+          "rgb": "rgb(247, 247, 247)",
+          "contrast": {
+            "white": 1.07,
+            "black": 19.6
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#ffffff",
+          "oklch": "oklch(100% 0 0)",
+          "rgb": "rgb(255, 255, 255)",
+          "contrast": {
+            "white": 1,
+            "black": 21
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#eaeaea",
+          "oklch": "oklch(93.7% 0 0)",
+          "rgb": "rgb(234, 234, 234)",
+          "contrast": {
+            "white": 1.2,
+            "black": 17.46
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#aeb2b6",
+          "oklch": "oklch(76.16% 0.0073 247.92)",
+          "rgb": "rgb(174, 178, 182)",
+          "contrast": {
+            "white": 2.13,
+            "black": 9.84
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#5a5f66",
+          "oklch": "oklch(48.35% 0.0129 256.74)",
+          "rgb": "rgb(90, 95, 102)",
+          "contrast": {
+            "white": 6.43,
+            "black": 3.26
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#1a1c1f",
+          "oklch": "oklch(22.56% 0.0066 258.36)",
+          "rgb": "rgb(26, 28, 31)",
+          "contrast": {
+            "white": 17.08,
+            "black": 1.23
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#7a8087",
+          "oklch": "oklch(59.71% 0.0128 252.16)",
+          "rgb": "rgb(122, 128, 135)",
+          "contrast": {
+            "white": 3.99,
+            "black": 5.27
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#e2512b",
+          "oklch": "oklch(62.66% 0.1876 35.36)",
+          "rgb": "rgb(226, 81, 43)",
+          "contrast": {
+            "white": 3.86,
+            "black": 5.45
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#9aa0a6",
+          "oklch": "oklch(70.28% 0.0111 247.99)",
+          "rgb": "rgb(154, 160, 166)",
+          "contrast": {
+            "white": 2.64,
+            "black": 7.95
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#5a5f66",
+          "oklch": "oklch(48.35% 0.0129 256.74)",
+          "rgb": "rgb(90, 95, 102)",
+          "contrast": {
+            "white": 6.43,
+            "black": 3.26
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#b7bbbf",
+          "oklch": "oklch(79.01% 0.0072 247.92)",
+          "rgb": "rgb(183, 187, 191)",
+          "contrast": {
+            "white": 1.93,
+            "black": 10.87
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#ededed",
+          "oklch": "oklch(94.61% 0 0)",
+          "rgb": "rgb(237, 237, 237)",
+          "contrast": {
+            "white": 1.17,
+            "black": 17.94
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#e2512b",
+          "oklch": "oklch(62.66% 0.1876 35.36)",
+          "rgb": "rgb(226, 81, 43)",
+          "contrast": {
+            "white": 3.86,
+            "black": 5.45
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#1a1c1f",
+          "oklch": "oklch(22.56% 0.0066 258.36)",
+          "rgb": "rgb(26, 28, 31)",
+          "contrast": {
+            "white": 17.08,
+            "black": 1.23
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "literals only",
+        "thesis": "The reference for the family: pure white, five strengths of ink, and a vermilion that appears on nothing but strings and numbers."
+      }
+    },
+    {
+      "id": "fracta-monoline-vermilion-dark",
+      "name": "Monoline Vermilion Dark",
+      "system": "fracta",
+      "mode": "dark",
+      "family": "mono",
+      "description": "The reference for the family: pure white, five strengths of ink, and a vermilion that appears on nothing but strings and numbers.",
+      "bgColor": "#141516",
+      "textColor": "#9AA0A6",
+      "accentColor": "#E2512B",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#e2512b",
+          "oklch": "oklch(62.66% 0.1876 35.36)",
+          "rgb": "rgb(226, 81, 43)",
+          "contrast": {
+            "white": 3.86,
+            "black": 5.45
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#0f1011",
+          "oklch": "oklch(17.23% 0.0026 247.98)",
+          "rgb": "rgb(15, 16, 17)",
+          "contrast": {
+            "white": 19.05,
+            "black": 1.1
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#141516",
+          "oklch": "oklch(19.5% 0.0026 247.96)",
+          "rgb": "rgb(20, 21, 22)",
+          "contrast": {
+            "white": 18.28,
+            "black": 1.15
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#232425",
+          "oklch": "oklch(25.97% 0.0024 247.92)",
+          "rgb": "rgb(35, 36, 37)",
+          "contrast": {
+            "white": 15.55,
+            "black": 1.35
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#5b6165",
+          "oklch": "oklch(48.87% 0.0099 236.73)",
+          "rgb": "rgb(91, 97, 101)",
+          "contrast": {
+            "white": 6.28,
+            "black": 3.34
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#9aa0a6",
+          "oklch": "oklch(70.28% 0.0111 247.99)",
+          "rgb": "rgb(154, 160, 166)",
+          "contrast": {
+            "white": 2.64,
+            "black": 7.95
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#e6e8ea",
+          "oklch": "oklch(93% 0.0035 247.86)",
+          "rgb": "rgb(230, 232, 234)",
+          "contrast": {
+            "white": 1.23,
+            "black": 17.1
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#767c82",
+          "oklch": "oklch(58.32% 0.0117 248.03)",
+          "rgb": "rgb(118, 124, 130)",
+          "contrast": {
+            "white": 4.22,
+            "black": 4.98
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#e2512b",
+          "oklch": "oklch(62.66% 0.1876 35.36)",
+          "rgb": "rgb(226, 81, 43)",
+          "contrast": {
+            "white": 3.86,
+            "black": 5.45
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#7c8288",
+          "oklch": "oklch(60.35% 0.0116 248.02)",
+          "rgb": "rgb(124, 130, 136)",
+          "contrast": {
+            "white": 3.88,
+            "black": 5.41
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#9aa0a6",
+          "oklch": "oklch(70.28% 0.0111 247.99)",
+          "rgb": "rgb(154, 160, 166)",
+          "contrast": {
+            "white": 2.64,
+            "black": 7.95
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#4e5358",
+          "oklch": "oklch(43.95% 0.0104 248.07)",
+          "rgb": "rgb(78, 83, 88)",
+          "contrast": {
+            "white": 7.77,
+            "black": 2.7
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#2a2c2e",
+          "oklch": "oklch(29.19% 0.0046 247.99)",
+          "rgb": "rgb(42, 44, 46)",
+          "contrast": {
+            "white": 14.02,
+            "black": 1.5
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#e2512b",
+          "oklch": "oklch(62.66% 0.1876 35.36)",
+          "rgb": "rgb(226, 81, 43)",
+          "contrast": {
+            "white": 3.86,
+            "black": 5.45
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#e6e8ea",
+          "oklch": "oklch(93% 0.0035 247.86)",
+          "rgb": "rgb(230, 232, 234)",
+          "contrast": {
+            "white": 1.23,
+            "black": 17.1
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "literals only",
+        "thesis": "The reference for the family: pure white, five strengths of ink, and a vermilion that appears on nothing but strings and numbers."
+      }
+    },
+    {
+      "id": "fracta-monoline-cobalt-light",
+      "name": "Monoline Cobalt Light",
+      "system": "fracta",
+      "mode": "light",
+      "family": "mono",
+      "description": "The same ink structure on a faint stone page, with the literals in cobalt. Reads more like documentation than code.",
+      "bgColor": "#F7F8F8",
+      "textColor": "#565B61",
+      "accentColor": "#1E5FCC",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#1e5fcc",
+          "oklch": "oklch(51.13% 0.1815 260.4)",
+          "rgb": "rgb(30, 95, 204)",
+          "contrast": {
+            "white": 5.89,
+            "black": 3.56
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#eff0f0",
+          "oklch": "oklch(95.44% 0.0011 197.14)",
+          "rgb": "rgb(239, 240, 240)",
+          "contrast": {
+            "white": 1.14,
+            "black": 18.39
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#f7f8f8",
+          "oklch": "oklch(97.84% 0.0011 197.14)",
+          "rgb": "rgb(247, 248, 248)",
+          "contrast": {
+            "white": 1.06,
+            "black": 19.74
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#e2e3e3",
+          "oklch": "oklch(91.51% 0.0011 197.14)",
+          "rgb": "rgb(226, 227, 227)",
+          "contrast": {
+            "white": 1.29,
+            "black": 16.33
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#a9adb1",
+          "oklch": "oklch(74.56% 0.0073 247.92)",
+          "rgb": "rgb(169, 173, 177)",
+          "contrast": {
+            "white": 2.26,
+            "black": 9.3
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#565b61",
+          "oklch": "oklch(46.89% 0.0116 252.91)",
+          "rgb": "rgb(86, 91, 97)",
+          "contrast": {
+            "white": 6.85,
+            "black": 3.06
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#181a1d",
+          "oklch": "oklch(21.69% 0.0066 258.37)",
+          "rgb": "rgb(24, 26, 29)",
+          "contrast": {
+            "white": 17.44,
+            "black": 1.2
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#767c82",
+          "oklch": "oklch(58.32% 0.0117 248.03)",
+          "rgb": "rgb(118, 124, 130)",
+          "contrast": {
+            "white": 4.22,
+            "black": 4.98
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#1e5fcc",
+          "oklch": "oklch(51.13% 0.1815 260.4)",
+          "rgb": "rgb(30, 95, 204)",
+          "contrast": {
+            "white": 5.89,
+            "black": 3.56
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#969b9f",
+          "oklch": "oklch(68.66% 0.0082 241.72)",
+          "rgb": "rgb(150, 155, 159)",
+          "contrast": {
+            "white": 2.81,
+            "black": 7.49
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#565b61",
+          "oklch": "oklch(46.89% 0.0116 252.91)",
+          "rgb": "rgb(86, 91, 97)",
+          "contrast": {
+            "white": 6.85,
+            "black": 3.06
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#b2b6b9",
+          "oklch": "oklch(77.4% 0.0062 239.85)",
+          "rgb": "rgb(178, 182, 185)",
+          "contrast": {
+            "white": 2.04,
+            "black": 10.28
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#e4e6e6",
+          "oklch": "oklch(92.34% 0.0022 197.12)",
+          "rgb": "rgb(228, 230, 230)",
+          "contrast": {
+            "white": 1.25,
+            "black": 16.76
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#1e5fcc",
+          "oklch": "oklch(51.13% 0.1815 260.4)",
+          "rgb": "rgb(30, 95, 204)",
+          "contrast": {
+            "white": 5.89,
+            "black": 3.56
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#181a1d",
+          "oklch": "oklch(21.69% 0.0066 258.37)",
+          "rgb": "rgb(24, 26, 29)",
+          "contrast": {
+            "white": 17.44,
+            "black": 1.2
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "literals only",
+        "thesis": "The same ink structure on a faint stone page, with the literals in cobalt. Reads more like documentation than code."
+      }
+    },
+    {
+      "id": "fracta-monoline-cobalt-dark",
+      "name": "Monoline Cobalt Dark",
+      "system": "fracta",
+      "mode": "dark",
+      "family": "mono",
+      "description": "The same ink structure on a faint stone page, with the literals in cobalt. Reads more like documentation than code.",
+      "bgColor": "#131416",
+      "textColor": "#989EA4",
+      "accentColor": "#5B9BFF",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#5b9bff",
+          "oklch": "oklch(69.31% 0.1618 259.02)",
+          "rgb": "rgb(91, 155, 255)",
+          "contrast": {
+            "white": 2.77,
+            "black": 7.58
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#0f1012",
+          "oklch": "oklch(17.28% 0.0044 264.45)",
+          "rgb": "rgb(15, 16, 18)",
+          "contrast": {
+            "white": 19.04,
+            "black": 1.1
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#131416",
+          "oklch": "oklch(19.1% 0.0043 264.47)",
+          "rgb": "rgb(19, 20, 22)",
+          "contrast": {
+            "white": 18.43,
+            "black": 1.14
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#222325",
+          "oklch": "oklch(25.59% 0.004 264.5)",
+          "rgb": "rgb(34, 35, 37)",
+          "contrast": {
+            "white": 15.73,
+            "black": 1.34
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#5a6064",
+          "oklch": "oklch(48.52% 0.0099 236.73)",
+          "rgb": "rgb(90, 96, 100)",
+          "contrast": {
+            "white": 6.38,
+            "black": 3.29
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#989ea4",
+          "oklch": "oklch(69.63% 0.0112 247.99)",
+          "rgb": "rgb(152, 158, 164)",
+          "contrast": {
+            "white": 2.71,
+            "black": 7.76
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#e4e6e9",
+          "oklch": "oklch(92.43% 0.0046 258.33)",
+          "rgb": "rgb(228, 230, 233)",
+          "contrast": {
+            "white": 1.25,
+            "black": 16.79
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#747a80",
+          "oklch": "oklch(57.64% 0.0117 248.03)",
+          "rgb": "rgb(116, 122, 128)",
+          "contrast": {
+            "white": 4.34,
+            "black": 4.84
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#5b9bff",
+          "oklch": "oklch(69.31% 0.1618 259.02)",
+          "rgb": "rgb(91, 155, 255)",
+          "contrast": {
+            "white": 2.77,
+            "black": 7.58
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#7a8086",
+          "oklch": "oklch(59.68% 0.0116 248.02)",
+          "rgb": "rgb(122, 128, 134)",
+          "contrast": {
+            "white": 3.99,
+            "black": 5.26
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#989ea4",
+          "oklch": "oklch(69.63% 0.0112 247.99)",
+          "rgb": "rgb(152, 158, 164)",
+          "contrast": {
+            "white": 2.71,
+            "black": 7.76
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#4c5156",
+          "oklch": "oklch(43.22% 0.0105 248.07)",
+          "rgb": "rgb(76, 81, 86)",
+          "contrast": {
+            "white": 8.02,
+            "black": 2.62
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#292b2e",
+          "oklch": "oklch(28.82% 0.0062 258.36)",
+          "rgb": "rgb(41, 43, 46)",
+          "contrast": {
+            "white": 14.2,
+            "black": 1.48
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#5b9bff",
+          "oklch": "oklch(69.31% 0.1618 259.02)",
+          "rgb": "rgb(91, 155, 255)",
+          "contrast": {
+            "white": 2.77,
+            "black": 7.58
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#e4e6e9",
+          "oklch": "oklch(92.43% 0.0046 258.33)",
+          "rgb": "rgb(228, 230, 233)",
+          "contrast": {
+            "white": 1.25,
+            "black": 16.79
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "literals only",
+        "thesis": "The same ink structure on a faint stone page, with the literals in cobalt. Reads more like documentation than code."
+      }
+    },
+    {
+      "id": "fracta-monoline-moss-light",
+      "name": "Monoline Moss Light",
+      "system": "fracta",
+      "mode": "light",
+      "family": "mono",
+      "description": "A dark moss on white. The lowest-chroma accent of the five, for people who find vermilion loud after an hour.",
+      "bgColor": "#FCFCFC",
+      "textColor": "#585C61",
+      "accentColor": "#4C6B21",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#4c6b21",
+          "oklch": "oklch(48.73% 0.1076 129.21)",
+          "rgb": "rgb(76, 107, 33)",
+          "contrast": {
+            "white": 6.12,
+            "black": 3.43
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#f4f4f4",
+          "oklch": "oklch(96.72% 0 0)",
+          "rgb": "rgb(244, 244, 244)",
+          "contrast": {
+            "white": 1.1,
+            "black": 19.09
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#fcfcfc",
+          "oklch": "oklch(99.11% 0 0)",
+          "rgb": "rgb(252, 252, 252)",
+          "contrast": {
+            "white": 1.03,
+            "black": 20.47
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#e7e7e7",
+          "oklch": "oklch(92.8% 0 0)",
+          "rgb": "rgb(231, 231, 231)",
+          "contrast": {
+            "white": 1.24,
+            "black": 16.98
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#acb0b3",
+          "oklch": "oklch(75.49% 0.0062 239.85)",
+          "rgb": "rgb(172, 176, 179)",
+          "contrast": {
+            "white": 2.18,
+            "black": 9.62
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#585c61",
+          "oklch": "oklch(47.29% 0.0095 253.92)",
+          "rgb": "rgb(88, 92, 97)",
+          "contrast": {
+            "white": 6.73,
+            "black": 3.12
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#191b1d",
+          "oklch": "oklch(22.08% 0.005 248.05)",
+          "rgb": "rgb(25, 27, 29)",
+          "contrast": {
+            "white": 17.27,
+            "black": 1.22
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#787d82",
+          "oklch": "oklch(58.71% 0.0097 247.99)",
+          "rgb": "rgb(120, 125, 130)",
+          "contrast": {
+            "white": 4.15,
+            "black": 5.05
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#4c6b21",
+          "oklch": "oklch(48.73% 0.1076 129.21)",
+          "rgb": "rgb(76, 107, 33)",
+          "contrast": {
+            "white": 6.12,
+            "black": 3.43
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#989c9f",
+          "oklch": "oklch(69.04% 0.0064 239.86)",
+          "rgb": "rgb(152, 156, 159)",
+          "contrast": {
+            "white": 2.77,
+            "black": 7.59
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#585c61",
+          "oklch": "oklch(47.29% 0.0095 253.92)",
+          "rgb": "rgb(88, 92, 97)",
+          "contrast": {
+            "white": 6.73,
+            "black": 3.12
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#b5b8bb",
+          "oklch": "oklch(78.11% 0.0054 247.89)",
+          "rgb": "rgb(181, 184, 187)",
+          "contrast": {
+            "white": 1.99,
+            "black": 10.54
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#eaeaea",
+          "oklch": "oklch(93.7% 0 0)",
+          "rgb": "rgb(234, 234, 234)",
+          "contrast": {
+            "white": 1.2,
+            "black": 17.46
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#4c6b21",
+          "oklch": "oklch(48.73% 0.1076 129.21)",
+          "rgb": "rgb(76, 107, 33)",
+          "contrast": {
+            "white": 6.12,
+            "black": 3.43
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#191b1d",
+          "oklch": "oklch(22.08% 0.005 248.05)",
+          "rgb": "rgb(25, 27, 29)",
+          "contrast": {
+            "white": 17.27,
+            "black": 1.22
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "literals only",
+        "thesis": "A dark moss on white. The lowest-chroma accent of the five, for people who find vermilion loud after an hour."
+      }
+    },
+    {
+      "id": "fracta-monoline-moss-dark",
+      "name": "Monoline Moss Dark",
+      "system": "fracta",
+      "mode": "dark",
+      "family": "mono",
+      "description": "A dark moss on white. The lowest-chroma accent of the five, for people who find vermilion loud after an hour.",
+      "bgColor": "#141516",
+      "textColor": "#9AA0A6",
+      "accentColor": "#9DB86A",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#9db86a",
+          "oklch": "oklch(74.4% 0.108 124.57)",
+          "rgb": "rgb(157, 184, 106)",
+          "contrast": {
+            "white": 2.21,
+            "black": 9.5
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#0f1011",
+          "oklch": "oklch(17.23% 0.0026 247.98)",
+          "rgb": "rgb(15, 16, 17)",
+          "contrast": {
+            "white": 19.05,
+            "black": 1.1
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#141516",
+          "oklch": "oklch(19.5% 0.0026 247.96)",
+          "rgb": "rgb(20, 21, 22)",
+          "contrast": {
+            "white": 18.28,
+            "black": 1.15
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#232425",
+          "oklch": "oklch(25.97% 0.0024 247.92)",
+          "rgb": "rgb(35, 36, 37)",
+          "contrast": {
+            "white": 15.55,
+            "black": 1.35
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#5b6165",
+          "oklch": "oklch(48.87% 0.0099 236.73)",
+          "rgb": "rgb(91, 97, 101)",
+          "contrast": {
+            "white": 6.28,
+            "black": 3.34
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#9aa0a6",
+          "oklch": "oklch(70.28% 0.0111 247.99)",
+          "rgb": "rgb(154, 160, 166)",
+          "contrast": {
+            "white": 2.64,
+            "black": 7.95
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#e6e8ea",
+          "oklch": "oklch(93% 0.0035 247.86)",
+          "rgb": "rgb(230, 232, 234)",
+          "contrast": {
+            "white": 1.23,
+            "black": 17.1
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#767c82",
+          "oklch": "oklch(58.32% 0.0117 248.03)",
+          "rgb": "rgb(118, 124, 130)",
+          "contrast": {
+            "white": 4.22,
+            "black": 4.98
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#9db86a",
+          "oklch": "oklch(74.4% 0.108 124.57)",
+          "rgb": "rgb(157, 184, 106)",
+          "contrast": {
+            "white": 2.21,
+            "black": 9.5
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#7c8288",
+          "oklch": "oklch(60.35% 0.0116 248.02)",
+          "rgb": "rgb(124, 130, 136)",
+          "contrast": {
+            "white": 3.88,
+            "black": 5.41
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#9aa0a6",
+          "oklch": "oklch(70.28% 0.0111 247.99)",
+          "rgb": "rgb(154, 160, 166)",
+          "contrast": {
+            "white": 2.64,
+            "black": 7.95
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#4e5358",
+          "oklch": "oklch(43.95% 0.0104 248.07)",
+          "rgb": "rgb(78, 83, 88)",
+          "contrast": {
+            "white": 7.77,
+            "black": 2.7
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#2a2c2e",
+          "oklch": "oklch(29.19% 0.0046 247.99)",
+          "rgb": "rgb(42, 44, 46)",
+          "contrast": {
+            "white": 14.02,
+            "black": 1.5
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#9db86a",
+          "oklch": "oklch(74.4% 0.108 124.57)",
+          "rgb": "rgb(157, 184, 106)",
+          "contrast": {
+            "white": 2.21,
+            "black": 9.5
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#e6e8ea",
+          "oklch": "oklch(93% 0.0035 247.86)",
+          "rgb": "rgb(230, 232, 234)",
+          "contrast": {
+            "white": 1.23,
+            "black": 17.1
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "literals only",
+        "thesis": "A dark moss on white. The lowest-chroma accent of the five, for people who find vermilion loud after an hour."
+      }
+    },
+    {
+      "id": "fracta-monoline-plum-light",
+      "name": "Monoline Plum Light",
+      "system": "fracta",
+      "mode": "light",
+      "family": "mono",
+      "description": "Plum sits far enough from every ink strength that literals separate instantly, without the heat of the vermilion.",
+      "bgColor": "#FFFFFF",
+      "textColor": "#5A5E64",
+      "accentColor": "#8A3070",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#8a3070",
+          "oklch": "oklch(46.17% 0.1433 340.87)",
+          "rgb": "rgb(138, 48, 112)",
+          "contrast": {
+            "white": 7.67,
+            "black": 2.74
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#f6f6f7",
+          "oklch": "oklch(97.34% 0.0013 286.38)",
+          "rgb": "rgb(246, 246, 247)",
+          "contrast": {
+            "white": 1.08,
+            "black": 19.44
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#ffffff",
+          "oklch": "oklch(100% 0 0)",
+          "rgb": "rgb(255, 255, 255)",
+          "contrast": {
+            "white": 1,
+            "black": 21
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#e9e9ea",
+          "oklch": "oklch(93.43% 0.0013 286.37)",
+          "rgb": "rgb(233, 233, 234)",
+          "contrast": {
+            "white": 1.21,
+            "black": 17.31
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#adb1b5",
+          "oklch": "oklch(75.84% 0.0073 247.92)",
+          "rgb": "rgb(173, 177, 181)",
+          "contrast": {
+            "white": 2.16,
+            "black": 9.73
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#5a5e64",
+          "oklch": "oklch(48.05% 0.0109 258.36)",
+          "rgb": "rgb(90, 94, 100)",
+          "contrast": {
+            "white": 6.52,
+            "black": 3.22
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#1a1c1f",
+          "oklch": "oklch(22.56% 0.0066 258.36)",
+          "rgb": "rgb(26, 28, 31)",
+          "contrast": {
+            "white": 17.08,
+            "black": 1.23
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#7a7f85",
+          "oklch": "oklch(59.42% 0.0109 252.87)",
+          "rgb": "rgb(122, 127, 133)",
+          "contrast": {
+            "white": 4.04,
+            "black": 5.2
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#8a3070",
+          "oklch": "oklch(46.17% 0.1433 340.87)",
+          "rgb": "rgb(138, 48, 112)",
+          "contrast": {
+            "white": 7.67,
+            "black": 2.74
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#9a9ea3",
+          "oklch": "oklch(69.75% 0.0086 253.88)",
+          "rgb": "rgb(154, 158, 163)",
+          "contrast": {
+            "white": 2.69,
+            "black": 7.79
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#5a5e64",
+          "oklch": "oklch(48.05% 0.0109 258.36)",
+          "rgb": "rgb(90, 94, 100)",
+          "contrast": {
+            "white": 6.52,
+            "black": 3.22
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#b6babe",
+          "oklch": "oklch(78.69% 0.0072 247.92)",
+          "rgb": "rgb(182, 186, 190)",
+          "contrast": {
+            "white": 1.95,
+            "black": 10.76
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#ececed",
+          "oklch": "oklch(94.34% 0.0013 286.37)",
+          "rgb": "rgb(236, 236, 237)",
+          "contrast": {
+            "white": 1.18,
+            "black": 17.79
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#8a3070",
+          "oklch": "oklch(46.17% 0.1433 340.87)",
+          "rgb": "rgb(138, 48, 112)",
+          "contrast": {
+            "white": 7.67,
+            "black": 2.74
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#1a1c1f",
+          "oklch": "oklch(22.56% 0.0066 258.36)",
+          "rgb": "rgb(26, 28, 31)",
+          "contrast": {
+            "white": 17.08,
+            "black": 1.23
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "literals only",
+        "thesis": "Plum sits far enough from every ink strength that literals separate instantly, without the heat of the vermilion."
+      }
+    },
+    {
+      "id": "fracta-monoline-plum-dark",
+      "name": "Monoline Plum Dark",
+      "system": "fracta",
+      "mode": "dark",
+      "family": "mono",
+      "description": "Plum sits far enough from every ink strength that literals separate instantly, without the heat of the vermilion.",
+      "bgColor": "#141416",
+      "textColor": "#9A9EA4",
+      "accentColor": "#C77BB0",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#c77bb0",
+          "oklch": "oklch(68% 0.1161 338.97)",
+          "rgb": "rgb(199, 123, 176)",
+          "contrast": {
+            "white": 3.05,
+            "black": 6.89
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#0f0f11",
+          "oklch": "oklch(16.93% 0.0041 285.95)",
+          "rgb": "rgb(15, 15, 17)",
+          "contrast": {
+            "white": 19.15,
+            "black": 1.1
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#141416",
+          "oklch": "oklch(19.21% 0.004 286.02)",
+          "rgb": "rgb(20, 20, 22)",
+          "contrast": {
+            "white": 18.4,
+            "black": 1.14
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#232325",
+          "oklch": "oklch(25.7% 0.0037 286.14)",
+          "rgb": "rgb(35, 35, 37)",
+          "contrast": {
+            "white": 15.69,
+            "black": 1.34
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#5b5f64",
+          "oklch": "oklch(48.37% 0.0095 253.92)",
+          "rgb": "rgb(91, 95, 100)",
+          "contrast": {
+            "white": 6.43,
+            "black": 3.27
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#9a9ea4",
+          "oklch": "oklch(69.79% 0.0099 258.34)",
+          "rgb": "rgb(154, 158, 164)",
+          "contrast": {
+            "white": 2.69,
+            "black": 7.8
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#e6e7ea",
+          "oklch": "oklch(92.81% 0.0042 271.37)",
+          "rgb": "rgb(230, 231, 234)",
+          "contrast": {
+            "white": 1.24,
+            "black": 16.98
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#767a80",
+          "oklch": "oklch(57.81% 0.0104 258.35)",
+          "rgb": "rgb(118, 122, 128)",
+          "contrast": {
+            "white": 4.32,
+            "black": 4.87
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#c77bb0",
+          "oklch": "oklch(68% 0.1161 338.97)",
+          "rgb": "rgb(199, 123, 176)",
+          "contrast": {
+            "white": 3.05,
+            "black": 6.89
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#7c8086",
+          "oklch": "oklch(59.84% 0.0103 258.35)",
+          "rgb": "rgb(124, 128, 134)",
+          "contrast": {
+            "white": 3.97,
+            "black": 5.29
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#9a9ea4",
+          "oklch": "oklch(69.79% 0.0099 258.34)",
+          "rgb": "rgb(154, 158, 164)",
+          "contrast": {
+            "white": 2.69,
+            "black": 7.8
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#4e5257",
+          "oklch": "oklch(43.68% 0.0097 253.93)",
+          "rgb": "rgb(78, 82, 87)",
+          "contrast": {
+            "white": 7.87,
+            "black": 2.67
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#2a2b2e",
+          "oklch": "oklch(28.92% 0.0056 271.22)",
+          "rgb": "rgb(42, 43, 46)",
+          "contrast": {
+            "white": 14.16,
+            "black": 1.48
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#c77bb0",
+          "oklch": "oklch(68% 0.1161 338.97)",
+          "rgb": "rgb(199, 123, 176)",
+          "contrast": {
+            "white": 3.05,
+            "black": 6.89
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#e6e7ea",
+          "oklch": "oklch(92.81% 0.0042 271.37)",
+          "rgb": "rgb(230, 231, 234)",
+          "contrast": {
+            "white": 1.24,
+            "black": 16.98
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "literals only",
+        "thesis": "Plum sits far enough from every ink strength that literals separate instantly, without the heat of the vermilion."
+      }
+    },
+    {
+      "id": "fracta-monoline-ink-light",
+      "name": "Monoline Ink Light",
+      "system": "fracta",
+      "mode": "light",
+      "family": "mono",
+      "description": "The limit case. Zero colour anywhere — literals are marked by being the darkest thing on the page, and nothing else competes.",
+      "bgColor": "#F6F6F6",
+      "textColor": "#5C6064",
+      "accentColor": "#16181B",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#16181b",
+          "oklch": "oklch(20.82% 0.0067 258.37)",
+          "rgb": "rgb(22, 24, 27)",
+          "contrast": {
+            "white": 17.79,
+            "black": 1.18
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#ededed",
+          "oklch": "oklch(94.61% 0 0)",
+          "rgb": "rgb(237, 237, 237)",
+          "contrast": {
+            "white": 1.17,
+            "black": 17.94
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#f6f6f6",
+          "oklch": "oklch(97.31% 0 0)",
+          "rgb": "rgb(246, 246, 246)",
+          "contrast": {
+            "white": 1.08,
+            "black": 19.43
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#e0e0e0",
+          "oklch": "oklch(90.67% 0 0)",
+          "rgb": "rgb(224, 224, 224)",
+          "contrast": {
+            "white": 1.32,
+            "black": 15.91
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#abafb2",
+          "oklch": "oklch(75.17% 0.0062 239.85)",
+          "rgb": "rgb(171, 175, 178)",
+          "contrast": {
+            "white": 2.21,
+            "black": 9.51
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#5c6064",
+          "oklch": "oklch(48.69% 0.0081 247.99)",
+          "rgb": "rgb(92, 96, 100)",
+          "contrast": {
+            "white": 6.34,
+            "black": 3.31
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#3a3e42",
+          "oklch": "oklch(36.16% 0.0088 248.07)",
+          "rgb": "rgb(58, 62, 66)",
+          "contrast": {
+            "white": 10.78,
+            "black": 1.95
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#7c8083",
+          "oklch": "oklch(59.74% 0.0066 239.89)",
+          "rgb": "rgb(124, 128, 131)",
+          "contrast": {
+            "white": 3.98,
+            "black": 5.27
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#16181b",
+          "oklch": "oklch(20.82% 0.0067 258.37)",
+          "rgb": "rgb(22, 24, 27)",
+          "contrast": {
+            "white": 17.79,
+            "black": 1.18
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#9a9da0",
+          "oklch": "oklch(69.45% 0.0056 247.91)",
+          "rgb": "rgb(154, 157, 160)",
+          "contrast": {
+            "white": 2.73,
+            "black": 7.7
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#5c6064",
+          "oklch": "oklch(48.69% 0.0081 247.99)",
+          "rgb": "rgb(92, 96, 100)",
+          "contrast": {
+            "white": 6.34,
+            "black": 3.31
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#b4b7ba",
+          "oklch": "oklch(77.79% 0.0054 247.89)",
+          "rgb": "rgb(180, 183, 186)",
+          "contrast": {
+            "white": 2.01,
+            "black": 10.42
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#e3e3e3",
+          "oklch": "oklch(91.58% 0 0)",
+          "rgb": "rgb(227, 227, 227)",
+          "contrast": {
+            "white": 1.28,
+            "black": 16.36
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#16181b",
+          "oklch": "oklch(20.82% 0.0067 258.37)",
+          "rgb": "rgb(22, 24, 27)",
+          "contrast": {
+            "white": 17.79,
+            "black": 1.18
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#3a3e42",
+          "oklch": "oklch(36.16% 0.0088 248.07)",
+          "rgb": "rgb(58, 62, 66)",
+          "contrast": {
+            "white": 10.78,
+            "black": 1.95
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "no hue at all",
+        "thesis": "The limit case. Zero colour anywhere — literals are marked by being the darkest thing on the page, and nothing else competes."
+      }
+    },
+    {
+      "id": "fracta-monoline-ink-dark",
+      "name": "Monoline Ink Dark",
+      "system": "fracta",
+      "mode": "dark",
+      "family": "mono",
+      "description": "The limit case. Zero colour anywhere — literals are marked by being the darkest thing on the page, and nothing else competes.",
+      "bgColor": "#151617",
+      "textColor": "#8E9296",
+      "accentColor": "#F2F4F6",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#f2f4f6",
+          "oklch": "oklch(96.62% 0.0034 247.86)",
+          "rgb": "rgb(242, 244, 246)",
+          "contrast": {
+            "white": 1.1,
+            "black": 19.05
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#101112",
+          "oklch": "oklch(17.69% 0.0026 247.98)",
+          "rgb": "rgb(16, 17, 18)",
+          "contrast": {
+            "white": 18.9,
+            "black": 1.11
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#151617",
+          "oklch": "oklch(19.95% 0.0025 247.95)",
+          "rgb": "rgb(21, 22, 23)",
+          "contrast": {
+            "white": 18.12,
+            "black": 1.16
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#242526",
+          "oklch": "oklch(26.38% 0.0024 247.92)",
+          "rgb": "rgb(36, 37, 38)",
+          "contrast": {
+            "white": 15.36,
+            "black": 1.37
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#585c5f",
+          "oklch": "oklch(47.22% 0.007 239.94)",
+          "rgb": "rgb(88, 92, 95)",
+          "contrast": {
+            "white": 6.75,
+            "black": 3.11
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#8e9296",
+          "oklch": "oklch(65.79% 0.0075 247.94)",
+          "rgb": "rgb(142, 146, 150)",
+          "contrast": {
+            "white": 3.13,
+            "black": 6.7
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#c0c4c8",
+          "oklch": "oklch(81.84% 0.0071 247.91)",
+          "rgb": "rgb(192, 196, 200)",
+          "contrast": {
+            "white": 1.75,
+            "black": 11.97
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#71757a",
+          "oklch": "oklch(56.06% 0.0091 253.9)",
+          "rgb": "rgb(113, 117, 122)",
+          "contrast": {
+            "white": 4.64,
+            "black": 4.53
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#f2f4f6",
+          "oklch": "oklch(96.62% 0.0034 247.86)",
+          "rgb": "rgb(242, 244, 246)",
+          "contrast": {
+            "white": 1.1,
+            "black": 19.05
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#767a7e",
+          "oklch": "oklch(57.74% 0.0078 247.96)",
+          "rgb": "rgb(118, 122, 126)",
+          "contrast": {
+            "white": 4.33,
+            "black": 4.86
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#8e9296",
+          "oklch": "oklch(65.79% 0.0075 247.94)",
+          "rgb": "rgb(142, 146, 150)",
+          "contrast": {
+            "white": 3.13,
+            "black": 6.7
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#4b4f52",
+          "oklch": "oklch(42.5% 0.0072 239.97)",
+          "rgb": "rgb(75, 79, 82)",
+          "contrast": {
+            "white": 8.27,
+            "black": 2.54
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#2b2d2f",
+          "oklch": "oklch(29.59% 0.0046 247.98)",
+          "rgb": "rgb(43, 45, 47)",
+          "contrast": {
+            "white": 13.82,
+            "black": 1.52
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#f2f4f6",
+          "oklch": "oklch(96.62% 0.0034 247.86)",
+          "rgb": "rgb(242, 244, 246)",
+          "contrast": {
+            "white": 1.1,
+            "black": 19.05
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#c0c4c8",
+          "oklch": "oklch(81.84% 0.0071 247.91)",
+          "rgb": "rgb(192, 196, 200)",
+          "contrast": {
+            "white": 1.75,
+            "black": 11.97
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "no hue at all",
+        "thesis": "The limit case. Zero colour anywhere — literals are marked by being the darkest thing on the page, and nothing else competes."
+      }
+    },
+    {
+      "id": "fracta-cold-front-light",
+      "name": "Cold Front Light",
+      "system": "fracta",
+      "mode": "light",
+      "family": "cold",
+      "description": "Cool syntax with one warm keyword, now on neutral stone chrome and a colourless selection — the ice is gone.",
+      "bgColor": "#F5F6F7",
+      "textColor": "#4E5A66",
+      "accentColor": "#E8853C",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#e8853c",
+          "oklch": "oklch(71.18% 0.1484 53.75)",
+          "rgb": "rgb(232, 133, 60)",
+          "contrast": {
+            "white": 2.67,
+            "black": 7.85
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#edeeef",
+          "oklch": "oklch(94.86% 0.0017 247.84)",
+          "rgb": "rgb(237, 238, 239)",
+          "contrast": {
+            "white": 1.16,
+            "black": 18.08
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#f5f6f7",
+          "oklch": "oklch(97.27% 0.0017 247.84)",
+          "rgb": "rgb(245, 246, 247)",
+          "contrast": {
+            "white": 1.08,
+            "black": 19.41
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#dfe1e3",
+          "oklch": "oklch(90.88% 0.0035 247.86)",
+          "rgb": "rgb(223, 225, 227)",
+          "contrast": {
+            "white": 1.31,
+            "black": 16.02
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#a2aab2",
+          "oklch": "oklch(73.41% 0.0147 248.03)",
+          "rgb": "rgb(162, 170, 178)",
+          "contrast": {
+            "white": 2.35,
+            "black": 8.93
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#4e5a66",
+          "oklch": "oklch(46.17% 0.0247 248.36)",
+          "rgb": "rgb(78, 90, 102)",
+          "contrast": {
+            "white": 7.05,
+            "black": 2.98
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#b98a2e",
+          "oklch": "oklch(66.29% 0.1197 80.27)",
+          "rgb": "rgb(185, 138, 46)",
+          "contrast": {
+            "white": 3.12,
+            "black": 6.74
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#e0803c",
+          "oklch": "oklch(69.31% 0.1436 52.96)",
+          "rgb": "rgb(224, 128, 60)",
+          "contrast": {
+            "white": 2.87,
+            "black": 7.32
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#7c6bc4",
+          "oklch": "oklch(58.38% 0.1334 290.43)",
+          "rgb": "rgb(124, 107, 196)",
+          "contrast": {
+            "white": 4.41,
+            "black": 4.76
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#c77a5e",
+          "oklch": "oklch(65.55% 0.1048 40.66)",
+          "rgb": "rgb(199, 122, 94)",
+          "contrast": {
+            "white": 3.29,
+            "black": 6.37
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#4e5a66",
+          "oklch": "oklch(46.17% 0.0247 248.36)",
+          "rgb": "rgb(78, 90, 102)",
+          "contrast": {
+            "white": 7.05,
+            "black": 2.98
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#98a0a8",
+          "oklch": "oklch(70.18% 0.0149 248.04)",
+          "rgb": "rgb(152, 160, 168)",
+          "contrast": {
+            "white": 2.65,
+            "black": 7.93
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#e1e4e7",
+          "oklch": "oklch(91.74% 0.0052 247.88)",
+          "rgb": "rgb(225, 228, 231)",
+          "contrast": {
+            "white": 1.28,
+            "black": 16.45
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#3f8f6f",
+          "oklch": "oklch(59.08% 0.0936 164.54)",
+          "rgb": "rgb(63, 143, 111)",
+          "contrast": {
+            "white": 3.91,
+            "black": 5.37
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#2e86c8",
+          "oklch": "oklch(59.95% 0.1298 245.43)",
+          "rgb": "rgb(46, 134, 200)",
+          "contrast": {
+            "white": 3.92,
+            "black": 5.36
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "neutral chrome",
+        "thesis": "Cool syntax with one warm keyword, now on neutral stone chrome and a colourless selection — the ice is gone."
+      }
+    },
+    {
+      "id": "fracta-cold-front-dark",
+      "name": "Cold Front Dark",
+      "system": "fracta",
+      "mode": "dark",
+      "family": "cold",
+      "description": "Cool syntax with one warm keyword, now on neutral stone chrome and a colourless selection — the ice is gone.",
+      "bgColor": "#15181A",
+      "textColor": "#B9C2C9",
+      "accentColor": "#F0913F",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#f0913f",
+          "oklch": "oklch(74.24% 0.1485 57.89)",
+          "rgb": "rgb(240, 145, 63)",
+          "contrast": {
+            "white": 2.38,
+            "black": 8.83
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#111416",
+          "oklch": "oklch(18.89% 0.0062 236.93)",
+          "rgb": "rgb(17, 20, 22)",
+          "contrast": {
+            "white": 18.49,
+            "black": 1.14
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#15181a",
+          "oklch": "oklch(20.67% 0.0061 236.87)",
+          "rgb": "rgb(21, 24, 26)",
+          "contrast": {
+            "white": 17.84,
+            "black": 1.18
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#232729",
+          "oklch": "oklch(26.95% 0.0069 229.11)",
+          "rgb": "rgb(35, 39, 41)",
+          "contrast": {
+            "white": 15.07,
+            "black": 1.39
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#667077",
+          "oklch": "oklch(53.91% 0.0164 238.24)",
+          "rgb": "rgb(102, 112, 119)",
+          "contrast": {
+            "white": 5.06,
+            "black": 4.15
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#b9c2c9",
+          "oklch": "oklch(80.92% 0.014 241)",
+          "rgb": "rgb(185, 194, 201)",
+          "contrast": {
+            "white": 1.81,
+            "black": 11.62
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#e0b45e",
+          "oklch": "oklch(79.23% 0.1161 82.45)",
+          "rgb": "rgb(224, 180, 94)",
+          "contrast": {
+            "white": 1.93,
+            "black": 10.86
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#f0913f",
+          "oklch": "oklch(74.24% 0.1485 57.89)",
+          "rgb": "rgb(240, 145, 63)",
+          "contrast": {
+            "white": 2.38,
+            "black": 8.83
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#a99cf0",
+          "oklch": "oklch(73.64% 0.1202 290.22)",
+          "rgb": "rgb(169, 156, 240)",
+          "contrast": {
+            "white": 2.41,
+            "black": 8.7
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#ee9b70",
+          "oklch": "oklch(76.35% 0.1152 47.84)",
+          "rgb": "rgb(238, 155, 112)",
+          "contrast": {
+            "white": 2.2,
+            "black": 9.56
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#b9c2c9",
+          "oklch": "oklch(80.92% 0.014 241)",
+          "rgb": "rgb(185, 194, 201)",
+          "contrast": {
+            "white": 1.81,
+            "black": 11.62
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#69737a",
+          "oklch": "oklch(54.95% 0.0163 238.23)",
+          "rgb": "rgb(105, 115, 122)",
+          "contrast": {
+            "white": 4.85,
+            "black": 4.33
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#283037",
+          "oklch": "oklch(30.45% 0.0168 244.79)",
+          "rgb": "rgb(40, 48, 55)",
+          "contrast": {
+            "white": 13.39,
+            "black": 1.57
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#5cc0a0",
+          "oklch": "oklch(73.86% 0.1059 169.89)",
+          "rgb": "rgb(92, 192, 160)",
+          "contrast": {
+            "white": 2.21,
+            "black": 9.5
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#62b8ee",
+          "oklch": "oklch(75.04% 0.1141 238.41)",
+          "rgb": "rgb(98, 184, 238)",
+          "contrast": {
+            "white": 2.19,
+            "black": 9.61
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "neutral chrome",
+        "thesis": "Cool syntax with one warm keyword, now on neutral stone chrome and a colourless selection — the ice is gone."
+      }
+    },
+    {
+      "id": "fracta-cold-front-slate-light",
+      "name": "Cold Front Slate Light",
+      "system": "fracta",
+      "mode": "light",
+      "family": "cold",
+      "description": "Same idea with the chrome a further step down and the syntax deepened to match. Holds up under overhead light.",
+      "bgColor": "#F6F7F8",
+      "textColor": "#454F59",
+      "accentColor": "#CE7130",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#ce7130",
+          "oklch": "oklch(64.3% 0.1401 52.02)",
+          "rgb": "rgb(206, 113, 48)",
+          "contrast": {
+            "white": 3.48,
+            "black": 6.03
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#e8eaec",
+          "oklch": "oklch(93.61% 0.0035 247.86)",
+          "rgb": "rgb(232, 234, 236)",
+          "contrast": {
+            "white": 1.21,
+            "black": 17.41
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#f6f7f8",
+          "oklch": "oklch(97.57% 0.0017 247.84)",
+          "rgb": "rgb(246, 247, 248)",
+          "contrast": {
+            "white": 1.07,
+            "black": 19.58
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#d8dbde",
+          "oklch": "oklch(89% 0.0052 247.88)",
+          "rgb": "rgb(216, 219, 222)",
+          "contrast": {
+            "white": 1.39,
+            "black": 15.11
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#959da5",
+          "oklch": "oklch(69.21% 0.0149 248.04)",
+          "rgb": "rgb(149, 157, 165)",
+          "contrast": {
+            "white": 2.75,
+            "black": 7.64
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#454f59",
+          "oklch": "oklch(42.26% 0.021 248.32)",
+          "rgb": "rgb(69, 79, 89)",
+          "contrast": {
+            "white": 8.35,
+            "black": 2.52
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#a5791f",
+          "oklch": "oklch(60.49% 0.1145 80.3)",
+          "rgb": "rgb(165, 121, 31)",
+          "contrast": {
+            "white": 3.92,
+            "black": 5.35
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#ce7130",
+          "oklch": "oklch(64.3% 0.1401 52.02)",
+          "rgb": "rgb(206, 113, 48)",
+          "contrast": {
+            "white": 3.48,
+            "black": 6.03
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#6a58b4",
+          "oklch": "oklch(52.31% 0.1403 289.66)",
+          "rgb": "rgb(106, 88, 180)",
+          "contrast": {
+            "white": 5.73,
+            "black": 3.67
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#b76a4c",
+          "oklch": "oklch(60.39% 0.1078 41.77)",
+          "rgb": "rgb(183, 106, 76)",
+          "contrast": {
+            "white": 4.05,
+            "black": 5.18
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#454f59",
+          "oklch": "oklch(42.26% 0.021 248.32)",
+          "rgb": "rgb(69, 79, 89)",
+          "contrast": {
+            "white": 8.35,
+            "black": 2.52
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#8d959d",
+          "oklch": "oklch(66.59% 0.015 248.05)",
+          "rgb": "rgb(141, 149, 157)",
+          "contrast": {
+            "white": 3.04,
+            "black": 6.92
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#dde0e4",
+          "oklch": "oklch(90.55% 0.0063 255.48)",
+          "rgb": "rgb(221, 224, 228)",
+          "contrast": {
+            "white": 1.32,
+            "black": 15.86
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#2f7d5e",
+          "oklch": "oklch(53.26% 0.0913 163.86)",
+          "rgb": "rgb(47, 125, 94)",
+          "contrast": {
+            "white": 4.98,
+            "black": 4.22
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#1f76b8",
+          "oklch": "oklch(54.92% 0.1296 246.78)",
+          "rgb": "rgb(31, 118, 184)",
+          "contrast": {
+            "white": 4.84,
+            "black": 4.34
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "neutral chrome, deeper",
+        "thesis": "Same idea with the chrome a further step down and the syntax deepened to match. Holds up under overhead light."
+      }
+    },
+    {
+      "id": "fracta-cold-front-slate-dark",
+      "name": "Cold Front Slate Dark",
+      "system": "fracta",
+      "mode": "dark",
+      "family": "cold",
+      "description": "Same idea with the chrome a further step down and the syntax deepened to match. Holds up under overhead light.",
+      "bgColor": "#191D20",
+      "textColor": "#C0C9D0",
+      "accentColor": "#F09A4C",
+      "colors": [
+        {
+          "name": "accent",
+          "hex": "#f09a4c",
+          "oklch": "oklch(75.93% 0.1385 60.31)",
+          "rgb": "rgb(240, 154, 76)",
+          "contrast": {
+            "white": 2.23,
+            "black": 9.43
+          },
+          "role": "accent"
+        },
+        {
+          "name": "alt",
+          "hex": "#14181b",
+          "oklch": "oklch(20.61% 0.0086 240.33)",
+          "rgb": "rgb(20, 24, 27)",
+          "contrast": {
+            "white": 17.85,
+            "black": 1.18
+          },
+          "role": "background"
+        },
+        {
+          "name": "bg",
+          "hex": "#191d20",
+          "oklch": "oklch(22.79% 0.0084 240.26)",
+          "rgb": "rgb(25, 29, 32)",
+          "contrast": {
+            "white": 16.96,
+            "black": 1.24
+          },
+          "role": "background"
+        },
+        {
+          "name": "border",
+          "hex": "#272c30",
+          "oklch": "oklch(28.98% 0.0102 242.04)",
+          "rgb": "rgb(39, 44, 48)",
+          "contrast": {
+            "white": 14.1,
+            "black": 1.49
+          },
+          "role": "border"
+        },
+        {
+          "name": "comment",
+          "hex": "#6e7880",
+          "oklch": "oklch(56.7% 0.0172 241.97)",
+          "rgb": "rgb(110, 120, 128)",
+          "contrast": {
+            "white": 4.51,
+            "black": 4.66
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "fg",
+          "hex": "#c0c9d0",
+          "oklch": "oklch(83.1% 0.0139 240.99)",
+          "rgb": "rgb(192, 201, 208)",
+          "contrast": {
+            "white": 1.68,
+            "black": 12.51
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "fn",
+          "hex": "#e6bc68",
+          "oklch": "oklch(81.52% 0.1135 83.26)",
+          "rgb": "rgb(230, 188, 104)",
+          "contrast": {
+            "white": 1.79,
+            "black": 11.76
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "key",
+          "hex": "#f09a4c",
+          "oklch": "oklch(75.93% 0.1385 60.31)",
+          "rgb": "rgb(240, 154, 76)",
+          "contrast": {
+            "white": 2.23,
+            "black": 9.43
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "num",
+          "hex": "#b2a6f5",
+          "oklch": "oklch(76.49% 0.1122 290.45)",
+          "rgb": "rgb(178, 166, 245)",
+          "contrast": {
+            "white": 2.17,
+            "black": 9.67
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "op",
+          "hex": "#f2a578",
+          "oklch": "oklch(78.71% 0.1093 50.87)",
+          "rgb": "rgb(242, 165, 120)",
+          "contrast": {
+            "white": 2.01,
+            "black": 10.43
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "prop",
+          "hex": "#c0c9d0",
+          "oklch": "oklch(83.1% 0.0139 240.99)",
+          "rgb": "rgb(192, 201, 208)",
+          "contrast": {
+            "white": 1.68,
+            "black": 12.51
+          },
+          "role": "foreground"
+        },
+        {
+          "name": "punct",
+          "hex": "#717b83",
+          "oklch": "oklch(57.73% 0.0172 241.96)",
+          "rgb": "rgb(113, 123, 131)",
+          "contrast": {
+            "white": 4.32,
+            "black": 4.86
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "sel",
+          "hex": "#2c353c",
+          "oklch": "oklch(32.34% 0.0175 241.54)",
+          "rgb": "rgb(44, 53, 60)",
+          "contrast": {
+            "white": 12.49,
+            "black": 1.68
+          },
+          "role": "background"
+        },
+        {
+          "name": "str",
+          "hex": "#66c9a9",
+          "oklch": "oklch(76.68% 0.1053 170.04)",
+          "rgb": "rgb(102, 201, 169)",
+          "contrast": {
+            "white": 2,
+            "black": 10.49
+          },
+          "role": "syntax"
+        },
+        {
+          "name": "type",
+          "hex": "#6cc0f5",
+          "oklch": "oklch(77.54% 0.1117 238.2)",
+          "rgb": "rgb(108, 192, 245)",
+          "contrast": {
+            "white": 2,
+            "black": 10.5
+          },
+          "role": "syntax"
+        }
+      ],
+      "meta": {
+        "tag": "neutral chrome, deeper",
+        "thesis": "Same idea with the chrome a further step down and the syntax deepened to match. Holds up under overhead light."
+      }
+    }
+  ]
+}

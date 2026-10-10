@@ -1,0 +1,1886 @@
+{
+  "id": "themesIndes",
+  "name": "Indes UI Themes",
+  "system": "indes",
+  "group": "swatch",
+  "description": "Indic regional and architectural UI design token themes calibrated across paired light and dark modes.",
+  "count": 14,
+  "themes": [
+    {
+      "id": "indes-gangotri-dark",
+      "name": "Gangotri Dark",
+      "system": "indes",
+      "mode": "dark",
+      "family": "gangotri",
+      "description": "Glacial whites, crisp slate blues, and granite bedrock inspired by the sacred Himalayan river source in Uttarakhand. (Dark Mode UI)",
+      "bgColor": "#1e293b",
+      "textColor": "#f8fafc",
+      "accentColor": "#94a3b8",
+      "colors": [
+        {
+          "name": "fg-10",
+          "hex": "#f8fafc",
+          "oklch": "oklch(98.42% 0.0034 247.86)",
+          "rgb": "rgb(248, 250, 252)",
+          "contrast": {
+            "white": 1.05,
+            "black": 20.07
+          },
+          "role": "foreground",
+          "step": 10,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-20",
+          "hex": "#f1f5f9",
+          "oklch": "oklch(96.83% 0.0069 247.9)",
+          "rgb": "rgb(241, 245, 249)",
+          "contrast": {
+            "white": 1.1,
+            "black": 19.17
+          },
+          "role": "foreground",
+          "step": 20,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-30",
+          "hex": "#e2e8f0",
+          "oklch": "oklch(92.88% 0.0126 255.51)",
+          "rgb": "rgb(226, 232, 240)",
+          "contrast": {
+            "white": 1.23,
+            "black": 17.03
+          },
+          "role": "foreground",
+          "step": 30,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-40",
+          "hex": "#cbd5e1",
+          "oklch": "oklch(86.9% 0.0198 252.89)",
+          "rgb": "rgb(203, 213, 225)",
+          "contrast": {
+            "white": 1.48,
+            "black": 14.14
+          },
+          "role": "foreground",
+          "step": 40,
+          "category": "foreground"
+        },
+        {
+          "name": "bg-50",
+          "hex": "#94a3b8",
+          "oklch": "oklch(71.07% 0.0351 256.79)",
+          "rgb": "rgb(148, 163, 184)",
+          "contrast": {
+            "white": 2.56,
+            "black": 8.19
+          },
+          "role": "background",
+          "step": 50,
+          "category": "background"
+        },
+        {
+          "name": "bg-40",
+          "hex": "#64748b",
+          "oklch": "oklch(55.44% 0.0407 257.42)",
+          "rgb": "rgb(100, 116, 139)",
+          "contrast": {
+            "white": 4.76,
+            "black": 4.41
+          },
+          "role": "background",
+          "step": 40,
+          "category": "background"
+        },
+        {
+          "name": "bg-30",
+          "hex": "#475569",
+          "oklch": "oklch(44.55% 0.0374 257.28)",
+          "rgb": "rgb(71, 85, 105)",
+          "contrast": {
+            "white": 7.58,
+            "black": 2.77
+          },
+          "role": "background",
+          "step": 30,
+          "category": "background"
+        },
+        {
+          "name": "bg-20",
+          "hex": "#334155",
+          "oklch": "oklch(37.17% 0.0392 257.29)",
+          "rgb": "rgb(51, 65, 85)",
+          "contrast": {
+            "white": 10.35,
+            "black": 2.03
+          },
+          "role": "background",
+          "step": 20,
+          "category": "background"
+        },
+        {
+          "name": "bg-10",
+          "hex": "#1e293b",
+          "oklch": "oklch(27.95% 0.0368 260.03)",
+          "rgb": "rgb(30, 41, 59)",
+          "contrast": {
+            "white": 14.63,
+            "black": 1.44
+          },
+          "role": "background",
+          "step": 10,
+          "category": "background"
+        }
+      ],
+      "meta": {
+        "region": "gangotri",
+        "mode": "dark"
+      }
+    },
+    {
+      "id": "indes-gangotri-light",
+      "name": "Gangotri Light",
+      "system": "indes",
+      "mode": "light",
+      "family": "gangotri",
+      "description": "Glacial whites, crisp slate blues, and granite bedrock inspired by the sacred Himalayan river source in Uttarakhand. (Light Mode UI)",
+      "bgColor": "#fafafa",
+      "textColor": "#121216",
+      "accentColor": "#52525b",
+      "colors": [
+        {
+          "name": "fg-10",
+          "hex": "#121216",
+          "oklch": "oklch(18.4% 0.0081 285.58)",
+          "rgb": "rgb(18, 18, 22)",
+          "contrast": {
+            "white": 18.69,
+            "black": 1.12
+          },
+          "role": "foreground",
+          "step": 10,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-20",
+          "hex": "#18181b",
+          "oklch": "oklch(21.03% 0.0059 285.89)",
+          "rgb": "rgb(24, 24, 27)",
+          "contrast": {
+            "white": 17.72,
+            "black": 1.19
+          },
+          "role": "foreground",
+          "step": 20,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-30",
+          "hex": "#27272a",
+          "oklch": "oklch(27.39% 0.0055 286.03)",
+          "rgb": "rgb(39, 39, 42)",
+          "contrast": {
+            "white": 14.89,
+            "black": 1.41
+          },
+          "role": "foreground",
+          "step": 30,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-40",
+          "hex": "#3f3f46",
+          "oklch": "oklch(37.03% 0.0119 285.81)",
+          "rgb": "rgb(63, 63, 70)",
+          "contrast": {
+            "white": 10.44,
+            "black": 2.01
+          },
+          "role": "foreground",
+          "step": 40,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-50",
+          "hex": "#52525b",
+          "oklch": "oklch(44.19% 0.0146 285.79)",
+          "rgb": "rgb(82, 82, 91)",
+          "contrast": {
+            "white": 7.73,
+            "black": 2.72
+          },
+          "role": "foreground",
+          "step": 50,
+          "category": "foreground"
+        },
+        {
+          "name": "bg-40",
+          "hex": "#71717a",
+          "oklch": "oklch(55.17% 0.0138 285.94)",
+          "rgb": "rgb(113, 113, 122)",
+          "contrast": {
+            "white": 4.83,
+            "black": 4.35
+          },
+          "role": "background",
+          "step": 40,
+          "category": "background"
+        },
+        {
+          "name": "bg-30",
+          "hex": "#a1a1aa",
+          "oklch": "oklch(71.18% 0.0129 286.07)",
+          "rgb": "rgb(161, 161, 170)",
+          "contrast": {
+            "white": 2.56,
+            "black": 8.19
+          },
+          "role": "background",
+          "step": 30,
+          "category": "background"
+        },
+        {
+          "name": "bg-20",
+          "hex": "#d4d4d8",
+          "oklch": "oklch(87.11% 0.0055 286.29)",
+          "rgb": "rgb(212, 212, 216)",
+          "contrast": {
+            "white": 1.48,
+            "black": 14.21
+          },
+          "role": "background",
+          "step": 20,
+          "category": "background"
+        },
+        {
+          "name": "bg-10",
+          "hex": "#fafafa",
+          "oklch": "oklch(98.51% 0 0)",
+          "rgb": "rgb(250, 250, 250)",
+          "contrast": {
+            "white": 1.04,
+            "black": 20.12
+          },
+          "role": "background",
+          "step": 10,
+          "category": "background"
+        }
+      ],
+      "meta": {
+        "region": "gangotri",
+        "mode": "light"
+      }
+    },
+    {
+      "id": "indes-bhirrana-dark",
+      "name": "Bhirrana Dark",
+      "system": "indes",
+      "mode": "dark",
+      "family": "bhirrana",
+      "description": "Bronze-age ash greys, baked silt, and earthen tones drawn from one of the oldest Indus Valley settlements in Haryana. (Dark Mode UI)",
+      "bgColor": "#27272a",
+      "textColor": "#fafafa",
+      "accentColor": "#a1a1aa",
+      "colors": [
+        {
+          "name": "fg-10",
+          "hex": "#fafafa",
+          "oklch": "oklch(98.51% 0 0)",
+          "rgb": "rgb(250, 250, 250)",
+          "contrast": {
+            "white": 1.04,
+            "black": 20.12
+          },
+          "role": "foreground",
+          "step": 10,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-20",
+          "hex": "#f4f4f5",
+          "oklch": "oklch(96.74% 0.0013 286.38)",
+          "rgb": "rgb(244, 244, 245)",
+          "contrast": {
+            "white": 1.1,
+            "black": 19.11
+          },
+          "role": "foreground",
+          "step": 20,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-30",
+          "hex": "#e4e4e7",
+          "oklch": "oklch(91.97% 0.004 286.32)",
+          "rgb": "rgb(228, 228, 231)",
+          "contrast": {
+            "white": 1.27,
+            "black": 16.55
+          },
+          "role": "foreground",
+          "step": 30,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-40",
+          "hex": "#d4d4d8",
+          "oklch": "oklch(87.11% 0.0055 286.29)",
+          "rgb": "rgb(212, 212, 216)",
+          "contrast": {
+            "white": 1.48,
+            "black": 14.21
+          },
+          "role": "foreground",
+          "step": 40,
+          "category": "foreground"
+        },
+        {
+          "name": "bg-50",
+          "hex": "#a1a1aa",
+          "oklch": "oklch(71.18% 0.0129 286.07)",
+          "rgb": "rgb(161, 161, 170)",
+          "contrast": {
+            "white": 2.56,
+            "black": 8.19
+          },
+          "role": "background",
+          "step": 50,
+          "category": "background"
+        },
+        {
+          "name": "bg-40",
+          "hex": "#71717a",
+          "oklch": "oklch(55.17% 0.0138 285.94)",
+          "rgb": "rgb(113, 113, 122)",
+          "contrast": {
+            "white": 4.83,
+            "black": 4.35
+          },
+          "role": "background",
+          "step": 40,
+          "category": "background"
+        },
+        {
+          "name": "bg-30",
+          "hex": "#52525b",
+          "oklch": "oklch(44.19% 0.0146 285.79)",
+          "rgb": "rgb(82, 82, 91)",
+          "contrast": {
+            "white": 7.73,
+            "black": 2.72
+          },
+          "role": "background",
+          "step": 30,
+          "category": "background"
+        },
+        {
+          "name": "bg-20",
+          "hex": "#3f3f46",
+          "oklch": "oklch(37.03% 0.0119 285.81)",
+          "rgb": "rgb(63, 63, 70)",
+          "contrast": {
+            "white": 10.44,
+            "black": 2.01
+          },
+          "role": "background",
+          "step": 20,
+          "category": "background"
+        },
+        {
+          "name": "bg-10",
+          "hex": "#27272a",
+          "oklch": "oklch(27.39% 0.0055 286.03)",
+          "rgb": "rgb(39, 39, 42)",
+          "contrast": {
+            "white": 14.89,
+            "black": 1.41
+          },
+          "role": "background",
+          "step": 10,
+          "category": "background"
+        }
+      ],
+      "meta": {
+        "region": "bhirrana",
+        "mode": "dark"
+      }
+    },
+    {
+      "id": "indes-bhirrana-light",
+      "name": "Bhirrana Light",
+      "system": "indes",
+      "mode": "light",
+      "family": "bhirrana",
+      "description": "Bronze-age ash greys, baked silt, and earthen tones drawn from one of the oldest Indus Valley settlements in Haryana. (Light Mode UI)",
+      "bgColor": "#edf1f7",
+      "textColor": "#14161a",
+      "accentColor": "#424858",
+      "colors": [
+        {
+          "name": "fg-10",
+          "hex": "#14161a",
+          "oklch": "oklch(19.98% 0.0086 264.36)",
+          "rgb": "rgb(20, 22, 26)",
+          "contrast": {
+            "white": 18.11,
+            "black": 1.16
+          },
+          "role": "foreground",
+          "step": 10,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-20",
+          "hex": "#1c1f26",
+          "oklch": "oklch(23.93% 0.0142 266.97)",
+          "rgb": "rgb(28, 31, 38)",
+          "contrast": {
+            "white": 16.49,
+            "black": 1.27
+          },
+          "role": "foreground",
+          "step": 20,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-30",
+          "hex": "#262a34",
+          "oklch": "oklch(28.54% 0.0192 268.01)",
+          "rgb": "rgb(38, 42, 52)",
+          "contrast": {
+            "white": 14.35,
+            "black": 1.46
+          },
+          "role": "foreground",
+          "step": 30,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-40",
+          "hex": "#333845",
+          "oklch": "oklch(34.13% 0.0239 268.58)",
+          "rgb": "rgb(51, 56, 69)",
+          "contrast": {
+            "white": 11.72,
+            "black": 1.79
+          },
+          "role": "foreground",
+          "step": 40,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-50",
+          "hex": "#424858",
+          "oklch": "oklch(40.26% 0.0281 268.96)",
+          "rgb": "rgb(66, 72, 88)",
+          "contrast": {
+            "white": 9.13,
+            "black": 2.3
+          },
+          "role": "foreground",
+          "step": 50,
+          "category": "foreground"
+        },
+        {
+          "name": "bg-40",
+          "hex": "#555d6f",
+          "oklch": "oklch(47.82% 0.0308 266.32)",
+          "rgb": "rgb(85, 93, 111)",
+          "contrast": {
+            "white": 6.6,
+            "black": 3.18
+          },
+          "role": "background",
+          "step": 40,
+          "category": "background"
+        },
+        {
+          "name": "bg-30",
+          "hex": "#707a8f",
+          "oklch": "oklch(57.87% 0.0345 265.15)",
+          "rgb": "rgb(112, 122, 143)",
+          "contrast": {
+            "white": 4.31,
+            "black": 4.87
+          },
+          "role": "background",
+          "step": 30,
+          "category": "background"
+        },
+        {
+          "name": "bg-20",
+          "hex": "#949fb5",
+          "oklch": "oklch(70.11% 0.0346 264.32)",
+          "rgb": "rgb(148, 159, 181)",
+          "contrast": {
+            "white": 2.66,
+            "black": 7.89
+          },
+          "role": "background",
+          "step": 20,
+          "category": "background"
+        },
+        {
+          "name": "bg-10",
+          "hex": "#edf1f7",
+          "oklch": "oklch(95.68% 0.0091 258.34)",
+          "rgb": "rgb(237, 241, 247)",
+          "contrast": {
+            "white": 1.13,
+            "black": 18.53
+          },
+          "role": "background",
+          "step": 10,
+          "category": "background"
+        }
+      ],
+      "meta": {
+        "region": "bhirrana",
+        "mode": "light"
+      }
+    },
+    {
+      "id": "indes-thar-dark",
+      "name": "Thar Dark",
+      "system": "indes",
+      "mode": "dark",
+      "family": "thar",
+      "description": "Desert sandstones, golden dune quartz, and warm wind-swept earthen hues of the Great Indian Desert in Rajasthan. (Dark Mode UI)",
+      "bgColor": "#b8b0a2",
+      "textColor": "#fbfbf9",
+      "accentColor": "#e4dfd5",
+      "colors": [
+        {
+          "name": "fg-10",
+          "hex": "#fbfbf9",
+          "oklch": "oklch(98.75% 0.0026 106.45)",
+          "rgb": "rgb(251, 251, 249)",
+          "contrast": {
+            "white": 1.04,
+            "black": 20.27
+          },
+          "role": "foreground",
+          "step": 10,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-20",
+          "hex": "#f7f6f0",
+          "oklch": "oklch(97.23% 0.008 98.88)",
+          "rgb": "rgb(247, 246, 240)",
+          "contrast": {
+            "white": 1.08,
+            "black": 19.4
+          },
+          "role": "foreground",
+          "step": 20,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-30",
+          "hex": "#f2efe9",
+          "oklch": "oklch(95.28% 0.0086 84.57)",
+          "rgb": "rgb(242, 239, 233)",
+          "contrast": {
+            "white": 1.15,
+            "black": 18.3
+          },
+          "role": "foreground",
+          "step": 30,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-40",
+          "hex": "#ece7df",
+          "oklch": "oklch(92.97% 0.012 79.78)",
+          "rgb": "rgb(236, 231, 223)",
+          "contrast": {
+            "white": 1.23,
+            "black": 17.06
+          },
+          "role": "foreground",
+          "step": 40,
+          "category": "foreground"
+        },
+        {
+          "name": "bg-50",
+          "hex": "#e4dfd5",
+          "oklch": "oklch(90.48% 0.0145 84.58)",
+          "rgb": "rgb(228, 223, 213)",
+          "contrast": {
+            "white": 1.33,
+            "black": 15.81
+          },
+          "role": "background",
+          "step": 50,
+          "category": "background"
+        },
+        {
+          "name": "bg-40",
+          "hex": "#ddd7cb",
+          "oklch": "oklch(88.06% 0.0175 84.59)",
+          "rgb": "rgb(221, 215, 203)",
+          "contrast": {
+            "white": 1.43,
+            "black": 14.66
+          },
+          "role": "background",
+          "step": 40,
+          "category": "background"
+        },
+        {
+          "name": "bg-30",
+          "hex": "#d4cec1",
+          "oklch": "oklch(85.26% 0.0189 86.15)",
+          "rgb": "rgb(212, 206, 193)",
+          "contrast": {
+            "white": 1.57,
+            "black": 13.4
+          },
+          "role": "background",
+          "step": 30,
+          "category": "background"
+        },
+        {
+          "name": "bg-20",
+          "hex": "#c7c0b3",
+          "oklch": "oklch(80.99% 0.0196 83.06)",
+          "rgb": "rgb(199, 192, 179)",
+          "contrast": {
+            "white": 1.81,
+            "black": 11.62
+          },
+          "role": "background",
+          "step": 20,
+          "category": "background"
+        },
+        {
+          "name": "bg-10",
+          "hex": "#b8b0a2",
+          "oklch": "oklch(75.99% 0.0216 81.77)",
+          "rgb": "rgb(184, 176, 162)",
+          "contrast": {
+            "white": 2.15,
+            "black": 9.77
+          },
+          "role": "background",
+          "step": 10,
+          "category": "background"
+        }
+      ],
+      "meta": {
+        "region": "thar",
+        "mode": "dark"
+      }
+    },
+    {
+      "id": "indes-thar-light",
+      "name": "Thar Light",
+      "system": "indes",
+      "mode": "light",
+      "family": "thar",
+      "description": "Desert sandstones, golden dune quartz, and warm wind-swept earthen hues of the Great Indian Desert in Rajasthan. (Light Mode UI)",
+      "bgColor": "#f4efea",
+      "textColor": "#191512",
+      "accentColor": "#59493e",
+      "colors": [
+        {
+          "name": "fg-10",
+          "hex": "#191512",
+          "oklch": "oklch(19.94% 0.0088 59.12)",
+          "rgb": "rgb(25, 21, 18)",
+          "contrast": {
+            "white": 18.15,
+            "black": 1.16
+          },
+          "role": "foreground",
+          "step": 10,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-20",
+          "hex": "#241e1a",
+          "oklch": "oklch(24.05% 0.012 55.75)",
+          "rgb": "rgb(36, 30, 26)",
+          "contrast": {
+            "white": 16.46,
+            "black": 1.28
+          },
+          "role": "foreground",
+          "step": 20,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-30",
+          "hex": "#332a24",
+          "oklch": "oklch(29.3% 0.0171 55.63)",
+          "rgb": "rgb(51, 42, 36)",
+          "contrast": {
+            "white": 14.02,
+            "black": 1.5
+          },
+          "role": "foreground",
+          "step": 30,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-40",
+          "hex": "#443830",
+          "oklch": "oklch(35.1% 0.0218 55.57)",
+          "rgb": "rgb(68, 56, 48)",
+          "contrast": {
+            "white": 11.33,
+            "black": 1.85
+          },
+          "role": "foreground",
+          "step": 40,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-50",
+          "hex": "#59493e",
+          "oklch": "oklch(41.86% 0.0281 56.34)",
+          "rgb": "rgb(89, 73, 62)",
+          "contrast": {
+            "white": 8.58,
+            "black": 2.45
+          },
+          "role": "foreground",
+          "step": 50,
+          "category": "foreground"
+        },
+        {
+          "name": "bg-40",
+          "hex": "#735f50",
+          "oklch": "oklch(50.09% 0.0348 58.73)",
+          "rgb": "rgb(115, 95, 80)",
+          "contrast": {
+            "white": 6.03,
+            "black": 3.48
+          },
+          "role": "background",
+          "step": 40,
+          "category": "background"
+        },
+        {
+          "name": "bg-30",
+          "hex": "#947b68",
+          "oklch": "oklch(60.12% 0.0418 59.1)",
+          "rgb": "rgb(148, 123, 104)",
+          "contrast": {
+            "white": 3.97,
+            "black": 5.29
+          },
+          "role": "background",
+          "step": 30,
+          "category": "background"
+        },
+        {
+          "name": "bg-20",
+          "hex": "#ba9c85",
+          "oklch": "oklch(71.37% 0.0482 59.37)",
+          "rgb": "rgb(186, 156, 133)",
+          "contrast": {
+            "white": 2.57,
+            "black": 8.18
+          },
+          "role": "background",
+          "step": 20,
+          "category": "background"
+        },
+        {
+          "name": "bg-10",
+          "hex": "#f4efea",
+          "oklch": "oklch(95.46% 0.0086 67.72)",
+          "rgb": "rgb(244, 239, 234)",
+          "contrast": {
+            "white": 1.14,
+            "black": 18.38
+          },
+          "role": "background",
+          "step": 10,
+          "category": "background"
+        }
+      ],
+      "meta": {
+        "region": "thar",
+        "mode": "light"
+      }
+    },
+    {
+      "id": "indes-shivalik-dark",
+      "name": "Shivalik Dark",
+      "system": "indes",
+      "mode": "dark",
+      "family": "shivalik",
+      "description": "Sub-Himalayan forest pine, deep stone moss, and highland cedar canopy of the outer Himalayan ranges. (Dark Mode UI)",
+      "bgColor": "#7c9387",
+      "textColor": "#f7f9f8",
+      "accentColor": "#ced8d3",
+      "colors": [
+        {
+          "name": "fg-10",
+          "hex": "#f7f9f8",
+          "oklch": "oklch(98.03% 0.0025 165.08)",
+          "rgb": "rgb(247, 249, 248)",
+          "contrast": {
+            "white": 1.06,
+            "black": 19.86
+          },
+          "role": "foreground",
+          "step": 10,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-20",
+          "hex": "#f0f4f2",
+          "oklch": "oklch(96.36% 0.005 165.01)",
+          "rgb": "rgb(240, 244, 242)",
+          "contrast": {
+            "white": 1.11,
+            "black": 18.93
+          },
+          "role": "foreground",
+          "step": 20,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-30",
+          "hex": "#e7ece9",
+          "oklch": "oklch(93.84% 0.0067 160.07)",
+          "rgb": "rgb(231, 236, 233)",
+          "contrast": {
+            "white": 1.2,
+            "black": 17.57
+          },
+          "role": "foreground",
+          "step": 30,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-40",
+          "hex": "#dce4e0",
+          "oklch": "oklch(91.16% 0.0101 164.85)",
+          "rgb": "rgb(220, 228, 224)",
+          "contrast": {
+            "white": 1.29,
+            "black": 16.22
+          },
+          "role": "foreground",
+          "step": 40,
+          "category": "foreground"
+        },
+        {
+          "name": "bg-50",
+          "hex": "#ced8d3",
+          "oklch": "oklch(87.32% 0.0128 164.76)",
+          "rgb": "rgb(206, 216, 211)",
+          "contrast": {
+            "white": 1.46,
+            "black": 14.39
+          },
+          "role": "background",
+          "step": 50,
+          "category": "background"
+        },
+        {
+          "name": "bg-40",
+          "hex": "#becbc4",
+          "oklch": "oklch(83.01% 0.0171 162.66)",
+          "rgb": "rgb(190, 203, 196)",
+          "contrast": {
+            "white": 1.68,
+            "black": 12.53
+          },
+          "role": "background",
+          "step": 40,
+          "category": "background"
+        },
+        {
+          "name": "bg-30",
+          "hex": "#aabbb3",
+          "oklch": "oklch(77.66% 0.0218 165.91)",
+          "rgb": "rgb(170, 187, 179)",
+          "contrast": {
+            "white": 2.01,
+            "black": 10.47
+          },
+          "role": "background",
+          "step": 30,
+          "category": "background"
+        },
+        {
+          "name": "bg-20",
+          "hex": "#94a89e",
+          "oklch": "oklch(71.31% 0.0266 164.13)",
+          "rgb": "rgb(148, 168, 158)",
+          "contrast": {
+            "white": 2.51,
+            "black": 8.35
+          },
+          "role": "background",
+          "step": 20,
+          "category": "background"
+        },
+        {
+          "name": "bg-10",
+          "hex": "#7c9387",
+          "oklch": "oklch(64.16% 0.0316 162.7)",
+          "rgb": "rgb(124, 147, 135)",
+          "contrast": {
+            "white": 3.29,
+            "black": 6.38
+          },
+          "role": "background",
+          "step": 10,
+          "category": "background"
+        }
+      ],
+      "meta": {
+        "region": "shivalik",
+        "mode": "dark"
+      }
+    },
+    {
+      "id": "indes-shivalik-light",
+      "name": "Shivalik Light",
+      "system": "indes",
+      "mode": "light",
+      "family": "shivalik",
+      "description": "Sub-Himalayan forest pine, deep stone moss, and highland cedar canopy of the outer Himalayan ranges. (Light Mode UI)",
+      "bgColor": "#ecf4f0",
+      "textColor": "#101814",
+      "accentColor": "#3e5c4e",
+      "colors": [
+        {
+          "name": "fg-10",
+          "hex": "#101814",
+          "oklch": "oklch(19.94% 0.0144 163.08)",
+          "rgb": "rgb(16, 24, 20)",
+          "contrast": {
+            "white": 18.06,
+            "black": 1.16
+          },
+          "role": "foreground",
+          "step": 10,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-20",
+          "hex": "#18231e",
+          "oklch": "oklch(24.38% 0.0182 165.31)",
+          "rgb": "rgb(24, 35, 30)",
+          "contrast": {
+            "white": 16.18,
+            "black": 1.3
+          },
+          "role": "foreground",
+          "step": 20,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-30",
+          "hex": "#22322b",
+          "oklch": "oklch(30.04% 0.0248 165.95)",
+          "rgb": "rgb(34, 50, 43)",
+          "contrast": {
+            "white": 13.47,
+            "black": 1.56
+          },
+          "role": "foreground",
+          "step": 30,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-40",
+          "hex": "#2f453b",
+          "oklch": "oklch(36.86% 0.0326 164.84)",
+          "rgb": "rgb(47, 69, 59)",
+          "contrast": {
+            "white": 10.32,
+            "black": 2.04
+          },
+          "role": "foreground",
+          "step": 40,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-50",
+          "hex": "#3e5c4e",
+          "oklch": "oklch(44.66% 0.0424 163.98)",
+          "rgb": "rgb(62, 92, 78)",
+          "contrast": {
+            "white": 7.38,
+            "black": 2.85
+          },
+          "role": "foreground",
+          "step": 50,
+          "category": "foreground"
+        },
+        {
+          "name": "bg-40",
+          "hex": "#527867",
+          "oklch": "oklch(53.89% 0.0507 165.01)",
+          "rgb": "rgb(82, 120, 103)",
+          "contrast": {
+            "white": 4.95,
+            "black": 4.24
+          },
+          "role": "background",
+          "step": 40,
+          "category": "background"
+        },
+        {
+          "name": "bg-30",
+          "hex": "#729e88",
+          "oklch": "oklch(66.08% 0.058 162.57)",
+          "rgb": "rgb(114, 158, 136)",
+          "contrast": {
+            "white": 3.02,
+            "black": 6.96
+          },
+          "role": "background",
+          "step": 30,
+          "category": "background"
+        },
+        {
+          "name": "bg-20",
+          "hex": "#9ec7b2",
+          "oklch": "oklch(79.41% 0.0527 162.66)",
+          "rgb": "rgb(158, 199, 178)",
+          "contrast": {
+            "white": 1.86,
+            "black": 11.27
+          },
+          "role": "background",
+          "step": 20,
+          "category": "background"
+        },
+        {
+          "name": "bg-10",
+          "hex": "#ecf4f0",
+          "oklch": "oklch(96% 0.01 164.87)",
+          "rgb": "rgb(236, 244, 240)",
+          "contrast": {
+            "white": 1.12,
+            "black": 18.77
+          },
+          "role": "background",
+          "step": 10,
+          "category": "background"
+        }
+      ],
+      "meta": {
+        "region": "shivalik",
+        "mode": "light"
+      }
+    },
+    {
+      "id": "indes-rajpath-dark",
+      "name": "Rajpath Dark",
+      "system": "indes",
+      "mode": "dark",
+      "family": "rajpath",
+      "description": "Ceremonial navy, civic sandstone, and monumental granite inspired by the central grand vista of New Delhi. (Dark Mode UI)",
+      "bgColor": "#737585",
+      "textColor": "#f7f8f9",
+      "accentColor": "#cbcdd7",
+      "colors": [
+        {
+          "name": "fg-10",
+          "hex": "#f7f8f9",
+          "oklch": "oklch(97.87% 0.0017 247.84)",
+          "rgb": "rgb(247, 248, 249)",
+          "contrast": {
+            "white": 1.06,
+            "black": 19.75
+          },
+          "role": "foreground",
+          "step": 10,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-20",
+          "hex": "#efeff2",
+          "oklch": "oklch(95.3% 0.004 286.32)",
+          "rgb": "rgb(239, 239, 242)",
+          "contrast": {
+            "white": 1.15,
+            "black": 18.3
+          },
+          "role": "foreground",
+          "step": 20,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-30",
+          "hex": "#e5e6eb",
+          "oklch": "oklch(92.56% 0.0068 277.16)",
+          "rgb": "rgb(229, 230, 235)",
+          "contrast": {
+            "white": 1.25,
+            "black": 16.85
+          },
+          "role": "foreground",
+          "step": 30,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-40",
+          "hex": "#d9dae2",
+          "oklch": "oklch(88.99% 0.0109 280.46)",
+          "rgb": "rgb(217, 218, 226)",
+          "contrast": {
+            "white": 1.39,
+            "black": 15.08
+          },
+          "role": "foreground",
+          "step": 40,
+          "category": "foreground"
+        },
+        {
+          "name": "bg-50",
+          "hex": "#cbcdd7",
+          "oklch": "oklch(84.97% 0.014 277.03)",
+          "rgb": "rgb(203, 205, 215)",
+          "contrast": {
+            "white": 1.58,
+            "black": 13.25
+          },
+          "role": "background",
+          "step": 50,
+          "category": "background"
+        },
+        {
+          "name": "bg-40",
+          "hex": "#b9bbc8",
+          "oklch": "oklch(79.45% 0.0184 278.98)",
+          "rgb": "rgb(185, 187, 200)",
+          "contrast": {
+            "white": 1.91,
+            "black": 11.01
+          },
+          "role": "background",
+          "step": 40,
+          "category": "background"
+        },
+        {
+          "name": "bg-30",
+          "hex": "#a4a6b5",
+          "oklch": "oklch(72.83% 0.0217 279.79)",
+          "rgb": "rgb(164, 166, 181)",
+          "contrast": {
+            "white": 2.41,
+            "black": 8.7
+          },
+          "role": "background",
+          "step": 30,
+          "category": "background"
+        },
+        {
+          "name": "bg-20",
+          "hex": "#8c8e9f",
+          "oklch": "oklch(65.07% 0.0253 280.34)",
+          "rgb": "rgb(140, 142, 159)",
+          "contrast": {
+            "white": 3.24,
+            "black": 6.48
+          },
+          "role": "background",
+          "step": 20,
+          "category": "background"
+        },
+        {
+          "name": "bg-10",
+          "hex": "#737585",
+          "oklch": "oklch(56.62% 0.0247 279.93)",
+          "rgb": "rgb(115, 117, 133)",
+          "contrast": {
+            "white": 4.55,
+            "black": 4.61
+          },
+          "role": "background",
+          "step": 10,
+          "category": "background"
+        }
+      ],
+      "meta": {
+        "region": "rajpath",
+        "mode": "dark"
+      }
+    },
+    {
+      "id": "indes-rajpath-light",
+      "name": "Rajpath Light",
+      "system": "indes",
+      "mode": "light",
+      "family": "rajpath",
+      "description": "Ceremonial navy, civic sandstone, and monumental granite inspired by the central grand vista of New Delhi. (Light Mode UI)",
+      "bgColor": "#f9fafb",
+      "textColor": "#111827",
+      "accentColor": "#6b7280",
+      "colors": [
+        {
+          "name": "fg-10",
+          "hex": "#111827",
+          "oklch": "oklch(21.01% 0.0318 264.66)",
+          "rgb": "rgb(17, 24, 39)",
+          "contrast": {
+            "white": 17.74,
+            "black": 1.18
+          },
+          "role": "foreground",
+          "step": 10,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-20",
+          "hex": "#1f2937",
+          "oklch": "oklch(27.81% 0.0296 256.85)",
+          "rgb": "rgb(31, 41, 55)",
+          "contrast": {
+            "white": 14.68,
+            "black": 1.43
+          },
+          "role": "foreground",
+          "step": 20,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-30",
+          "hex": "#374151",
+          "oklch": "oklch(37.29% 0.0306 259.73)",
+          "rgb": "rgb(55, 65, 81)",
+          "contrast": {
+            "white": 10.31,
+            "black": 2.04
+          },
+          "role": "foreground",
+          "step": 30,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-40",
+          "hex": "#4b5563",
+          "oklch": "oklch(44.61% 0.0263 256.8)",
+          "rgb": "rgb(75, 85, 99)",
+          "contrast": {
+            "white": 7.56,
+            "black": 2.78
+          },
+          "role": "foreground",
+          "step": 40,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-50",
+          "hex": "#6b7280",
+          "oklch": "oklch(55.1% 0.0234 264.36)",
+          "rgb": "rgb(107, 114, 128)",
+          "contrast": {
+            "white": 4.83,
+            "black": 4.34
+          },
+          "role": "foreground",
+          "step": 50,
+          "category": "foreground"
+        },
+        {
+          "name": "bg-40",
+          "hex": "#9ca3af",
+          "oklch": "oklch(71.37% 0.0192 261.32)",
+          "rgb": "rgb(156, 163, 175)",
+          "contrast": {
+            "white": 2.54,
+            "black": 8.27
+          },
+          "role": "background",
+          "step": 40,
+          "category": "background"
+        },
+        {
+          "name": "bg-30",
+          "hex": "#d1d5db",
+          "oklch": "oklch(87.17% 0.0093 258.34)",
+          "rgb": "rgb(209, 213, 219)",
+          "contrast": {
+            "white": 1.47,
+            "black": 14.25
+          },
+          "role": "background",
+          "step": 30,
+          "category": "background"
+        },
+        {
+          "name": "bg-20",
+          "hex": "#e5e7eb",
+          "oklch": "oklch(92.76% 0.0058 264.53)",
+          "rgb": "rgb(229, 231, 235)",
+          "contrast": {
+            "white": 1.24,
+            "black": 16.96
+          },
+          "role": "background",
+          "step": 20,
+          "category": "background"
+        },
+        {
+          "name": "bg-10",
+          "hex": "#f9fafb",
+          "oklch": "oklch(98.46% 0.0017 247.84)",
+          "rgb": "rgb(249, 250, 251)",
+          "contrast": {
+            "white": 1.05,
+            "black": 20.1
+          },
+          "role": "background",
+          "step": 10,
+          "category": "background"
+        }
+      ],
+      "meta": {
+        "region": "rajpath",
+        "mode": "light"
+      }
+    },
+    {
+      "id": "indes-hampi-dark",
+      "name": "Hampi Dark",
+      "system": "indes",
+      "mode": "dark",
+      "family": "hampi",
+      "description": "Weathered boulder granite, sun-baked terracotta ruins, and timeless Deccan plateau bedrock of the Vijayanagara Empire in Karnataka. (Dark Mode UI)",
+      "bgColor": "#857a6c",
+      "textColor": "#faf9f6",
+      "accentColor": "#d7cec2",
+      "colors": [
+        {
+          "name": "fg-10",
+          "hex": "#faf9f6",
+          "oklch": "oklch(98.2% 0.0041 91.45)",
+          "rgb": "rgb(250, 249, 246)",
+          "contrast": {
+            "white": 1.05,
+            "black": 19.95
+          },
+          "role": "foreground",
+          "step": 10,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-20",
+          "hex": "#f4f2ec",
+          "oklch": "oklch(96.1% 0.0083 91.48)",
+          "rgb": "rgb(244, 242, 236)",
+          "contrast": {
+            "white": 1.12,
+            "black": 18.76
+          },
+          "role": "foreground",
+          "step": 20,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-30",
+          "hex": "#ede9e1",
+          "oklch": "oklch(93.49% 0.0115 84.58)",
+          "rgb": "rgb(237, 233, 225)",
+          "contrast": {
+            "white": 1.21,
+            "black": 17.34
+          },
+          "role": "foreground",
+          "step": 30,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-40",
+          "hex": "#e3ddd3",
+          "oklch": "oklch(89.95% 0.015 80.7)",
+          "rgb": "rgb(227, 221, 211)",
+          "contrast": {
+            "white": 1.35,
+            "black": 15.55
+          },
+          "role": "foreground",
+          "step": 40,
+          "category": "foreground"
+        },
+        {
+          "name": "bg-50",
+          "hex": "#d7cec2",
+          "oklch": "oklch(85.53% 0.0192 75.3)",
+          "rgb": "rgb(215, 206, 194)",
+          "contrast": {
+            "white": 1.56,
+            "black": 13.5
+          },
+          "role": "background",
+          "step": 50,
+          "category": "background"
+        },
+        {
+          "name": "bg-40",
+          "hex": "#c8bfaf",
+          "oklch": "oklch(80.76% 0.0242 82.11)",
+          "rgb": "rgb(200, 191, 175)",
+          "contrast": {
+            "white": 1.82,
+            "black": 11.53
+          },
+          "role": "background",
+          "step": 40,
+          "category": "background"
+        },
+        {
+          "name": "bg-30",
+          "hex": "#b5a999",
+          "oklch": "oklch(74.05% 0.0264 75.19)",
+          "rgb": "rgb(181, 169, 153)",
+          "contrast": {
+            "white": 2.31,
+            "black": 9.1
+          },
+          "role": "background",
+          "step": 30,
+          "category": "background"
+        },
+        {
+          "name": "bg-20",
+          "hex": "#9e9283",
+          "oklch": "oklch(66.62% 0.0259 73.48)",
+          "rgb": "rgb(158, 146, 131)",
+          "contrast": {
+            "white": 3.05,
+            "black": 6.89
+          },
+          "role": "background",
+          "step": 20,
+          "category": "background"
+        },
+        {
+          "name": "bg-10",
+          "hex": "#857a6c",
+          "oklch": "oklch(58.54% 0.0248 73.92)",
+          "rgb": "rgb(133, 122, 108)",
+          "contrast": {
+            "white": 4.2,
+            "black": 5
+          },
+          "role": "background",
+          "step": 10,
+          "category": "background"
+        }
+      ],
+      "meta": {
+        "region": "hampi",
+        "mode": "dark"
+      }
+    },
+    {
+      "id": "indes-hampi-light",
+      "name": "Hampi Light",
+      "system": "indes",
+      "mode": "light",
+      "family": "hampi",
+      "description": "Weathered boulder granite, sun-baked terracotta ruins, and timeless Deccan plateau bedrock of the Vijayanagara Empire in Karnataka. (Light Mode UI)",
+      "bgColor": "#f7f4ee",
+      "textColor": "#171513",
+      "accentColor": "#574f45",
+      "colors": [
+        {
+          "name": "fg-10",
+          "hex": "#171513",
+          "oklch": "oklch(19.73% 0.0051 67.53)",
+          "rgb": "rgb(23, 21, 19)",
+          "contrast": {
+            "white": 18.21,
+            "black": 1.15
+          },
+          "role": "foreground",
+          "step": 10,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-20",
+          "hex": "#221f1b",
+          "oklch": "oklch(24.12% 0.0087 75.19)",
+          "rgb": "rgb(34, 31, 27)",
+          "contrast": {
+            "white": 16.41,
+            "black": 1.28
+          },
+          "role": "foreground",
+          "step": 20,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-30",
+          "hex": "#302c26",
+          "oklch": "oklch(29.53% 0.0121 78.11)",
+          "rgb": "rgb(48, 44, 38)",
+          "contrast": {
+            "white": 13.87,
+            "black": 1.51
+          },
+          "role": "foreground",
+          "step": 30,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-40",
+          "hex": "#423b33",
+          "oklch": "oklch(35.69% 0.0166 70.97)",
+          "rgb": "rgb(66, 59, 51)",
+          "contrast": {
+            "white": 11.02,
+            "black": 1.91
+          },
+          "role": "foreground",
+          "step": 40,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-50",
+          "hex": "#574f45",
+          "oklch": "oklch(43.23% 0.0192 73.42)",
+          "rgb": "rgb(87, 79, 69)",
+          "contrast": {
+            "white": 8.05,
+            "black": 2.61
+          },
+          "role": "foreground",
+          "step": 50,
+          "category": "foreground"
+        },
+        {
+          "name": "bg-40",
+          "hex": "#73685c",
+          "oklch": "oklch(52.4% 0.023 69.72)",
+          "rgb": "rgb(115, 104, 92)",
+          "contrast": {
+            "white": 5.44,
+            "black": 3.86
+          },
+          "role": "background",
+          "step": 40,
+          "category": "background"
+        },
+        {
+          "name": "bg-30",
+          "hex": "#998c7e",
+          "oklch": "oklch(64.76% 0.0256 69.42)",
+          "rgb": "rgb(153, 140, 126)",
+          "contrast": {
+            "white": 3.28,
+            "black": 6.41
+          },
+          "role": "background",
+          "step": 30,
+          "category": "background"
+        },
+        {
+          "name": "bg-20",
+          "hex": "#c4b9aa",
+          "oklch": "oklch(79.07% 0.0242 75.81)",
+          "rgb": "rgb(196, 185, 170)",
+          "contrast": {
+            "white": 1.93,
+            "black": 10.87
+          },
+          "role": "background",
+          "step": 20,
+          "category": "background"
+        },
+        {
+          "name": "bg-10",
+          "hex": "#f7f4ee",
+          "oklch": "oklch(96.78% 0.0086 84.57)",
+          "rgb": "rgb(247, 244, 238)",
+          "contrast": {
+            "white": 1.1,
+            "black": 19.13
+          },
+          "role": "background",
+          "step": 10,
+          "category": "background"
+        }
+      ],
+      "meta": {
+        "region": "hampi",
+        "mode": "light"
+      }
+    },
+    {
+      "id": "indes-mizo-dark",
+      "name": "Mizo Dark",
+      "system": "indes",
+      "mode": "dark",
+      "family": "mizo",
+      "description": "Cloud-covered mountain indigo, lush highland dusk, and twilight mist drawn from the hills of Mizoram. (Dark Mode UI)",
+      "bgColor": "#7d7dae",
+      "textColor": "#fafafc",
+      "accentColor": "#d5d5e8",
+      "colors": [
+        {
+          "name": "fg-10",
+          "hex": "#fafafc",
+          "oklch": "oklch(98.57% 0.0026 286.35)",
+          "rgb": "rgb(250, 250, 252)",
+          "contrast": {
+            "white": 1.04,
+            "black": 20.14
+          },
+          "role": "foreground",
+          "step": 10,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-20",
+          "hex": "#f4f4f9",
+          "oklch": "oklch(96.86% 0.0066 286.28)",
+          "rgb": "rgb(244, 244, 249)",
+          "contrast": {
+            "white": 1.1,
+            "black": 19.15
+          },
+          "role": "foreground",
+          "step": 20,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-30",
+          "hex": "#ececf5",
+          "oklch": "oklch(94.57% 0.012 286.17)",
+          "rgb": "rgb(236, 236, 245)",
+          "contrast": {
+            "white": 1.17,
+            "black": 17.88
+          },
+          "role": "foreground",
+          "step": 30,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-40",
+          "hex": "#e2e2f0",
+          "oklch": "oklch(91.69% 0.0189 286.02)",
+          "rgb": "rgb(226, 226, 240)",
+          "contrast": {
+            "white": 1.28,
+            "black": 16.37
+          },
+          "role": "foreground",
+          "step": 40,
+          "category": "foreground"
+        },
+        {
+          "name": "bg-50",
+          "hex": "#d5d5e8",
+          "oklch": "oklch(87.88% 0.026 285.85)",
+          "rgb": "rgb(213, 213, 232)",
+          "contrast": {
+            "white": 1.45,
+            "black": 14.51
+          },
+          "role": "background",
+          "step": 50,
+          "category": "background"
+        },
+        {
+          "name": "bg-40",
+          "hex": "#c4c4de",
+          "oklch": "oklch(82.85% 0.0361 285.58)",
+          "rgb": "rgb(196, 196, 222)",
+          "contrast": {
+            "white": 1.71,
+            "black": 12.3
+          },
+          "role": "background",
+          "step": 40,
+          "category": "background"
+        },
+        {
+          "name": "bg-30",
+          "hex": "#afafd2",
+          "oklch": "oklch(76.57% 0.0497 285.17)",
+          "rgb": "rgb(175, 175, 210)",
+          "contrast": {
+            "white": 2.12,
+            "black": 9.89
+          },
+          "role": "background",
+          "step": 30,
+          "category": "background"
+        },
+        {
+          "name": "bg-20",
+          "hex": "#9797c2",
+          "oklch": "oklch(69.17% 0.0628 284.64)",
+          "rgb": "rgb(151, 151, 194)",
+          "contrast": {
+            "white": 2.79,
+            "black": 7.52
+          },
+          "role": "background",
+          "step": 20,
+          "category": "background"
+        },
+        {
+          "name": "bg-10",
+          "hex": "#7d7dae",
+          "oklch": "oklch(60.87% 0.0739 283.99)",
+          "rgb": "rgb(125, 125, 174)",
+          "contrast": {
+            "white": 3.88,
+            "black": 5.42
+          },
+          "role": "background",
+          "step": 10,
+          "category": "background"
+        }
+      ],
+      "meta": {
+        "region": "mizo",
+        "mode": "dark"
+      }
+    },
+    {
+      "id": "indes-mizo-light",
+      "name": "Mizo Light",
+      "system": "indes",
+      "mode": "light",
+      "family": "mizo",
+      "description": "Cloud-covered mountain indigo, lush highland dusk, and twilight mist drawn from the hills of Mizoram. (Light Mode UI)",
+      "bgColor": "#f2efff",
+      "textColor": "#14101f",
+      "accentColor": "#4c3e70",
+      "colors": [
+        {
+          "name": "fg-10",
+          "hex": "#14101f",
+          "oklch": "oklch(18.61% 0.0305 295.55)",
+          "rgb": "rgb(20, 16, 31)",
+          "contrast": {
+            "white": 18.69,
+            "black": 1.12
+          },
+          "role": "foreground",
+          "step": 10,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-20",
+          "hex": "#1d172b",
+          "oklch": "oklch(22.22% 0.0389 296.92)",
+          "rgb": "rgb(29, 23, 43)",
+          "contrast": {
+            "white": 17.36,
+            "black": 1.21
+          },
+          "role": "foreground",
+          "step": 20,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-30",
+          "hex": "#2a223d",
+          "oklch": "oklch(27.46% 0.0498 296.62)",
+          "rgb": "rgb(42, 34, 61)",
+          "contrast": {
+            "white": 15.06,
+            "black": 1.39
+          },
+          "role": "foreground",
+          "step": 30,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-40",
+          "hex": "#3a2f54",
+          "oklch": "oklch(33.51% 0.0647 296.43)",
+          "rgb": "rgb(58, 47, 84)",
+          "contrast": {
+            "white": 12.25,
+            "black": 1.71
+          },
+          "role": "foreground",
+          "step": 40,
+          "category": "foreground"
+        },
+        {
+          "name": "fg-50",
+          "hex": "#4c3e70",
+          "oklch": "oklch(40.21% 0.0832 295.3)",
+          "rgb": "rgb(76, 62, 112)",
+          "contrast": {
+            "white": 9.42,
+            "black": 2.23
+          },
+          "role": "foreground",
+          "step": 50,
+          "category": "foreground"
+        },
+        {
+          "name": "bg-40",
+          "hex": "#645391",
+          "oklch": "oklch(48.68% 0.0984 295.12)",
+          "rgb": "rgb(100, 83, 145)",
+          "contrast": {
+            "white": 6.59,
+            "black": 3.19
+          },
+          "role": "background",
+          "step": 40,
+          "category": "background"
+        },
+        {
+          "name": "bg-30",
+          "hex": "#8672bc",
+          "oklch": "oklch(60.14% 0.1117 295.27)",
+          "rgb": "rgb(134, 114, 188)",
+          "contrast": {
+            "white": 4.08,
+            "black": 5.15
+          },
+          "role": "background",
+          "step": 30,
+          "category": "background"
+        },
+        {
+          "name": "bg-20",
+          "hex": "#b19fe3",
+          "oklch": "oklch(74.28% 0.0982 296.08)",
+          "rgb": "rgb(177, 159, 227)",
+          "contrast": {
+            "white": 2.35,
+            "black": 8.94
+          },
+          "role": "background",
+          "step": 20,
+          "category": "background"
+        },
+        {
+          "name": "bg-10",
+          "hex": "#f2efff",
+          "oklch": "oklch(95.91% 0.0215 294.6)",
+          "rgb": "rgb(242, 239, 255)",
+          "contrast": {
+            "white": 1.13,
+            "black": 18.57
+          },
+          "role": "background",
+          "step": 10,
+          "category": "background"
+        }
+      ],
+      "meta": {
+        "region": "mizo",
+        "mode": "light"
+      }
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+@use 'tokens' as *
+
+.input
+	display: block
+	width: max-content
+	padding-inline: var(--space-md)
+    border: 1px solid var(--border)
+	transition: background var(--motionin1), border-color var(--motionin1), color var(--motionin1)
+	&:focus-visible
+		outline: none
+		border-color: var(--theme-color)
+		box-shadow: 0 0 0 2px var(--ring)
+	&[data-variant="primary"]
+		background: var(--bg-input)
+		border: 1px solid var(--border-strong)
+		color: var(--text-primary)		
+		&:hover
+			border: 1px solid var(--border-strong)
+	&[data-variant="secondary"]
+		background: var(--bg-panel)
+		border: 1px solid var(--border)
+		color: var(--text-primary)
+		&:hover
+			border: 1px solid var(--border-strong)
+	&[data-variant="soft"]
+		background: var(--bg-surface)
+		border: 1px solid var(--border-subtle)
+		color: var(--text-secondary)
+		&:hover
+			border: 1px solid var(--border)
+			color: var(--text-primary)
+	&[data-variant="outline"]
+		background: var(--bg)
+		color: var(--text-primary)
+		border: 1px solid var(--border-strong)
+		&:hover
+			background: var(--state-hover)
+	&[data-variant="ghost"]
+		background: transparent
+		color: var(--text-primary)
+		border: none
+		outline: none
+		&:hover
+			background: var(--state-hover)
+	&[data-shape="square"]
+		border-radius: 0
+	&[data-shape="modern"]
+		border-radius: var(--radius-sm)
+	&[data-shape="curved"]
+		border-radius: var(--radius-md)
+	&[data-shape="round"]
+		border-radius: var(--radius-full)
+	&[data-size="sm"]
+		height: var(--height-sm)
+		font-size: var(--text-sm)
+	&[data-size="md"]
+		height: var(--height-md)
+		font-size: var(--text-sm)
+	&[data-size="bs"]
+		height: var(--height-bs)
+		font-size: var(--text-bs)
+	&[data-size="lg"]
+		height: var(--height-lg)
+		font-size: var(--text-bs)
+
+.select
+	display: block
+	width: 100%
+	padding-inline: var(--space-bs)
+	appearance: none
+    border: 1px solid var(--border)
+	-webkit-appearance: none
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23697080' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E")
+	background-repeat: no-repeat
+	background-position: right 8px center
+	cursor: pointer
+	&:focus-visible
+		outline: none
+		border-color: var(--theme-color)
+		box-shadow: 0 0 0 2px var(--ring)
+	&[data-variant="primary"]
+		background: var(--bg-input)
+		border: 1px solid var(--border-strong)
+		color: var(--text-primary)		
+		&:hover
+			border: 1px solid var(--border-strong)
+	&[data-variant="secondary"]
+		background: var(--bg-panel)
+		border: 1px solid var(--border)
+		color: var(--text-primary)
+		&:hover
+			border: 1px solid var(--border-strong)
+	&[data-variant="soft"]
+		background: var(--bg-surface)
+		border: 1px solid var(--border-subtle)
+		color: var(--text-secondary)
+		&:hover
+			border: 1px solid var(--border)
+			color: var(--text-primary)
+	&[data-variant="outline"]
+		background: var(--bg)
+		color: var(--text-primary)
+		border: 1px solid var(--border-strong)
+		&:hover
+			background: var(--state-hover)
+	&[data-variant="ghost"]
+		background: transparent
+		color: var(--text-primary)
+		border: none
+		outline: none
+		&:hover
+			background: var(--state-hover)
+	&[data-shape="square"]
+		border-radius: 0
+	&[data-shape="modern"]
+		border-radius: var(--radius-sm)
+	&[data-shape="curved"]
+		border-radius: var(--radius-md)
+	&[data-shape="round"]
+		border-radius: var(--radius-full)
+	&[data-size="sm"]
+		height: var(--height-sm)
+		font-size: var(--text-sm)
+	&[data-size="md"]
+		height: var(--height-md)
+		font-size: var(--text-sm)
+	&[data-size="bs"]
+		height: var(--height-bs)
+		font-size: var(--text-bs)
+	&[data-size="lg"]
+		height: var(--height-lg)
+		font-size: var(--text-bs)
+
+// --- The button quartet (nested — never standalone) -----------------------------
+button
+	display: flex
+	align-items: center
+	justify-content: center
+	font-size: var(--text-md)
+	color: var(--text-primary)
+	text-decoration: none
+	cursor: pointer
+	user-select: none
+	transition: background var(--motionin1), border-color var(--motionin1), color var(--motionin1)
+	padding-inline: var(--space-md)
+	&:focus-visible
+		outline: 2px solid var(--ring)
+		outline-offset: 1px
+	&:disabled
+		opacity: 0.5
+		cursor: not-allowed
+		pointer-events: none
+	&.icon
+		height: 24px
+		width: 24px
+		border: 1px solid transparent
+		background: transparent
+		padding: 0
+		&:hover
+			background: var(--state-hover)
+	&[data-variant="primary"]
+		background: var(--theme-color)
+		color: var(--white-fixed)
+		border: 1px solid var(--theme-color)
+		&:hover
+			background: var(--theme-color-alt)
+			border: 1px solid var(--theme-color-alt)
+	&[data-variant="secondary"]
+		background: var(--state-surface)
+		color: var(--text-primary)
+		border: 1px solid var(--border-strong)
+		&:hover
+			background: var(--state-hover)
+	&[data-variant="soft"]
+		background: var(--theme-color-sub)
+		color: #191512
+		border: 1px solid var(--theme-color-sub)
+		&:hover
+			background: var(--theme-color)
+			border: 1px solid var(--theme-color)
+			color: var(--white-fixed)
+	&[data-variant="outline"]
+		background: var(--bg)
+		color: var(--text-primary)
+		border: 1px solid var(--border-strong)
+		&:hover
+			background: var(--state-hover)
+	&[data-variant="ghost"]
+		background: transparent
+		color: var(--text-primary)
+		border: none
+		&:hover
+			background: var(--state-hover)
+	&[data-variant="link"]
+		background: transparent
+		color: var(--theme-color)
+		border: none
+		&:hover
+			text-decoration: underline
+	&[data-variant="destructive"]
+		background: var(--danger)
+		color: var(--white-fixed)
+		border: 1px solid var(--danger)
+		&:hover
+			background: var(--danger-hover)
+	&[data-shape="square"]
+		border-radius: 0
+	&[data-shape="modern"]
+		border-radius: var(--radius-sm)
+	&[data-shape="curved"]
+		border-radius: var(--radius-md)
+	&[data-shape="round"]
+		border-radius: var(--radius-full)
+	&[data-size="sm"]
+		height: var(--height-sm)
+		font-size: var(--text-sm)
+	&[data-size="md"]
+		height: var(--height-md)
+		font-size: var(--text-sm)
+	&[data-size="bs"]
+		height: var(--height-bs)
+		font-size: var(--text-bs)
+	&[data-size="lg"]
+		height: var(--height-lg)
+		font-size: var(--text-bs)
